@@ -1,0 +1,15 @@
+[submodule "FormatWidgets"]
+	path = FormatWidgets
+	url = https://github.com/horsicq/FormatWidgets.git
+[submodule "Formats"]
+	path = Formats
+	url = https://github.com/horsicq/Formats.git
+[submodule "FormatDialogs"]
+	path = FormatDialogs
+	url = https://github.com/horsicq/FormatDialogs.git
+[submodule "Controls"]
+	path = Controls
+	url = https://github.com/horsicq/Controls.git
+[submodule "QHexView"]
+	path = QHexView
+	url = https://github.com/horsicq/QHexView.git
