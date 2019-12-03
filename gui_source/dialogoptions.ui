@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>295</width>
-    <height>205</height>
+    <width>293</width>
+    <height>170</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -28,20 +28,6 @@
         <widget class="QCheckBox" name="checkBoxScanAfterOpen">
          <property name="text">
           <string>Scan after open</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="checkBoxDeepScan">
-         <property name="text">
-          <string>Deep scan</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="checkBoxScanOverlay">
-         <property name="text">
-          <string>Scan overlay</string>
          </property>
         </widget>
        </item>

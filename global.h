@@ -33,8 +33,6 @@ namespace XELFVIEWER
     struct OPTIONS
     {
         bool bScanAfterOpen;
-        bool bScanOverlay;
-        bool bDeepScan;
         bool bSaveLastDirectory;
         QString sLastDirectory;
         bool bStayOnTop;

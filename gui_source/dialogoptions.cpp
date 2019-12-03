@@ -29,9 +29,7 @@ DialogOptions::DialogOptions(QWidget *parent, XELFVIEWER::OPTIONS *pOptions) :
 
     this->pOptions=pOptions;
 
-    ui->checkBoxDeepScan->setChecked(pOptions->bDeepScan);
     ui->checkBoxScanAfterOpen->setChecked(pOptions->bScanAfterOpen);
-    ui->checkBoxScanOverlay->setChecked(pOptions->bScanOverlay);
     ui->checkBoxSaveLastDirectory->setChecked(pOptions->bSaveLastDirectory);
 
     ui->checkBoxStayOnTop->setChecked(pOptions->bStayOnTop);
@@ -48,8 +46,6 @@ void DialogOptions::loadOptions(XELFVIEWER::OPTIONS *pOptions)
     QSettings settings(QApplication::applicationDirPath()+QDir::separator()+"xpeviewer.ini",QSettings::IniFormat);
 
     pOptions->bScanAfterOpen=settings.value("ScanAfterOpen",true).toBool();
-    pOptions->bScanOverlay=settings.value("ScanOverlay",true).toBool();
-    pOptions->bDeepScan=settings.value("DeepScan",true).toBool();
     pOptions->bSaveLastDirectory=settings.value("SaveLastDirectory",true).toBool();
     pOptions->sLastDirectory=settings.value("LastDirectory","").toString();
 
@@ -67,8 +63,6 @@ void DialogOptions::saveOptions(XELFVIEWER::OPTIONS *pOptions)
     QSettings settings(QApplication::applicationDirPath()+QDir::separator()+"xpeviewer.ini",QSettings::IniFormat);
 
     settings.setValue("ScanAfterOpen",pOptions->bScanAfterOpen);
-    settings.setValue("ScanOverlay",pOptions->bScanOverlay);
-    settings.setValue("DeepScan",pOptions->bDeepScan);
     settings.setValue("SaveLastDirectory",pOptions->bSaveLastDirectory);
     settings.setValue("LastDirectory",pOptions->sLastDirectory);
 
@@ -78,9 +72,7 @@ void DialogOptions::saveOptions(XELFVIEWER::OPTIONS *pOptions)
 
 void DialogOptions::on_pushButtonOK_clicked()
 {
-    pOptions->bDeepScan=ui->checkBoxDeepScan->isChecked();
     pOptions->bScanAfterOpen=ui->checkBoxScanAfterOpen->isChecked();
-    pOptions->bScanOverlay=ui->checkBoxScanOverlay->isChecked();
     pOptions->bSaveLastDirectory=ui->checkBoxSaveLastDirectory->isChecked();
     pOptions->bStayOnTop=ui->checkBoxStayOnTop->isChecked();
     pOptions->bSaveBackup=ui->checkBoxSaveBackup->isChecked();
