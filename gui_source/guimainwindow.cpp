@@ -28,6 +28,7 @@ GuiMainWindow::GuiMainWindow(QWidget *parent) :
     ui->setupUi(this);
 
     pFile=nullptr;
+    pWidget=nullptr;
 
     setWindowTitle(QString("%1 v%2").arg(X_APPLICATIONNAME).arg(X_APPLICATIONVERSION));
 
@@ -136,16 +137,19 @@ void GuiMainWindow::processFile(QString sFileName, bool bReload)
             XELF elf(pFile);
             if(elf.isValid())
             {
-                ui->stackedWidgetMain->setCurrentIndex(1);
+                pWidget=new ELFWidget(this);
+
                 formatOptions.bIsImage=false;
                 formatOptions.nImageBase=-1;
                 formatOptions.sBackupFileName=XBinary::getBackupName(pFile);
-                ui->widgetViewer->setData(pFile,&formatOptions,0,0);
+                pWidget->setData(pFile,&formatOptions,0,0);
 
                 if(bReload)
                 {
-                    ui->widgetViewer->reload();
+                    pWidget->reload();
                 }
+
+                ui->widgetLayot->addWidget(pWidget);
 
                 setWindowTitle(sFileName);
             }
@@ -163,15 +167,17 @@ void GuiMainWindow::processFile(QString sFileName, bool bReload)
 
 void GuiMainWindow::closeCurrentFile()
 {
-    ui->stackedWidgetMain->setCurrentIndex(0);
+    if(pWidget)
+    {
+        delete pWidget;
+        pWidget=nullptr;
+    }
 
     if(pFile)
     {
         pFile->close();
         delete pFile;
         pFile=nullptr;
-
-//        ui->widgetViewer->cleanup();
     }
 
     setWindowTitle(QString("%1 v%2").arg(X_APPLICATIONNAME).arg(X_APPLICATIONVERSION));

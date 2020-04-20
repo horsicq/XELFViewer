@@ -65,6 +65,7 @@ private:
     FW_DEF::OPTIONS formatOptions;
 
     QFile *pFile;
+    ELFWidget *pWidget;
 };
 
 #endif // GUIMAINWINDOW_H

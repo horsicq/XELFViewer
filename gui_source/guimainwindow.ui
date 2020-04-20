@@ -31,28 +31,7 @@
      <number>0</number>
     </property>
     <item>
-     <widget class="QStackedWidget" name="stackedWidgetMain">
-      <widget class="QWidget" name="pageEmpty"/>
-      <widget class="QWidget" name="pageViewer">
-       <layout class="QVBoxLayout" name="verticalLayout_2">
-        <property name="leftMargin">
-         <number>0</number>
-        </property>
-        <property name="topMargin">
-         <number>0</number>
-        </property>
-        <property name="rightMargin">
-         <number>0</number>
-        </property>
-        <property name="bottomMargin">
-         <number>0</number>
-        </property>
-        <item>
-         <widget class="ELFWidget" name="widgetViewer" native="true"/>
-        </item>
-       </layout>
-      </widget>
-     </widget>
+     <layout class="QVBoxLayout" name="widgetLayot"/>
     </item>
    </layout>
   </widget>
@@ -62,7 +41,7 @@
      <x>0</x>
      <y>0</y>
      <width>835</width>
-     <height>21</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -125,14 +104,6 @@
    </property>
   </action>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>ELFWidget</class>
-   <extends>QWidget</extends>
-   <header>elfwidget.h</header>
-   <container>1</container>
-  </customwidget>
- </customwidgets>
  <resources/>
  <connections/>
 </ui>
