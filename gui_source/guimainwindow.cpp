@@ -170,6 +170,8 @@ void GuiMainWindow::closeCurrentFile()
         pFile->close();
         delete pFile;
         pFile=nullptr;
+
+//        ui->widgetViewer->cleanup();
     }
 
     setWindowTitle(QString("%1 v%2").arg(X_APPLICATIONNAME).arg(X_APPLICATIONVERSION));
