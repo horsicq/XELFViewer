@@ -142,7 +142,7 @@ void GuiMainWindow::processFile(QString sFileName, bool bReload)
                 formatOptions.bIsImage=false;
                 formatOptions.nImageBase=-1;
                 formatOptions.sBackupFileName=XBinary::getBackupName(pFile);
-                pWidget->setData(pFile,&formatOptions,0,0);
+                pWidget->setData(pFile,&formatOptions,0,0,0);
 
                 if(bReload)
                 {
