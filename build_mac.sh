@@ -48,6 +48,7 @@ function fiximport
     fixlibrary QtCore $1  
 	#fixlibrary QtDBus $1
 	fixlibrary QtPrintSupport $1
+	fixlibrary QtSvg $1
 }
 
 function copylibrary
@@ -79,6 +80,7 @@ copylibrary QtGui
 copylibrary QtCore
 #copylibrary QtDBus
 copylibrary QtPrintSupport
+copylibrary QtSvg
 
 copyplugin platforms libqcocoa
 copyplugin platforms libqminimal

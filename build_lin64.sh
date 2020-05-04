@@ -39,6 +39,7 @@ cp -R $QT_PATH/plugins/platforms/libqxcb.so                     $SOURCE_PATH/rel
 cp -R $SOURCE_PATH/build/release/xelfviewer                     $SOURCE_PATH/release/$BUILD_NAME/base/
 
 cp -R $QT_PATH/lib/libQt5Core.so.5.12.8                         $SOURCE_PATH/release/$BUILD_NAME/base/
+cp -R $QT_PATH/lib/libQt5Svg.so.5.12.3                          $SOURCE_PATH/release/$BUILD_NAME/base/
 cp -R $QT_PATH/lib/libQt5Gui.so.5.12.8                          $SOURCE_PATH/release/$BUILD_NAME/base/
 cp -R $QT_PATH/lib/libQt5Widgets.so.5.12.8                      $SOURCE_PATH/release/$BUILD_NAME/base/
 cp -R $QT_PATH/lib/libQt5DBus.so.5.12.8                         $SOURCE_PATH/release/$BUILD_NAME/base/
@@ -48,6 +49,7 @@ cp -R $QT_PATH/lib/libicuuc.so.56.1                             $SOURCE_PATH/rel
 cp -R $QT_PATH/lib/libicudata.so.56.1                           $SOURCE_PATH/release/$BUILD_NAME/base/
 
 mv $SOURCE_PATH/release/$BUILD_NAME/base/libQt5Core.so.5.12.8               $SOURCE_PATH/release/$BUILD_NAME/base/libQt5Core.so.5
+mv $SOURCE_PATH/release/$BUILD_NAME/base/libQt5Svg.so.5.12.8               	$SOURCE_PATH/release/$BUILD_NAME/base/libQt5Svg.so.5
 mv $SOURCE_PATH/release/$BUILD_NAME/base/libQt5Gui.so.5.12.8                $SOURCE_PATH/release/$BUILD_NAME/base/libQt5Gui.so.5
 mv $SOURCE_PATH/release/$BUILD_NAME/base/libQt5Widgets.so.5.12.8            $SOURCE_PATH/release/$BUILD_NAME/base/libQt5Widgets.so.5
 mv $SOURCE_PATH/release/$BUILD_NAME/base/libQt5DBus.so.5.12.8               $SOURCE_PATH/release/$BUILD_NAME/base/libQt5DBus.so.5
