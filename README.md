@@ -1,4 +1,4 @@
-ELF file viewer/editor.
+ELF file viewer/editor for Windows, Linux and MacOS.
 
 ![alt text](https://github.com/horsicq/XELFViewer/blob/master/mascots/xelfviewer.png "Mascot")
 
