@@ -1,3 +1,6 @@
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/horsicq/XELFViewer.svg)](https://github.com/horsicq/XELFViewer/releases)
+[![GitHub All Releases](https://img.shields.io/github/downloads/horsicq/XELFViewer/total.svg)](https://github.com/horsicq/XELFViewer/releases)
+
 ELF file viewer/editor for Windows, Linux and MacOS.
 
 ![alt text](https://github.com/horsicq/XELFViewer/blob/master/mascots/xelfviewer.png "Mascot")
@@ -36,7 +39,7 @@ Install Visual Studio 2013: https://github.com/horsicq/build_tools
 
 Install Qt 5.6.3 for VS2013: https://github.com/horsicq/build_tools
 
-Install 7-Zip: https://www.7-zip.org/
+Install 7-Zip: https://github.com/horsicq/build_tools
 
 Clone project: git clone --recursive https://github.com/horsicq/XELFViewer.git
 
@@ -51,7 +54,7 @@ Install Visual Studio 2017: https://github.com/horsicq/build_tools
 
 Install Qt 5.12.8 for VS2017: https://github.com/horsicq/build_tools
 
-Install 7-Zip: https://www.7-zip.org/
+Install 7-Zip: https://github.com/horsicq/build_tools
 
 Clone project: git clone --recursive https://github.com/horsicq/XELFViewer.git
 
