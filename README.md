@@ -1,5 +1,12 @@
 ELF file viewer/editor.
 
+![alt text](https://github.com/horsicq/XELFViewer/blob/master/mascots/xelfviewer.png "Mascot")
+
+![alt text](https://github.com/horsicq/XELFViewer/blob/master/docs/1.png "1")
+![alt text](https://github.com/horsicq/XELFViewer/blob/master/docs/2.png "2")
+![alt text](https://github.com/horsicq/XELFViewer/blob/master/docs/3.png "3")
+![alt text](https://github.com/horsicq/XELFViewer/blob/master/docs/4.png "4")
+
 How to build on Linux
 =======
 
