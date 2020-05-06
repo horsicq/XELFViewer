@@ -31,6 +31,9 @@
      <property name="text">
       <string/>
      </property>
+     <property name="pixmap">
+      <pixmap resource="rsrc.qrc">:/pics/logo.png</pixmap>
+     </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
      </property>
@@ -98,6 +101,8 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="rsrc.qrc"/>
+ </resources>
  <connections/>
 </ui>

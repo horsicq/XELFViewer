@@ -30,13 +30,14 @@ GuiMainWindow::GuiMainWindow(QWidget *parent) :
     pFile=nullptr;
     pWidget=nullptr;
 
+    ui->stackedWidget->setCurrentIndex(0);
+
     setWindowTitle(QString("%1 v%2").arg(X_APPLICATIONNAME).arg(X_APPLICATIONVERSION));
 
     setAcceptDrops(true);
 
     DialogOptions::loadOptions(&xOptions);
     adjust();
-
 
     if(QCoreApplication::arguments().count()>1)
     {
@@ -152,6 +153,7 @@ void GuiMainWindow::processFile(QString sFileName, bool bReload)
                 ui->widgetLayot->addWidget(pWidget);
 
                 setWindowTitle(sFileName);
+                ui->stackedWidget->setCurrentIndex(1);
             }
             else
             {
@@ -179,6 +181,8 @@ void GuiMainWindow::closeCurrentFile()
         delete pFile;
         pFile=nullptr;
     }
+
+    ui->stackedWidget->setCurrentIndex(0);
 
     setWindowTitle(QString("%1 v%2").arg(X_APPLICATIONNAME).arg(X_APPLICATIONVERSION));
 }
