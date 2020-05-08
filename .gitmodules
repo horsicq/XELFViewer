@@ -22,3 +22,6 @@
 [submodule "XQwt"]
 	path = XQwt
 	url = https://github.com/horsicq/XQwt.git
+[submodule "XOptions"]
+	path = XOptions
+	url = https://github.com/horsicq/XOptions.git
