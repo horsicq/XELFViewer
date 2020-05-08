@@ -36,7 +36,19 @@ GuiMainWindow::GuiMainWindow(QWidget *parent) :
 
     setAcceptDrops(true);
 
-    DialogOptions::loadOptions(&xOptions);
+    xOptions.setName("xelfviewer");
+
+    QList<XOptions::ID> listIDs;
+
+    listIDs.append(XOptions::ID_STAYONTOP);
+    listIDs.append(XOptions::ID_SCANAFTEROPEN);
+    listIDs.append(XOptions::ID_SAVELASTDIRECTORY);
+    listIDs.append(XOptions::ID_LASTDIRECTORY);
+    listIDs.append(XOptions::ID_SAVEBACKUP);
+
+    xOptions.setValueIDs(listIDs);
+    xOptions.load();
+
     adjust();
 
     if(QCoreApplication::arguments().count()>1)
@@ -50,23 +62,20 @@ GuiMainWindow::GuiMainWindow(QWidget *parent) :
 GuiMainWindow::~GuiMainWindow()
 {
     closeCurrentFile();
-    DialogOptions::saveOptions(&xOptions);
+    xOptions.save();
+
     delete ui;
 }
 
 void GuiMainWindow::on_actionOpen_triggered()
 {
-    QString sDirectory;
-    if(xOptions.bSaveLastDirectory&&QDir().exists(xOptions.sLastDirectory))
-    {
-        sDirectory=xOptions.sLastDirectory;
-    }
+    QString sDirectory=xOptions.getLastDirectory();
 
     QString sFileName=QFileDialog::getOpenFileName(this,tr("Open file..."),sDirectory,tr("All files (*)"));
 
     if(!sFileName.isEmpty())
     {
-        processFile(sFileName,xOptions.bScanAfterOpen);
+        processFile(sFileName,xOptions.getValue(XOptions::ID_SCANAFTEROPEN).toBool());
     }
 }
 
@@ -96,29 +105,15 @@ void GuiMainWindow::on_actionAbout_triggered()
 
 void GuiMainWindow::adjust()
 {
-    Qt::WindowFlags wf=windowFlags();
-    if(xOptions.bStayOnTop)
-    {
-        wf|=Qt::WindowStaysOnTopHint;
-    }
-    else
-    {
-        wf&=~(Qt::WindowStaysOnTopHint);
-    }
-    setWindowFlags(wf);
-
-    show();
+    xOptions.adjustStayOnTop(this);
 }
 
 void GuiMainWindow::processFile(QString sFileName, bool bReload)
 {
     if((sFileName!="")&&(QFileInfo(sFileName).isFile()))
     {
-        if(xOptions.bSaveLastDirectory)
-        {
-            QFileInfo fi(sFileName);
-            xOptions.sLastDirectory=fi.absolutePath();
-        }
+        xOptions.setLastDirectory(QFileInfo(sFileName).absolutePath());
+
         closeCurrentFile();
 
         pFile=new QFile;
@@ -211,7 +206,7 @@ void GuiMainWindow::dropEvent(QDropEvent *event)
 
             sFileName=XBinary::convertFileName(sFileName);
 
-            processFile(sFileName,xOptions.bScanAfterOpen);
+            processFile(sFileName,xOptions.getValue(XOptions::ID_SCANAFTEROPEN).toBool());
         }
     }
 }

@@ -28,6 +28,11 @@ include(../build.pri)
     include(../FormatWidgets/ELF/elfwidget.pri)
 }
 
+!contains(XCONFIG, xoptions) {
+    XCONFIG += xoptions
+    include(../../_mylibs/xoptions/xoptions.pri)
+}
+
 win32 {
     RC_ICONS = ../icons/main.ico
 }

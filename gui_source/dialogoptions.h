@@ -24,6 +24,7 @@
 #include <QDialog>
 #include <QSettings>
 #include <QDir>
+#include "xoptions.h"
 #include "../global.h"
 
 namespace Ui {
@@ -35,11 +36,8 @@ class DialogOptions : public QDialog
     Q_OBJECT
 
 public:
-    explicit DialogOptions(QWidget *parent,XELFVIEWER::OPTIONS *pOptions);
+    explicit DialogOptions(QWidget *parent,XOptions *pOptions);
     ~DialogOptions();
-
-    static void loadOptions(XELFVIEWER::OPTIONS *pOptions);
-    static void saveOptions(XELFVIEWER::OPTIONS *pOptions);
 
 private slots:
     void on_pushButtonOK_clicked();
@@ -47,7 +45,7 @@ private slots:
 
 private:
     Ui::DialogOptions *ui;
-    XELFVIEWER::OPTIONS *pOptions;
+    XOptions *pOptions;
 };
 
 #endif // DIALOGOPTIONS_H
