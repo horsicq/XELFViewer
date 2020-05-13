@@ -33,6 +33,7 @@ DialogOptions::DialogOptions(QWidget *parent, XOptions *pOptions) :
     pOptions->setCheckBox(ui->checkBoxSaveLastDirectory,XOptions::ID_SAVELASTDIRECTORY);
     pOptions->setCheckBox(ui->checkBoxStayOnTop,XOptions::ID_STAYONTOP);
     pOptions->setCheckBox(ui->checkBoxSaveBackup,XOptions::ID_SAVEBACKUP);
+    pOptions->setComboBox(ui->comboBoxStyle,XOptions::ID_STYLE);
 }
 
 DialogOptions::~DialogOptions()
@@ -46,6 +47,12 @@ void DialogOptions::on_pushButtonOK_clicked()
     pOptions->getCheckBox(ui->checkBoxSaveLastDirectory,XOptions::ID_SAVELASTDIRECTORY);
     pOptions->getCheckBox(ui->checkBoxStayOnTop,XOptions::ID_STAYONTOP);
     pOptions->getCheckBox(ui->checkBoxSaveBackup,XOptions::ID_SAVEBACKUP);
+    pOptions->getComboBox(ui->comboBoxStyle,XOptions::ID_STYLE);
+
+    if(pOptions->isRestartNeeded())
+    {
+        QMessageBox::information(this,tr("Information"),tr("Please restart the application"));
+    }
 
     this->close();
 }

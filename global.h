@@ -27,17 +27,6 @@
 #define X_APPLICATIONVERSION "0.01"
 #define X_ORGANIZATIONNAME "NTInfo"
 #define X_ORGANIZATIONDOMAIN "ntinfo.biz"
-
-namespace XELFVIEWER
-{
-    struct OPTIONS
-    {
-        bool bScanAfterOpen;
-        bool bSaveLastDirectory;
-        QString sLastDirectory;
-        bool bStayOnTop;
-        bool bSaveBackup;
-    };
-}
+#define X_OPTIONSFILE "xelfviewer.ini"
 
 #endif // _GLOBAL_H

@@ -36,10 +36,11 @@ GuiMainWindow::GuiMainWindow(QWidget *parent) :
 
     setAcceptDrops(true);
 
-    xOptions.setName("xelfviewer");
+    xOptions.setName(X_OPTIONSFILE);
 
     QList<XOptions::ID> listIDs;
 
+    listIDs.append(XOptions::ID_STYLE);
     listIDs.append(XOptions::ID_STAYONTOP);
     listIDs.append(XOptions::ID_SCANAFTEROPEN);
     listIDs.append(XOptions::ID_SAVELASTDIRECTORY);
