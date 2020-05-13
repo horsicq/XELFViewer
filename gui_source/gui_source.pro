@@ -30,7 +30,7 @@ include(../build.pri)
 
 !contains(XCONFIG, xoptions) {
     XCONFIG += xoptions
-    include(../../_mylibs/xoptions/xoptions.pri)
+    include(../XOptions/xoptions.pri)
 }
 
 win32 {
