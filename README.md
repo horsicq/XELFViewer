@@ -1,5 +1,6 @@
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/horsicq/XELFViewer.svg)](https://github.com/horsicq/XELFViewer/releases)
 [![GitHub All Releases](https://img.shields.io/github/downloads/horsicq/XELFViewer/total.svg)](https://github.com/horsicq/XELFViewer/releases)
+[![gitlocalized ](https://gitlocalize.com/repo/4736/whole_project/badge.svg)](https://gitlocalize.com/repo/4736/whole_project?utm_source=badge)
 
 ELF file viewer/editor for Windows, Linux and MacOS.
 
