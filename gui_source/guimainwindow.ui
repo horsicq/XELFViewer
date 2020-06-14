@@ -32,7 +32,7 @@
       <widget class="QWidget" name="pageClose">
        <layout class="QVBoxLayout" name="verticalLayout_3">
         <item>
-         <widget class="QLabel" name="label">
+         <widget class="QLabel" name="labelLogo">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
             <horstretch>0</horstretch>
