@@ -40,3 +40,6 @@
 [submodule "XStyles"]
 	path = XStyles
 	url = https://github.com/horsicq/XStyles.git
+[submodule "XDEX"]
+	path = XDEX
+	url = https://github.com/horsicq/XDEX.git
