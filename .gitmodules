@@ -43,3 +43,6 @@
 [submodule "XDEX"]
 	path = XDEX
 	url = https://github.com/horsicq/XDEX.git
+[submodule "XHashWidget"]
+	path = XHashWidget
+	url = https://github.com/horsicq/XHashWidget.git
