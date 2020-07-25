@@ -72,7 +72,7 @@ void GuiMainWindow::on_actionOpen_triggered()
 {
     QString sDirectory=xOptions.getLastDirectory();
 
-    QString sFileName=QFileDialog::getOpenFileName(this,tr("Open file..."),sDirectory,tr("All files (*)"));
+    QString sFileName=QFileDialog::getOpenFileName(this,tr("Open file")+QString("..."),sDirectory,tr("All files")+QString(" (*)"));
 
     if(!sFileName.isEmpty())
     {
@@ -166,12 +166,12 @@ void GuiMainWindow::processFile(QString sFileName, bool bReload)
             }
             else
             {
-                QMessageBox::critical(this,tr("Error"),tr("It is not a valid ELF file!"));
+                QMessageBox::critical(this,tr("Error"),tr("It is not a valid file"));
             }
         }
         else
         {
-            QMessageBox::critical(this,tr("Error"),tr("Cannot open the file!"));
+            QMessageBox::critical(this,tr("Error"),tr("Cannot open file"));
         }
     }
 }
