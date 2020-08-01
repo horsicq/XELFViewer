@@ -60,7 +60,7 @@ mv $SOURCE_PATH/release/$BUILD_NAME/base/libicudata.so.56.1                 $SOU
 
 echo "#!/bin/sh" >> release/$BUILD_NAME/xelfviewer.sh
 echo "export LD_LIBRARY_PATH=\"./base:$LD_LIBRARY_PATH\"" >> release/$BUILD_NAME/xelfviewer.sh
-echo "./base/xelfviewer $*" >> release/$BUILD_NAME/xelfviewer.sh
+echo "./base/xelfviewer \$*" >> release/$BUILD_NAME/xelfviewer.sh
 
 chmod +x release/$BUILD_NAME/xelfviewer.sh
 
