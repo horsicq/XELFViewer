@@ -52,3 +52,6 @@
 [submodule "XCapstone"]
 	path = XCapstone
 	url = https://github.com/horsicq/XCapstone.git
+[submodule "XHexView"]
+	path = XHexView
+	url = https://github.com/horsicq/XHexView.git
