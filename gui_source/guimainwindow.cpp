@@ -151,7 +151,7 @@ void GuiMainWindow::processFile(QString sFileName, bool bReload)
                 formatOptions.bIsImage=false;
                 formatOptions.nImageBase=-1;
                 formatOptions.nStartType=SELF::TYPE_HEURISTICSCAN;
-                pWidget->setData(pFile,&formatOptions,0,0,0);
+                pWidget->setData(pFile,formatOptions,0,0,0);
 
                 if(bReload)
                 {
