@@ -30,6 +30,7 @@
 #include <QMimeData>
 #include "dialogoptions.h"
 #include "dialogabout.h"
+#include "dialogshortcuts.h"
 #include "elfwidget.h"
 
 namespace Ui {
@@ -48,6 +49,7 @@ private slots:
     void on_actionOpen_triggered();
     void on_actionClose_triggered();
     void on_actionExit_triggered();
+    void on_actionShortcuts_triggered();
     void on_actionOptions_triggered();
     void on_actionAbout_triggered();
     void adjust();
@@ -62,10 +64,10 @@ protected:
 private:
     Ui::GuiMainWindow *ui;
     XOptions xOptions;
+    XShortcuts xShortcuts;
     FW_DEF::OPTIONS formatOptions;
 
     QFile *pFile;
-    ELFWidget *pWidget;
 };
 
 #endif // GUIMAINWINDOW_H

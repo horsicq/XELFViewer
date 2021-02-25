@@ -28,7 +28,6 @@ GuiMainWindow::GuiMainWindow(QWidget *parent) :
     ui->setupUi(this);
 
     pFile=nullptr;
-    pWidget=nullptr;
 
     ui->stackedWidget->setCurrentIndex(0);
 
@@ -41,14 +40,25 @@ GuiMainWindow::GuiMainWindow(QWidget *parent) :
     QList<XOptions::ID> listIDs;
 
     listIDs.append(XOptions::ID_STYLE);
+    listIDs.append(XOptions::ID_QSS);
+    listIDs.append(XOptions::ID_LANG);
     listIDs.append(XOptions::ID_STAYONTOP);
     listIDs.append(XOptions::ID_SCANAFTEROPEN);
     listIDs.append(XOptions::ID_SAVELASTDIRECTORY);
-    listIDs.append(XOptions::ID_LASTDIRECTORY);
     listIDs.append(XOptions::ID_SAVEBACKUP);
+    listIDs.append(XOptions::ID_SEARCHSIGNATURESPATH);
 
     xOptions.setValueIDs(listIDs);
     xOptions.load();
+
+    xShortcuts.setName(X_SHORTCUTSFILE);
+
+    xShortcuts.addGroup(XShortcuts::ID_STRINGS);
+    xShortcuts.addGroup(XShortcuts::ID_SIGNATURES);
+    xShortcuts.addGroup(XShortcuts::ID_HEX);
+    xShortcuts.addGroup(XShortcuts::ID_DISASM);
+
+    xShortcuts.load();
 
     adjust();
 
@@ -64,6 +74,7 @@ GuiMainWindow::~GuiMainWindow()
 {
     closeCurrentFile();
     xOptions.save();
+    xShortcuts.save();
 
     delete ui;
 }
@@ -119,6 +130,8 @@ void GuiMainWindow::adjust()
             formatOptions.sBackupFileName="";
         }
     }
+
+    ui->widgetViewer->setShortcuts(&xShortcuts);
 }
 
 void GuiMainWindow::processFile(QString sFileName, bool bReload)
@@ -146,21 +159,18 @@ void GuiMainWindow::processFile(QString sFileName, bool bReload)
             XELF elf(pFile);
             if(elf.isValid())
             {
-                pWidget=new ELFWidget(this);
-
                 formatOptions.bIsImage=false;
                 formatOptions.nImageBase=-1;
                 formatOptions.nStartType=SELF::TYPE_HEURISTICSCAN;
-                pWidget->setData(pFile,formatOptions,0,0,0);
+                formatOptions.sSearchSignaturesPath=xOptions.getSearchSignaturesPath();
+                ui->widgetViewer->setData(pFile,formatOptions,0,0,0);
 
                 if(bReload)
                 {
-                    pWidget->reload();
+                    ui->widgetViewer->reload();
                 }
 
                 adjust();
-
-                ui->widgetLayot->addWidget(pWidget);
 
                 setWindowTitle(sFileName);
                 ui->stackedWidget->setCurrentIndex(1);
@@ -179,12 +189,6 @@ void GuiMainWindow::processFile(QString sFileName, bool bReload)
 
 void GuiMainWindow::closeCurrentFile()
 {
-    if(pWidget)
-    {
-        delete pWidget;
-        pWidget=nullptr;
-    }
-
     if(pFile)
     {
         pFile->close();
@@ -224,4 +228,15 @@ void GuiMainWindow::dropEvent(QDropEvent *event)
             processFile(sFileName,xOptions.getValue(XOptions::ID_SCANAFTEROPEN).toBool());
         }
     }
+}
+
+void GuiMainWindow::on_actionShortcuts_triggered()
+{
+    DialogShortcuts dialogShortcuts(this);
+
+    dialogShortcuts.setData(&xShortcuts);
+
+    dialogShortcuts.exec();
+
+    adjust();
 }

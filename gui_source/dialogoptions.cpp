@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2021 hors<horsicq@gmail.com>
+// copyright (c) 2020-2021 hors<horsicq@gmail.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -34,12 +34,22 @@ DialogOptions::DialogOptions(QWidget *parent, XOptions *pOptions) :
     pOptions->setCheckBox(ui->checkBoxStayOnTop,XOptions::ID_STAYONTOP);
     pOptions->setCheckBox(ui->checkBoxSaveBackup,XOptions::ID_SAVEBACKUP);
     pOptions->setComboBox(ui->comboBoxStyle,XOptions::ID_STYLE);
+    pOptions->setComboBox(ui->comboBoxQss,XOptions::ID_QSS);
+    pOptions->setComboBox(ui->comboBoxLanguage,XOptions::ID_LANG);
+    pOptions->setLineEdit(ui->lineEditSearchSignatures,XOptions::ID_SEARCHSIGNATURESPATH);
+
+#ifdef WIN32
+    ui->checkBoxContext->setChecked(pOptions->checkContext(X_APPLICATIONNAME,"*"));
+#else
+    ui->checkBoxContext->hide();
+#endif
 }
 
 DialogOptions::~DialogOptions()
 {
     delete ui;
 }
+
 
 void DialogOptions::on_pushButtonOK_clicked()
 {
@@ -48,6 +58,23 @@ void DialogOptions::on_pushButtonOK_clicked()
     pOptions->getCheckBox(ui->checkBoxStayOnTop,XOptions::ID_STAYONTOP);
     pOptions->getCheckBox(ui->checkBoxSaveBackup,XOptions::ID_SAVEBACKUP);
     pOptions->getComboBox(ui->comboBoxStyle,XOptions::ID_STYLE);
+    pOptions->getComboBox(ui->comboBoxQss,XOptions::ID_QSS);
+    pOptions->getComboBox(ui->comboBoxLanguage,XOptions::ID_LANG);
+    pOptions->getLineEdit(ui->lineEditSearchSignatures,XOptions::ID_SEARCHSIGNATURESPATH);
+
+#ifdef WIN32
+    if(pOptions->checkContext(X_APPLICATIONNAME,"*")!=ui->checkBoxContext->isChecked())
+    {
+        if(ui->checkBoxContext->isChecked())
+        {
+            pOptions->registerContext(X_APPLICATIONNAME,"*",qApp->applicationFilePath());
+        }
+        else
+        {
+            pOptions->clearContext(X_APPLICATIONNAME,"*");
+        }
+    }
+#endif
 
     if(pOptions->isRestartNeeded())
     {
@@ -60,4 +87,17 @@ void DialogOptions::on_pushButtonOK_clicked()
 void DialogOptions::on_pushButtonCancel_clicked()
 {
     this->close();
+}
+
+void DialogOptions::on_toolButtonSearchSignatures_clicked()
+{
+    QString sText=ui->lineEditSearchSignatures->text();
+    QString sInitDirectory=XBinary::convertPathName(sText);
+
+    QString sDirectoryName=QFileDialog::getExistingDirectory(this,tr("Open directory")+QString("..."),sInitDirectory,QFileDialog::ShowDirsOnly);
+
+    if(!sDirectoryName.isEmpty())
+    {
+        ui->lineEditSearchSignatures->setText(sDirectoryName);
+    }
 }

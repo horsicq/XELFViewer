@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2021 hors<horsicq@gmail.com>
+// copyright (c) 2020-2021 hors<horsicq@gmail.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -25,7 +25,9 @@
 #include <QSettings>
 #include <QDir>
 #include <QMessageBox>
+#include <QFileDialog>
 #include "xoptions.h"
+#include "xbinary.h"
 #include "../global.h"
 
 namespace Ui {
@@ -43,6 +45,7 @@ public:
 private slots:
     void on_pushButtonOK_clicked();
     void on_pushButtonCancel_clicked();
+    void on_toolButtonSearchSignatures_clicked();
 
 private:
     Ui::DialogOptions *ui;

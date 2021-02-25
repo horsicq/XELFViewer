@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 
     QApplication a(argc, argv);
 
-    XOptions::adjustApplicationView(X_OPTIONSFILE,"xelfviewer");
+    XOptions::adjustApplicationView(X_OPTIONSFILE,X_APPLICATIONFILENAME);
 
     GuiMainWindow w;
     w.show();
