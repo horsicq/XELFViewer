@@ -15,7 +15,7 @@ ELF file viewer/editor for Windows, Linux and MacOS.
 How to build on Linux
 =======
 
-Install Qt 5.12.8: https://github.com/horsicq/build_tools
+Install Qt 5.15.2: https://github.com/horsicq/build_tools
 
 Clone project: git clone --recursive https://github.com/horsicq/XELFViewer.git
 
@@ -26,7 +26,7 @@ Run build_lin64.bat
 How to build on OSX
 =======
 
-Install Qt 5.12.8: https://github.com/horsicq/build_tools
+Install Qt 5.15.2: https://github.com/horsicq/build_tools
 
 Clone project: git clone --recursive https://github.com/horsicq/XELFViewer.git
 
@@ -52,14 +52,16 @@ Run build_winxp.bat
 How to build on Windows(7-10)
 =======
 
-Install Visual Studio 2017: https://github.com/horsicq/build_tools
+Install Visual Studio 2019: https://github.com/horsicq/build_tools
 
-Install Qt 5.12.8 for VS2017: https://github.com/horsicq/build_tools
+Install Qt 5.15.2 for VS2017: https://github.com/horsicq/build_tools
 
 Install 7-Zip: https://github.com/horsicq/build_tools
 
 Clone project: git clone --recursive https://github.com/horsicq/XELFViewer.git
 
 Edit build_win32.bat ( check VS_PATH,  SEVENZIP_PATH, QT_PATH variables)
+Edit build_win64.bat ( check VS_PATH,  SEVENZIP_PATH, QT_PATH variables)
 
 Run build_win32.bat
+Run build_win64.bat
