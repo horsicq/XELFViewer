@@ -119,17 +119,7 @@ void GuiMainWindow::adjust()
 {
     xOptions.adjustStayOnTop(this);
 
-    if(pFile)
-    {
-        if(xOptions.isSaveBackup())
-        {
-            formatOptions.sBackupFileName=XBinary::getBackupName(pFile);
-        }
-        else
-        {
-            formatOptions.sBackupFileName="";
-        }
-    }
+    formatOptions.bSaveBackup=xOptions.isSaveBackup();
 
     ui->widgetViewer->setShortcuts(&xShortcuts);
 }
