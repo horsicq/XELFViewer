@@ -49,6 +49,7 @@ private slots:
     void on_actionOpen_triggered();
     void on_actionClose_triggered();
     void on_actionExit_triggered();
+    void on_actionDemangle_triggered();
     void on_actionShortcuts_triggered();
     void on_actionOptions_triggered();
     void on_actionAbout_triggered();

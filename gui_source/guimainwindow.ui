@@ -96,6 +96,7 @@
     <property name="title">
      <string>Tools</string>
     </property>
+    <addaction name="actionDemangle"/>
     <addaction name="actionShortcuts"/>
     <addaction name="actionOptions"/>
    </widget>
@@ -113,24 +114,15 @@
    <property name="text">
     <string>Open</string>
    </property>
-   <property name="shortcut">
-    <string notr="true">Ctrl+O</string>
-   </property>
   </action>
   <action name="actionClose">
    <property name="text">
     <string>Close</string>
    </property>
-   <property name="shortcut">
-    <string notr="true">Ctrl+W</string>
-   </property>
   </action>
   <action name="actionExit">
    <property name="text">
     <string>Exit</string>
-   </property>
-   <property name="shortcut">
-    <string notr="true">Ctrl+Q</string>
    </property>
   </action>
   <action name="actionOptions">
@@ -146,6 +138,11 @@
   <action name="actionShortcuts">
    <property name="text">
     <string>Shortcuts</string>
+   </property>
+  </action>
+  <action name="actionDemangle">
+   <property name="text">
+    <string>Demangle</string>
    </property>
   </action>
  </widget>

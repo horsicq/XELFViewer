@@ -230,3 +230,10 @@ void GuiMainWindow::on_actionShortcuts_triggered()
 
     adjust();
 }
+
+void GuiMainWindow::on_actionDemangle_triggered()
+{
+    DialogDemangle dialogDemangle(this);
+
+    dialogDemangle.exec();
+}
