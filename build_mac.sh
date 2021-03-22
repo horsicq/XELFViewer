@@ -1,5 +1,5 @@
 #!/bin/sh -x
-QT_PATH=$HOME/Qt/5.12.8/clang_64
+QT_PATH=$HOME/Qt/5.15.2/clang_64
 RELEASE_VERSION=$(cat "release_version.txt")
 echo $RELEASE_VERSION
 SOURCE_PATH=$PWD
