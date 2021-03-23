@@ -16,8 +16,15 @@ set ZIP_NAME=%BUILD_NAME%_%RELEASE_VERSION%
 set RES_FILE=rsrc
 
 del %SOURCE_PATH%\XArchive\.qmake.stash
+del %SOURCE_PATH%\XCapstone\.qmake.stash
 del %SOURCE_PATH%\build_libs\.qmake.stash
 del %SOURCE_PATH%\gui_source\.qmake.stash
+
+rmdir /s /q %SOURCE_PATH%\XCapstone\3rdparty\Capstone\release
+rmdir /s /q %SOURCE_PATH%\XArchive\3rdparty\lzma\release
+rmdir /s /q %SOURCE_PATH%\XArchive\3rdparty\zlib\release
+rmdir /s /q %SOURCE_PATH%\XArchive\3rdparty\bzip2\release
+rmdir /s /q %SOURCE_PATH%\gui_source\release
 
 cd build_libs
 %QT_PATH%\bin\qmake.exe build_libs.pro -r -spec %QT_SPEC% "CONFIG+=release"
