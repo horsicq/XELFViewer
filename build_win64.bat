@@ -67,19 +67,20 @@ copy %VS_PATH%\VC\Redist\MSVC\14.27.29016\x64\Microsoft.VC142.CRT\vcruntime140_1
 
 xcopy %SOURCE_PATH%\XStyles\qss %SOURCE_PATH%\release\%BUILD_NAME%\qss /E /I
 
-%QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_it.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_it.qm
-%QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_fr.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_fr.qm
-%QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_he.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_he.qm
-%QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_tr.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_tr.qm
-%QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_ko.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_ko.qm
-%QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_es.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_es.qm
-%QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_pt_PR.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_pt_PR.qm
+%QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_de.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_de.qm
 %QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_ja.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_ja.qm
 %QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_pl.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_pl.qm
+%QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_pt_BR.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_pt_BR.qm
+%QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_fr.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_fr.qm
 %QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_ru.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_ru.qm
 %QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_vi.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_vi.qm
 %QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_zh.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_zh.qm
 %QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_zh_TW.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_zh_TW.qm
+%QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_es.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_es.qm
+%QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_it.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_it.qm
+%QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_ko.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_ko.qm
+%QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_tr.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_tr.qm
+%QT_PATH%\bin\lrelease.exe %SOURCE_PATH%\gui_source\translation\xelfviewer_he.ts -qm %SOURCE_PATH%\release\%BUILD_NAME%\lang\xelfviewer_he.qm
 
 mkdir %SOURCE_PATH%\release\%BUILD_NAME%\signatures
 xcopy %SOURCE_PATH%\signatures\crypto.db %SOURCE_PATH%\release\%BUILD_NAME%\signatures\
