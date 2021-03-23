@@ -28,11 +28,16 @@ rm -rf $SOURCE_PATH/build
 
 makeproject gui_source
 
-mkdir -p release
-rm -rf release/$BUILD_NAME
-mkdir -p release/$BUILD_NAME
-mkdir -p release/$BUILD_NAME/base
-mkdir -p release/$BUILD_NAME/base/platforms
+cd $SOURCE_PATH/gui_source
+$QT_PATH/bin/lupdate gui_source_tr.pro
+cd $SOURCE_PATH
+
+mkdir -p $SOURCE_PATH/release
+rm -rf $SOURCE_PATH/release/$BUILD_NAME
+mkdir -p $SOURCE_PATH/release/$BUILD_NAME
+mkdir -p $SOURCE_PATH/release/$BUILD_NAME/base
+mkdir -p $SOURCE_PATH/release/$BUILD_NAME/base/platforms
+mkdir -p $SOURCE_PATH/release/$BUILD_NAME/base/lang
 
 cp -R $QT_PATH/plugins/platforms/libqxcb.so                     $SOURCE_PATH/release/$BUILD_NAME/base/platforms/
 
@@ -59,6 +64,24 @@ mv $SOURCE_PATH/release/$BUILD_NAME/base/libQt5XcbQpa.so.5.15.2             $SOU
 mv $SOURCE_PATH/release/$BUILD_NAME/base/libicui18n.so.56.1                 $SOURCE_PATH/release/$BUILD_NAME/base/libicui18n.so.56
 mv $SOURCE_PATH/release/$BUILD_NAME/base/libicuuc.so.56.1                   $SOURCE_PATH/release/$BUILD_NAME/base/libicuuc.so.56
 mv $SOURCE_PATH/release/$BUILD_NAME/base/libicudata.so.56.1                 $SOURCE_PATH/release/$BUILD_NAME/base/libicudata.so.56
+
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_de.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/base/lang/xelfviewer_de.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_ja.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/base/lang/xelfviewer_ja.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_pl.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/base/lang/xelfviewer_pl.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_pt_BR.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/base/lang/xelfviewer_pt_BR.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_fr.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/base/lang/xelfviewer_fr.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_ru.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/base/lang/xelfviewer_ru.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_vi.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/base/lang/xelfviewer_vi.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_zh.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/base/lang/xelfviewer_zh.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_zh_TW.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/base/lang/xelfviewer_zh_TW.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_es.ts -qm $SOURCE_PATH/release/$BUILD_NAME/base/lang/xelfviewer_es.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_it.ts -qm $SOURCE_PATH/release/$BUILD_NAME/base/lang/xelfviewer_it.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_ko.ts -qm $SOURCE_PATH/release/$BUILD_NAME/base/lang/xelfviewer_ko.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_tr.ts -qm $SOURCE_PATH/release/$BUILD_NAME/base/lang/xelfviewer_tr.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_he.ts -qm $SOURCE_PATH/release/$BUILD_NAME/base/lang/xelfviewer_he.qm
+
+mkdir -p $SOURCE_PATH/release/$BUILD_NAME/base/signatures
+cp -R $SOURCE_PATH/signatures/crypto.db                     		$SOURCE_PATH/release/$BUILD_NAME/base/signatures
 
 echo "#!/bin/sh" >> release/$BUILD_NAME/xelfviewer.sh
 echo "CWD=\$(dirname \$0)" >> release/$BUILD_NAME/xelfviewer.sh

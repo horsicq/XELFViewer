@@ -29,9 +29,11 @@ function makeproject
 
 makeproject gui_source
 
-mkdir -p release
-rm -rf release/$BUILD_NAME
-mkdir -p release/$BUILD_NAME
+mkdir -p $SOURCE_PATH/release
+rm -rf $SOURCE_PATH/release/$BUILD_NAME
+mkdir -p $SOURCE_PATH/release/$BUILD_NAME
+
+mkdir -p $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/lang
 
 cp -R $SOURCE_PATH/build/release/$GUIEXE.app               $SOURCE_PATH/release/$BUILD_NAME
 mkdir $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/PlugIns
@@ -89,6 +91,24 @@ copylibrary QtConcurrent
 copyplugin platforms libqcocoa
 copyplugin platforms libqminimal
 copyplugin platforms libqoffscreen
+
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_de.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/lang/xelfviewer_de.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_ja.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/lang/xelfviewer_ja.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_pl.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/lang/xelfviewer_pl.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_pt_BR.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/lang/xelfviewer_pt_BR.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_fr.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/lang/xelfviewer_fr.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_ru.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/lang/xelfviewer_ru.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_vi.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/lang/xelfviewer_vi.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_zh.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/lang/xelfviewer_zh.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_zh_TW.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/lang/xelfviewer_zh_TW.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_es.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/lang/xelfviewer_es.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_it.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/lang/xelfviewer_it.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_ko.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/lang/xelfviewer_ko.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_tr.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/lang/xelfviewer_tr.qm
+$QT_PATH/bin/lrelease  $SOURCE_PATH/gui_source/translation/xelfviewer_he.ts -qm  $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/lang/xelfviewer_he.qm
+
+mkdir -p $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/signatures
+cp -R $SOURCE_PATH/signatures/crypto.db                     		 $SOURCE_PATH/release/$BUILD_NAME/$GUIEXE.app/Contents/Resources/signatures
 
 rm -rf $SOURCE_PATH/release/${BUILD_NAME}_${RELEASE_VERSION}.dmg
 hdiutil create -format UDBZ -quiet -srcfolder $SOURCE_PATH/release/$BUILD_NAME $SOURCE_PATH/release/${BUILD_NAME}_${RELEASE_VERSION}.dmg

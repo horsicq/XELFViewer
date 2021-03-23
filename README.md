@@ -65,4 +65,5 @@ Edit build_win32.bat ( check VS_PATH,  SEVENZIP_PATH, QT_PATH variables)
 Edit build_win64.bat ( check VS_PATH,  SEVENZIP_PATH, QT_PATH variables)
 
 Run build_win32.bat
+
 Run build_win64.bat
