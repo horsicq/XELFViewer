@@ -11,6 +11,7 @@ ELF file viewer/editor for Windows, Linux and MacOS.
 ![alt text](https://github.com/horsicq/XELFViewer/blob/master/docs/2.png "2")
 ![alt text](https://github.com/horsicq/XELFViewer/blob/master/docs/3.png "3")
 ![alt text](https://github.com/horsicq/XELFViewer/blob/master/docs/4.png "4")
+![alt text](https://github.com/horsicq/XELFViewer/blob/master/docs/5.png "5")
 
 How to build on Linux
 =======
