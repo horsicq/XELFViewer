@@ -3,7 +3,7 @@
 [+] Qt 5.15.2
 [+] x64 version for Windows
 [+] Name demangling
-[+] Disassembler(x86,MIPS,ARM ...)
+[+] Disassemblers(x86,MIPS,ARM ...)
 [+] Crypto search
 [+] Many bugs have been fixed.
 #######################################################################

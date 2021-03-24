@@ -38,9 +38,9 @@ Run build_mac.bat
 How to build on Windows(XP)
 =======
 
-Install Visual Studio 2013: https://github.com/horsicq/build_tools
+Install Visual Studio 2017: https://github.com/horsicq/build_tools
 
-Install Qt 5.6.3 for VS2013: https://github.com/horsicq/build_tools
+Install Qt 5.12.10 for VS2017: https://github.com/horsicq/build_tools
 
 Install 7-Zip: https://github.com/horsicq/build_tools
 
