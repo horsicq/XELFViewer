@@ -35,21 +35,6 @@ Edit build_mac.bat ( check QT_PATH variable)
 
 Run build_mac.bat
 
-How to build on Windows(XP)
-=======
-
-Install Visual Studio 2017: https://github.com/horsicq/build_tools
-
-Install Qt 5.12.10 for VS2017: https://github.com/horsicq/build_tools
-
-Install 7-Zip: https://github.com/horsicq/build_tools
-
-Clone project: git clone --recursive https://github.com/horsicq/XELFViewer.git
-
-Edit build_winxp.bat ( check VS_PATH,  SEVENZIP_PATH, QT_PATH variables)
-
-Run build_winxp.bat
-
 How to build on Windows(7-10)
 =======
 
