@@ -64,11 +64,11 @@ protected:
 
 private:
     Ui::GuiMainWindow *ui;
-    XOptions xOptions;
-    XShortcuts xShortcuts;
-    FW_DEF::OPTIONS formatOptions;
+    XOptions g_xOptions;
+    XShortcuts g_xShortcuts;
+    FW_DEF::OPTIONS g_formatOptions;
 
-    QFile *pFile;
+    QFile *g_pFile;
 };
 
 #endif // GUIMAINWINDOW_H
