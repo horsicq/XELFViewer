@@ -25,13 +25,6 @@
      <item>
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
-        <widget class="QCheckBox" name="checkBoxScanAfterOpen">
-         <property name="text">
-          <string>Scan after open</string>
-         </property>
-        </widget>
-       </item>
-       <item>
         <widget class="QCheckBox" name="checkBoxSaveLastDirectory">
          <property name="text">
           <string>Save last directory</string>

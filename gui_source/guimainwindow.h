@@ -54,7 +54,7 @@ private slots:
     void on_actionOptions_triggered();
     void on_actionAbout_triggered();
     void adjust();
-    void processFile(QString sFileName,bool bReload);
+    void processFile(QString sFileName);
     void closeCurrentFile();
 
 protected:

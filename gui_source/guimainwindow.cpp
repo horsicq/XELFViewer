@@ -43,7 +43,6 @@ GuiMainWindow::GuiMainWindow(QWidget *parent) :
     listIDs.append(XOptions::ID_QSS);
     listIDs.append(XOptions::ID_LANG);
     listIDs.append(XOptions::ID_STAYONTOP);
-    listIDs.append(XOptions::ID_SCANAFTEROPEN);
     listIDs.append(XOptions::ID_SAVELASTDIRECTORY);
     listIDs.append(XOptions::ID_SAVEBACKUP);
     listIDs.append(XOptions::ID_SEARCHSIGNATURESPATH);
@@ -67,7 +66,7 @@ GuiMainWindow::GuiMainWindow(QWidget *parent) :
     {
         QString sFileName=QCoreApplication::arguments().at(1);
 
-        processFile(sFileName,true);
+        processFile(sFileName);
     }
 }
 
@@ -88,7 +87,7 @@ void GuiMainWindow::on_actionOpen_triggered()
 
     if(!sFileName.isEmpty())
     {
-        processFile(sFileName,g_xOptions.getValue(XOptions::ID_SCANAFTEROPEN).toBool());
+        processFile(sFileName);
     }
 }
 
@@ -125,7 +124,7 @@ void GuiMainWindow::adjust()
     ui->widgetViewer->setShortcuts(&g_xShortcuts);
 }
 
-void GuiMainWindow::processFile(QString sFileName, bool bReload)
+void GuiMainWindow::processFile(QString sFileName)
 {
     if((sFileName!="")&&(QFileInfo(sFileName).isFile()))
     {
@@ -156,10 +155,7 @@ void GuiMainWindow::processFile(QString sFileName, bool bReload)
                 g_formatOptions.sSearchSignaturesPath=g_xOptions.getSearchSignaturesPath();
                 ui->widgetViewer->setData(g_pFile,g_formatOptions,0,0,0);
 
-                if(bReload)
-                {
-                    ui->widgetViewer->reload();
-                }
+                ui->widgetViewer->reload();
 
                 adjust();
 
@@ -216,7 +212,7 @@ void GuiMainWindow::dropEvent(QDropEvent *event)
 
             sFileName=XBinary::convertFileName(sFileName);
 
-            processFile(sFileName,g_xOptions.getValue(XOptions::ID_SCANAFTEROPEN).toBool());
+            processFile(sFileName);
         }
     }
 }
