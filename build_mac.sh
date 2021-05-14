@@ -27,6 +27,7 @@ function makeproject
     cd $SOURCE_PATH
 }
 
+makeproject build_libs
 makeproject gui_source
 
 mkdir -p $SOURCE_PATH/release
