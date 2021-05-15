@@ -76,3 +76,6 @@
 [submodule "XLLVMDemangler"]
 	path = XLLVMDemangler
 	url = https://github.com/horsicq/XLLVMDemangler.git
+[submodule "build_tools"]
+	path = build_tools
+	url = https://github.com/horsicq/build_tools
