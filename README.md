@@ -20,9 +20,9 @@ Install Qt 5.15.2: https://github.com/horsicq/build_tools
 
 Clone project: git clone --recursive https://github.com/horsicq/XELFViewer.git
 
-Edit build_lin64.bat ( check QT_PATH variable)
+Edit build_lin64.sh ( check QT_PATH variable)
 
-Run build_lin64.bat
+Run build_lin64.sh
 
 How to build on OSX
 =======
