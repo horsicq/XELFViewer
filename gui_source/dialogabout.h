@@ -23,6 +23,7 @@
 
 #include <QDialog>
 #include <QMessageBox>
+#include "../global.h"
 
 namespace Ui {
 class DialogAbout;

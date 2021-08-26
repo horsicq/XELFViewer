@@ -46,6 +46,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="checkBoxShowLogo">
+         <property name="text">
+          <string>Show logo</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="checkBoxContext">
          <property name="text">
           <string>Context</string>
