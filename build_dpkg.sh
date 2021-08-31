@@ -35,7 +35,7 @@ if [ -z "$X_ERROR" ]; then
         cp -f $X_SOURCE_PATH/signatures/crypto.db                           $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/lib/xelfviewer/signatures/
 
         make_deb
-        mv $X_SOURCE_PATH/release/$X_BUILD_NAME.deb $X_SOURCE_PATH/release/xelfviewer_${X_RELEASE_VERSION}-${X_REVISION}_${X_ARCHITECTURE}.deb
+        mv $X_SOURCE_PATH/release/$X_BUILD_NAME.deb $X_SOURCE_PATH/release/xelfviewer_${X_RELEASE_VERSION}_${X_OS_VERSION}_${X_ARCHITECTURE}.deb
         make_clear
     fi
 fi

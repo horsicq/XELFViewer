@@ -12,8 +12,9 @@ TRANSLATIONS = \
         translation/xelfviewer_ko.ts \
         translation/xelfviewer_zh.ts \
         translation/xelfviewer_zh_TW.ts\
-        translation/xelfviewer_tr.ts\
-        translation/xelfviewer_he.ts
+        translation/xelfviewer_tr.ts \
+        translation/xelfviewer_he.ts \
+        translation/xelfviewer_id.ts
 
 FORMS += \
     ../FormatDialogs/dialogdump.ui \

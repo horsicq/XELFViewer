@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS>
+<TS version="2.1" language="ja">
 <context>
     <name>BinaryWidget</name>
     <message>
@@ -9,14 +9,14 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取り専用</translation>
     </message>
 </context>
 <context>
     <name>DEXSectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取り専用</translation>
     </message>
 </context>
 <context>
@@ -27,23 +27,23 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取り専用</translation>
     </message>
     <message>
         <source>Filter</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">フィルター</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">16 進数</translation>
     </message>
     <message>
         <source>Strings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文字列</translation>
     </message>
     <message>
         <source>Memory map</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">メモリ マップ</translation>
     </message>
     <message>
         <source>Entropy</source>
@@ -51,7 +51,7 @@
     </message>
     <message>
         <source>Heuristic scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ヒューリスティック スキャン</translation>
     </message>
 </context>
 <context>
@@ -81,7 +81,7 @@
     </message>
     <message>
         <source>Wildcard</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ワイルドカード</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -105,14 +105,14 @@
     </message>
     <message>
         <source>Opcode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Opcode</translation>
     </message>
 </context>
 <context>
     <name>DialogDemangle</name>
     <message>
         <source>Demangle</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">デマングル</translation>
     </message>
     <message>
         <source>OK</source>
@@ -123,26 +123,26 @@
     <name>DialogDisasm</name>
     <message>
         <source>Disasm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Disasm</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">閉じる</translation>
     </message>
 </context>
 <context>
     <name>DialogDisasmLabels</name>
     <message>
         <source>Labels</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ラベル</translation>
     </message>
     <message>
         <source>Go to</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">移動</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">閉じる</translation>
     </message>
     <message>
         <source>Name</source>
@@ -157,27 +157,27 @@
     <name>DialogDisasmProcess</name>
     <message>
         <source>Disasm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Disasm</translation>
     </message>
     <message>
         <source>Opcodes</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcodes</translation>
     </message>
     <message>
         <source>Calls</source>
-        <translation type="unfinished"></translation>
+        <translation>セル</translation>
     </message>
     <message>
         <source>Jumps</source>
-        <translation type="unfinished"></translation>
+        <translation>ジャンプ</translation>
     </message>
     <message>
         <source>Ref to</source>
-        <translation type="unfinished"></translation>
+        <translation>へ参照</translation>
     </message>
     <message>
         <source>Ref from</source>
-        <translation type="unfinished"></translation>
+        <translation>から参照</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -218,14 +218,14 @@
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">閉じる</translation>
     </message>
 </context>
 <context>
     <name>DialogEntropyProcess</name>
     <message>
         <source>Process</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">プロセス</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -279,18 +279,18 @@
     <name>DialogHash</name>
     <message>
         <source>Hash</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ハッシュ</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">閉じる</translation>
     </message>
 </context>
 <context>
     <name>DialogHashProcess</name>
     <message>
         <source>Process</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">プロセス</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -305,7 +305,7 @@
     <name>DialogHex</name>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">閉じる</translation>
     </message>
 </context>
 <context>
@@ -324,7 +324,7 @@
     </message>
     <message>
         <source>Wildcard</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ワイルドカード</translation>
     </message>
     <message>
         <source>Scan</source>
@@ -343,7 +343,7 @@
     <name>DialogHexView</name>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">閉じる</translation>
     </message>
 </context>
 <context>
@@ -354,29 +354,29 @@
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">閉じる</translation>
     </message>
 </context>
 <context>
     <name>DialogMemoryMap</name>
     <message>
         <source>Memory map</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">メモリ マップ</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">閉じる</translation>
     </message>
 </context>
 <context>
     <name>DialogMultiDisasm</name>
     <message>
         <source>Disasm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Disasm</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">閉じる</translation>
     </message>
 </context>
 <context>
@@ -395,7 +395,7 @@
     </message>
     <message>
         <source>Wildcard</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ワイルドカード</translation>
     </message>
     <message>
         <source>Scan</source>
@@ -423,7 +423,7 @@
     </message>
     <message>
         <source>Opcode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Opcode</translation>
     </message>
 </context>
 <context>
@@ -438,7 +438,7 @@
     </message>
     <message>
         <source>Search strings</source>
-        <translation type="unfinished"></translation>
+        <translation>検索文字列</translation>
     </message>
     <message>
         <source>Search signatures</source>
@@ -446,7 +446,7 @@
     </message>
     <message>
         <source>Create view model</source>
-        <translation type="unfinished"></translation>
+        <translation>ビューモデルを作成</translation>
     </message>
     <message>
         <source>Error</source>
@@ -473,7 +473,7 @@
     </message>
     <message>
         <source>Save backup</source>
-        <translation type="unfinished"></translation>
+        <translation>バックアップを保存</translation>
     </message>
     <message>
         <source>Context</source>
@@ -481,11 +481,11 @@
     </message>
     <message>
         <source>Style</source>
-        <translation type="unfinished"></translation>
+        <translation>スタイル</translation>
     </message>
     <message>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">言語</translation>
     </message>
     <message>
         <source>Search signatures</source>
@@ -505,7 +505,7 @@
     </message>
     <message>
         <source>Please restart the application</source>
-        <translation type="unfinished"></translation>
+        <translation>プログラムを再起動してください</translation>
     </message>
     <message>
         <source>Open directory</source>
@@ -516,7 +516,7 @@
     <name>DialogProcessData</name>
     <message>
         <source>Process</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">プロセス</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -539,7 +539,7 @@
     </message>
     <message>
         <source>String</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文字列</translation>
     </message>
     <message>
         <source>Match case</source>
@@ -597,18 +597,18 @@
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">閉じる</translation>
     </message>
 </context>
 <context>
     <name>DialogSearchStrings</name>
     <message>
         <source>Strings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文字列</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">閉じる</translation>
     </message>
 </context>
 <context>
@@ -622,11 +622,11 @@
     <name>DialogShortcuts</name>
     <message>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ショートカット</translation>
     </message>
     <message>
         <source>Filter</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">フィルター</translation>
     </message>
     <message>
         <source>Clear</source>
@@ -642,7 +642,7 @@
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>グループ</translation>
     </message>
     <message>
         <source>Name</source>
@@ -650,11 +650,11 @@
     </message>
     <message>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>ショートカット</translation>
     </message>
     <message>
         <source>Cannot set shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>ショートカットの設定に失敗</translation>
     </message>
 </context>
 <context>
@@ -673,11 +673,11 @@
     </message>
     <message>
         <source>Heuristic scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ヒューリスティック スキャン</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">閉じる</translation>
     </message>
 </context>
 <context>
@@ -692,7 +692,7 @@
     </message>
     <message>
         <source>Text documents</source>
-        <translation type="unfinished"></translation>
+        <translation>テキスト文書</translation>
     </message>
     <message>
         <source>Save result</source>
@@ -707,14 +707,14 @@
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">閉じる</translation>
     </message>
 </context>
 <context>
     <name>ELFSectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取り専用</translation>
     </message>
 </context>
 <context>
@@ -725,15 +725,15 @@
     </message>
     <message>
         <source>Disasm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Disasm</translation>
     </message>
     <message>
         <source>Strings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文字列</translation>
     </message>
     <message>
         <source>Memory map</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">メモリ マップ</translation>
     </message>
     <message>
         <source>Entropy</source>
@@ -741,15 +741,15 @@
     </message>
     <message>
         <source>Heuristic scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ヒューリスティック スキャン</translation>
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取り専用</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">16 進数</translation>
     </message>
     <message>
         <source>Signatures</source>
@@ -761,7 +761,7 @@
     </message>
     <message>
         <source>Demangle</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">デマングル</translation>
     </message>
     <message>
         <source>Header</source>
@@ -791,14 +791,14 @@
     </message>
     <message>
         <source>msec</source>
-        <translation type="unfinished"></translation>
+        <translation>ミリ秒</translation>
     </message>
 </context>
 <context>
     <name>FormStaticScan</name>
     <message>
         <source>Recursive</source>
-        <translation type="unfinished"></translation>
+        <translation>再帰的</translation>
     </message>
     <message>
         <source>Deep scan</source>
@@ -817,7 +817,7 @@
     </message>
     <message>
         <source>Cannot save file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ファイルを保存できません</translation>
     </message>
     <message>
         <source>Name</source>
@@ -844,11 +844,11 @@
     </message>
     <message>
         <source>Entry point</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">エントリ ポイント</translation>
     </message>
     <message>
         <source>Disasm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Disasm</translation>
     </message>
     <message>
         <source>Base address</source>
@@ -856,7 +856,7 @@
     </message>
     <message>
         <source>Memory map</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">メモリ マップ</translation>
     </message>
     <message>
         <source>Overlay</source>
@@ -872,7 +872,7 @@
     </message>
     <message>
         <source>Resources</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">リソース</translation>
     </message>
     <message>
         <source>Sections</source>
@@ -888,7 +888,7 @@
     </message>
     <message>
         <source>Commands</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">コマンド</translation>
     </message>
     <message>
         <source>Segments</source>
@@ -912,7 +912,7 @@
     </message>
     <message>
         <source>Architecture</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">アーキテクチャ</translation>
     </message>
     <message>
         <source>Type</source>
@@ -935,11 +935,11 @@
     </message>
     <message>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">開く</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">閉じる</translation>
     </message>
     <message>
         <source>Exit</source>
@@ -955,19 +955,19 @@
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ショートカット</translation>
     </message>
     <message>
         <source>Demangle</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">デマングル</translation>
     </message>
     <message>
         <source>Open file</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルを開く</translation>
     </message>
     <message>
         <source>All files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">すべてのファイル</translation>
     </message>
     <message>
         <source>Error</source>
@@ -979,7 +979,7 @@
     </message>
     <message>
         <source>Cannot open file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ファイルを開けません</translation>
     </message>
 </context>
 <context>
@@ -998,11 +998,11 @@
     </message>
     <message>
         <source>Heuristic scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ヒューリスティック スキャン</translation>
     </message>
     <message>
         <source>Heuristic</source>
-        <translation type="unfinished"></translation>
+        <translation>ヒューリスティック</translation>
     </message>
     <message>
         <source>Type</source>
@@ -1021,18 +1021,18 @@
     <name>InvWidget</name>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">16 進数</translation>
     </message>
     <message>
         <source>Disasm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Disasm</translation>
     </message>
 </context>
 <context>
     <name>LESectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取り専用</translation>
     </message>
 </context>
 <context>
@@ -1043,23 +1043,23 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取り専用</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">16 進数</translation>
     </message>
     <message>
         <source>Disasm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Disasm</translation>
     </message>
     <message>
         <source>Strings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文字列</translation>
     </message>
     <message>
         <source>Memory map</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">メモリ マップ</translation>
     </message>
     <message>
         <source>Entropy</source>
@@ -1067,7 +1067,7 @@
     </message>
     <message>
         <source>Heuristic scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ヒューリスティック スキャン</translation>
     </message>
     <message>
         <source>Overlay</source>
@@ -1082,7 +1082,7 @@
     <name>MACHSectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取り専用</translation>
     </message>
 </context>
 <context>
@@ -1093,23 +1093,23 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取り専用</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">16 進数</translation>
     </message>
     <message>
         <source>Disasm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Disasm</translation>
     </message>
     <message>
         <source>Strings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文字列</translation>
     </message>
     <message>
         <source>Memory map</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">メモリ マップ</translation>
     </message>
     <message>
         <source>Entropy</source>
@@ -1117,11 +1117,11 @@
     </message>
     <message>
         <source>Heuristic scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ヒューリスティック スキャン</translation>
     </message>
     <message>
         <source>Commands</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">コマンド</translation>
     </message>
     <message>
         <source>Segments</source>
@@ -1152,23 +1152,23 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取り専用</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">16 進数</translation>
     </message>
     <message>
         <source>Disasm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Disasm</translation>
     </message>
     <message>
         <source>Strings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文字列</translation>
     </message>
     <message>
         <source>Memory map</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">メモリ マップ</translation>
     </message>
     <message>
         <source>Entropy</source>
@@ -1176,7 +1176,7 @@
     </message>
     <message>
         <source>Heuristic scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ヒューリスティック スキャン</translation>
     </message>
     <message>
         <source>Overlay</source>
@@ -1195,7 +1195,7 @@
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">サイズ</translation>
     </message>
     <message>
         <source>Type</source>
@@ -1203,7 +1203,7 @@
     </message>
     <message>
         <source>String</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文字列</translation>
     </message>
     <message>
         <source>Name</source>
@@ -1214,7 +1214,7 @@
     <name>NESectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取り専用</translation>
     </message>
 </context>
 <context>
@@ -1225,23 +1225,23 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取り専用</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">16 進数</translation>
     </message>
     <message>
         <source>Disasm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Disasm</translation>
     </message>
     <message>
         <source>Strings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文字列</translation>
     </message>
     <message>
         <source>Memory map</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">メモリ マップ</translation>
     </message>
     <message>
         <source>Entropy</source>
@@ -1249,7 +1249,7 @@
     </message>
     <message>
         <source>Heuristic scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ヒューリスティック スキャン</translation>
     </message>
     <message>
         <source>Segments</source>
@@ -1264,14 +1264,14 @@
     <name>PEProcessData</name>
     <message>
         <source>Resources</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">リソース</translation>
     </message>
 </context>
 <context>
     <name>PESectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取り専用</translation>
     </message>
 </context>
 <context>
@@ -1282,19 +1282,19 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">16 進数</translation>
     </message>
     <message>
         <source>Disasm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Disasm</translation>
     </message>
     <message>
         <source>Strings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文字列</translation>
     </message>
     <message>
         <source>Memory map</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">メモリ マップ</translation>
     </message>
     <message>
         <source>Entropy</source>
@@ -1302,15 +1302,15 @@
     </message>
     <message>
         <source>Heuristic scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ヒューリスティック スキャン</translation>
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取り専用</translation>
     </message>
     <message>
         <source>Show valid</source>
-        <translation type="unfinished"></translation>
+        <translation>有効を表示</translation>
     </message>
     <message>
         <source>Signatures</source>
@@ -1341,7 +1341,7 @@
     <name>QHexView</name>
     <message>
         <source>Cannot save file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ファイルを保存できません</translation>
     </message>
 </context>
 <context>
@@ -1356,19 +1356,19 @@
     </message>
     <message>
         <source>Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>選択</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">サイズ</translation>
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取り専用</translation>
     </message>
     <message>
         <source>Raw data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Raw データ</translation>
     </message>
     <message>
         <source>Save dump</source>
@@ -1391,26 +1391,26 @@
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">サイズ</translation>
     </message>
     <message>
         <source>Read error</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取りエラー</translation>
     </message>
     <message>
         <source>Write error</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">書き込みエラー</translation>
     </message>
     <message>
         <source>Cannot open file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ファイルを開けません</translation>
     </message>
 </context>
 <context>
     <name>QwtPlotRenderer</name>
     <message>
         <source>Documents</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ドキュメント</translation>
     </message>
     <message>
         <source>Images</source>
@@ -1418,7 +1418,7 @@
     </message>
     <message>
         <source>Export file name</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ファイル名をコピー</translation>
     </message>
 </context>
 <context>
@@ -1453,11 +1453,11 @@
     </message>
     <message>
         <source>Text files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">テキスト ファイル</translation>
     </message>
     <message>
         <source>All files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">すべてのファイル</translation>
     </message>
     <message>
         <source>Copy name</source>
@@ -1477,7 +1477,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">16 進数</translation>
     </message>
 </context>
 <context>
@@ -1488,7 +1488,7 @@
     </message>
     <message>
         <source>Filter</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">フィルター</translation>
     </message>
     <message>
         <source>Save</source>
@@ -1500,19 +1500,19 @@
     </message>
     <message>
         <source>Strings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文字列</translation>
     </message>
     <message>
         <source>Text files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">テキスト ファイル</translation>
     </message>
     <message>
         <source>All files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">すべてのファイル</translation>
     </message>
     <message>
         <source>Copy string</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文字列をコピー</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -1528,18 +1528,18 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">16 進数</translation>
     </message>
     <message>
         <source>Demangle</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">デマングル</translation>
     </message>
 </context>
 <context>
     <name>SpecAbstract</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">不明</translation>
     </message>
     <message>
         <source>Header</source>
@@ -1551,55 +1551,55 @@
     </message>
     <message>
         <source>Archive record</source>
-        <translation type="unfinished"></translation>
+        <translation>アーカイブ レコード</translation>
     </message>
     <message>
         <source>obfuscator</source>
-        <translation type="unfinished"></translation>
+        <translation>難読化</translation>
     </message>
     <message>
         <source>Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>ツール</translation>
     </message>
     <message>
         <source>Certificate</source>
-        <translation type="unfinished"></translation>
+        <translation>証明書</translation>
     </message>
     <message>
         <source>Compiler</source>
-        <translation type="unfinished"></translation>
+        <translation>コンパイラ</translation>
     </message>
     <message>
         <source>Converter</source>
-        <translation type="unfinished"></translation>
+        <translation>コンバータ</translation>
     </message>
     <message>
         <source>Cryptor</source>
-        <translation type="unfinished"></translation>
+        <translation>暗号化</translation>
     </message>
     <message>
         <source>Database</source>
-        <translation type="unfinished"></translation>
+        <translation>データベース</translation>
     </message>
     <message>
         <source>Debug data</source>
-        <translation type="unfinished"></translation>
+        <translation>デバッグ データ</translation>
     </message>
     <message>
         <source>protection</source>
-        <translation type="unfinished"></translation>
+        <translation>保護</translation>
     </message>
     <message>
         <source>extender</source>
-        <translation type="unfinished"></translation>
+        <translation>エクステンダ</translation>
     </message>
     <message>
         <source>Format</source>
-        <translation type="unfinished"></translation>
+        <translation>書式</translation>
     </message>
     <message>
         <source>Generic</source>
-        <translation type="unfinished"></translation>
+        <translation>汎用</translation>
     </message>
     <message>
         <source>Image</source>
@@ -1607,19 +1607,19 @@
     </message>
     <message>
         <source>Installer</source>
-        <translation type="unfinished"></translation>
+        <translation>インストーラ</translation>
     </message>
     <message>
         <source>Installer data</source>
-        <translation type="unfinished"></translation>
+        <translation>インストーラ データ</translation>
     </message>
     <message>
         <source>Joiner</source>
-        <translation type="unfinished"></translation>
+        <translation>ジョイナ</translation>
     </message>
     <message>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">言語</translation>
     </message>
     <message>
         <source>Library</source>
@@ -1627,35 +1627,35 @@
     </message>
     <message>
         <source>Linker</source>
-        <translation type="unfinished"></translation>
+        <translation>リンカ</translation>
     </message>
     <message>
         <source>compressor</source>
-        <translation type="unfinished"></translation>
+        <translation>コンプレッサ</translation>
     </message>
     <message>
         <source>Packer</source>
-        <translation type="unfinished"></translation>
+        <translation>パッカー</translation>
     </message>
     <message>
         <source>Protector</source>
-        <translation type="unfinished"></translation>
+        <translation>プロテクタ</translation>
     </message>
     <message>
         <source>Protector data</source>
-        <translation type="unfinished"></translation>
+        <translation>プロテクタ データ</translation>
     </message>
     <message>
         <source>data</source>
-        <translation type="unfinished"></translation>
+        <translation>data</translation>
     </message>
     <message>
         <source>Sign tool</source>
-        <translation type="unfinished"></translation>
+        <translation>サインツール</translation>
     </message>
     <message>
         <source>Source code</source>
-        <translation type="unfinished"></translation>
+        <translation>ソース コード</translation>
     </message>
     <message>
         <source>Stub</source>
@@ -1663,31 +1663,31 @@
     </message>
     <message>
         <source>Entry point</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">エントリ ポイント</translation>
     </message>
     <message>
         <source>Section name</source>
-        <translation type="unfinished"></translation>
+        <translation>セクション名</translation>
     </message>
     <message>
         <source>Code section</source>
-        <translation type="unfinished"></translation>
+        <translation>コード セクション</translation>
     </message>
     <message>
         <source>Entry point section</source>
-        <translation type="unfinished"></translation>
+        <translation>エントリ ポイントセクション</translation>
     </message>
     <message>
         <source>String</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文字列</translation>
     </message>
     <message>
         <source>Archive</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">アーカイブ</translation>
     </message>
     <message>
         <source>Resources</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">リソース</translation>
     </message>
     <message>
         <source>Type</source>
@@ -1706,32 +1706,32 @@
     </message>
     <message>
         <source>Device scan</source>
-        <translation type="unfinished"></translation>
+        <translation>デバイスのスキャン</translation>
     </message>
 </context>
 <context>
     <name>StaticScanItemModel</name>
     <message>
         <source>Result</source>
-        <translation type="unfinished"></translation>
+        <translation>結果</translation>
     </message>
 </context>
 <context>
     <name>ToolsWidget</name>
     <message>
         <source>Strings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文字列</translation>
     </message>
 </context>
 <context>
     <name>XBinary</name>
     <message>
         <source>Text</source>
-        <translation type="unfinished"></translation>
+        <translation>テキスト</translation>
     </message>
     <message>
         <source>Document</source>
-        <translation type="unfinished"></translation>
+        <translation>ドキュメント</translation>
     </message>
     <message>
         <source>Image</source>
@@ -1739,19 +1739,19 @@
     </message>
     <message>
         <source>Archive</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">アーカイブ</translation>
     </message>
     <message>
         <source>Read error</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">読み取りエラー</translation>
     </message>
     <message>
         <source>Maximum</source>
-        <translation type="unfinished"></translation>
+        <translation>最大</translation>
     </message>
     <message>
         <source>Write error</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">書き込みエラー</translation>
     </message>
 </context>
 <context>
@@ -1776,11 +1776,11 @@
     <name>XDemangle</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">不明</translation>
     </message>
     <message>
         <source>Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>自動</translation>
     </message>
 </context>
 <context>
@@ -1802,7 +1802,7 @@
     </message>
     <message>
         <source>Label</source>
-        <translation type="unfinished"></translation>
+        <translation>ラベル</translation>
     </message>
     <message>
         <source>Bytes</source>
@@ -1810,7 +1810,7 @@
     </message>
     <message>
         <source>Opcode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Opcode</translation>
     </message>
 </context>
 <context>
@@ -1829,15 +1829,15 @@
     </message>
     <message>
         <source>Opcode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Opcode</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>コメント</translation>
     </message>
     <message>
         <source>Invalid opcode</source>
-        <translation type="unfinished"></translation>
+        <translation>無効な Opcode</translation>
     </message>
     <message>
         <source>Go to address</source>
@@ -1849,11 +1849,11 @@
     </message>
     <message>
         <source>Go to entry point</source>
-        <translation type="unfinished"></translation>
+        <translation>エントリ ポイントに移動</translation>
     </message>
     <message>
         <source>Dump to file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ファイルにダンプ</translation>
     </message>
     <message>
         <source>Hex signature</source>
@@ -1865,11 +1865,11 @@
     </message>
     <message>
         <source>Find</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">検索</translation>
     </message>
     <message>
         <source>Find next</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">次を検索</translation>
     </message>
     <message>
         <source>Select all</source>
@@ -1877,11 +1877,11 @@
     </message>
     <message>
         <source>Copy as hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">16 進数値でコピー</translation>
     </message>
     <message>
         <source>Copy cursor offset</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">カーソルオフセットのコピー</translation>
     </message>
     <message>
         <source>Copy cursor address</source>
@@ -1889,11 +1889,11 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">16 進数</translation>
     </message>
     <message>
         <source>Go to</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">移動</translation>
     </message>
     <message>
         <source>Select</source>
@@ -1905,11 +1905,11 @@
     </message>
     <message>
         <source>Relative address</source>
-        <translation type="unfinished"></translation>
+        <translation>相対アドレス</translation>
     </message>
     <message>
         <source>Raw data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Raw データ</translation>
     </message>
     <message>
         <source>Save dump</source>
@@ -1917,7 +1917,7 @@
     </message>
     <message>
         <source>Nothing found</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">見つかりません</translation>
     </message>
 </context>
 <context>
@@ -1928,11 +1928,11 @@
     </message>
     <message>
         <source>Analyze</source>
-        <translation type="unfinished"></translation>
+        <translation>分析</translation>
     </message>
     <message>
         <source>Labels</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ラベル</translation>
     </message>
     <message>
         <source>Overlay</source>
@@ -1940,11 +1940,11 @@
     </message>
     <message>
         <source>Go to</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">移動</translation>
     </message>
     <message>
         <source>Entry point</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">エントリ ポイント</translation>
     </message>
     <message>
         <source>Virtual address</source>
@@ -1968,19 +1968,19 @@
     </message>
     <message>
         <source>Dump to file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ファイルにダンプ</translation>
     </message>
     <message>
         <source>Disasm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Disasm</translation>
     </message>
     <message>
         <source>To data</source>
-        <translation type="unfinished"></translation>
+        <translation>データへ</translation>
     </message>
     <message>
         <source>Raw data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Raw データ</translation>
     </message>
     <message>
         <source>Save dump</source>
@@ -2006,7 +2006,7 @@
     </message>
     <message>
         <source>Total</source>
-        <translation type="unfinished"></translation>
+        <translation>合計</translation>
     </message>
     <message>
         <source>Status</source>
@@ -2018,7 +2018,7 @@
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">サイズ</translation>
     </message>
     <message>
         <source>Reload</source>
@@ -2030,7 +2030,7 @@
     </message>
     <message>
         <source>Regions</source>
-        <translation type="unfinished"></translation>
+        <translation>地域</translation>
     </message>
     <message>
         <source>Save</source>
@@ -2058,7 +2058,7 @@
     </message>
     <message>
         <source>Documents</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ドキュメント</translation>
     </message>
     <message>
         <source>Save diagram</source>
@@ -2081,7 +2081,7 @@
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">サイズ</translation>
     </message>
     <message>
         <source>Reload</source>
@@ -2089,7 +2089,7 @@
     </message>
     <message>
         <source>Hash</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ハッシュ</translation>
     </message>
     <message>
         <source>Name</source>
@@ -2111,11 +2111,11 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">16 進数</translation>
     </message>
     <message>
         <source>Symbols</source>
-        <translation type="unfinished"></translation>
+        <translation>シンボル</translation>
     </message>
     <message>
         <source>Go to offset</source>
@@ -2127,7 +2127,7 @@
     </message>
     <message>
         <source>Dump to file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ファイルにダンプ</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -2135,11 +2135,11 @@
     </message>
     <message>
         <source>Find</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">検索</translation>
     </message>
     <message>
         <source>Find next</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">次を検索</translation>
     </message>
     <message>
         <source>Select all</source>
@@ -2147,11 +2147,11 @@
     </message>
     <message>
         <source>Copy as hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">16 進数値でコピー</translation>
     </message>
     <message>
         <source>Copy cursor offset</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">カーソルオフセットのコピー</translation>
     </message>
     <message>
         <source>Copy cursor address</source>
@@ -2159,15 +2159,15 @@
     </message>
     <message>
         <source>Disasm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Disasm</translation>
     </message>
     <message>
         <source>Memory map</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">メモリ マップ</translation>
     </message>
     <message>
         <source>Go to</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">移動</translation>
     </message>
     <message>
         <source>Select</source>
@@ -2179,7 +2179,7 @@
     </message>
     <message>
         <source>Raw data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Raw データ</translation>
     </message>
     <message>
         <source>Save dump</source>
@@ -2187,14 +2187,14 @@
     </message>
     <message>
         <source>Nothing found</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">見つかりません</translation>
     </message>
 </context>
 <context>
     <name>XHexViewWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">フォーム</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2254,11 +2254,11 @@
     </message>
     <message>
         <source>Architecture</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">アーキテクチャ</translation>
     </message>
     <message>
         <source>Memory map</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">メモリ マップ</translation>
     </message>
     <message>
         <source>Name</source>
@@ -2274,14 +2274,14 @@
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">サイズ</translation>
     </message>
 </context>
 <context>
     <name>XMultiDisasmWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">フォーム</translation>
     </message>
     <message>
         <source>Type</source>
@@ -2312,14 +2312,14 @@
     </message>
     <message>
         <source>Cannot open file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ファイルを開けません</translation>
     </message>
 </context>
 <context>
     <name>XShortcuts</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">不明</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -2327,7 +2327,7 @@
     </message>
     <message>
         <source>Copy string</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文字列をコピー</translation>
     </message>
     <message>
         <source>Copy offset</source>
@@ -2339,11 +2339,11 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">16 進数</translation>
     </message>
     <message>
         <source>Demangle</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">デマングル</translation>
     </message>
     <message>
         <source>Copy name</source>
@@ -2359,7 +2359,7 @@
     </message>
     <message>
         <source>Dump to file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ファイルにダンプ</translation>
     </message>
     <message>
         <source>Go to address</source>
@@ -2375,11 +2375,11 @@
     </message>
     <message>
         <source>Find</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">検索</translation>
     </message>
     <message>
         <source>Find next</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">次を検索</translation>
     </message>
     <message>
         <source>Select all</source>
@@ -2387,11 +2387,11 @@
     </message>
     <message>
         <source>Copy as hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">16 進数値でコピー</translation>
     </message>
     <message>
         <source>Copy cursor offset</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">カーソルオフセットのコピー</translation>
     </message>
     <message>
         <source>Copy cursor address</source>
@@ -2399,11 +2399,11 @@
     </message>
     <message>
         <source>Disasm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Disasm</translation>
     </message>
     <message>
         <source>Memory map</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">メモリ マップ</translation>
     </message>
     <message>
         <source>Hex signature</source>
@@ -2411,23 +2411,23 @@
     </message>
     <message>
         <source>Run</source>
-        <translation type="unfinished"></translation>
+        <translation>実行</translation>
     </message>
     <message>
         <source>Breakpoint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ブレークポイントをセット</translation>
     </message>
     <message>
         <source>Step into</source>
-        <translation type="unfinished"></translation>
+        <translation>ステップ イン</translation>
     </message>
     <message>
         <source>Step over</source>
-        <translation type="unfinished"></translation>
+        <translation>ステップ オーバー</translation>
     </message>
     <message>
         <source>Copy filename</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル名をコピー</translation>
     </message>
     <message>
         <source>Entropy</source>
@@ -2435,11 +2435,11 @@
     </message>
     <message>
         <source>Hash</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ハッシュ</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">開く</translation>
     </message>
     <message>
         <source>Scan</source>
@@ -2447,11 +2447,11 @@
     </message>
     <message>
         <source>Strings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">文字列</translation>
     </message>
     <message>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>動作</translation>
     </message>
     <message>
         <source>Signatures</source>
@@ -2459,15 +2459,15 @@
     </message>
     <message>
         <source>Debugger</source>
-        <translation type="unfinished"></translation>
+        <translation>デバッガ</translation>
     </message>
     <message>
         <source>Archive</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">アーカイブ</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル</translation>
     </message>
 </context>
 </TS>

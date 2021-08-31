@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS>
+<TS version="2.1" language="fr">
 <context>
     <name>BinaryWidget</name>
     <message>
@@ -9,14 +9,14 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished">Lecture seulement</translation>
+        <translation type="unfinished">Lecture seule</translation>
     </message>
 </context>
 <context>
     <name>DEXSectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished">Lecture seulement</translation>
+        <translation type="unfinished">Lecture seule</translation>
     </message>
 </context>
 <context>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished">Lecture seulement</translation>
+        <translation type="unfinished">Lecture seule</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -35,7 +35,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hexadécimal</translation>
     </message>
     <message>
         <source>Strings</source>
@@ -173,7 +173,7 @@
     </message>
     <message>
         <source>Ref to</source>
-        <translation>Référence à</translation>
+        <translation>Référence vers</translation>
     </message>
     <message>
         <source>Ref from</source>
@@ -442,11 +442,11 @@
     </message>
     <message>
         <source>Search signatures</source>
-        <translation type="unfinished">Signatures</translation>
+        <translation type="unfinished">Recherche des signatures</translation>
     </message>
     <message>
         <source>Create view model</source>
-        <translation>Créer un modèle visuelle</translation>
+        <translation>Créer un modèle visuel</translation>
     </message>
     <message>
         <source>Error</source>
@@ -489,7 +489,7 @@
     </message>
     <message>
         <source>Search signatures</source>
-        <translation type="unfinished">Signatures</translation>
+        <translation type="unfinished">Recherche des signatures</translation>
     </message>
     <message>
         <source>OK</source>
@@ -622,7 +622,7 @@
     <name>DialogShortcuts</name>
     <message>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Raccourcis</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -642,7 +642,7 @@
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Groupe</translation>
     </message>
     <message>
         <source>Name</source>
@@ -650,11 +650,11 @@
     </message>
     <message>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Raccourci</translation>
     </message>
     <message>
         <source>Cannot set shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne peut pas créer le raccourci</translation>
     </message>
 </context>
 <context>
@@ -714,7 +714,7 @@
     <name>ELFSectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished">Lecture seulement</translation>
+        <translation type="unfinished">Lecture seule</translation>
     </message>
 </context>
 <context>
@@ -745,11 +745,11 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished">Lecture seulement</translation>
+        <translation type="unfinished">Lecture seule</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hexadécimal</translation>
     </message>
     <message>
         <source>Signatures</source>
@@ -955,7 +955,7 @@
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Raccourcis</translation>
     </message>
     <message>
         <source>Demangle</source>
@@ -1021,7 +1021,7 @@
     <name>InvWidget</name>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hexadécimal</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1032,7 +1032,7 @@
     <name>LESectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished">Lecture seulement</translation>
+        <translation type="unfinished">Lecture seule</translation>
     </message>
 </context>
 <context>
@@ -1043,11 +1043,11 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished">Lecture seulement</translation>
+        <translation type="unfinished">Lecture seule</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hexadécimal</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1082,7 +1082,7 @@
     <name>MACHSectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished">Lecture seulement</translation>
+        <translation type="unfinished">Lecture seule</translation>
     </message>
 </context>
 <context>
@@ -1093,11 +1093,11 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished">Lecture seulement</translation>
+        <translation type="unfinished">Lecture seule</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hexadécimal</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1152,11 +1152,11 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished">Lecture seulement</translation>
+        <translation type="unfinished">Lecture seule</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hexadécimal</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1214,7 +1214,7 @@
     <name>NESectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished">Lecture seulement</translation>
+        <translation type="unfinished">Lecture seule</translation>
     </message>
 </context>
 <context>
@@ -1225,11 +1225,11 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished">Lecture seulement</translation>
+        <translation type="unfinished">Lecture seule</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hexadécimal</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1271,7 +1271,7 @@
     <name>PESectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished">Lecture seulement</translation>
+        <translation type="unfinished">Lecture seule</translation>
     </message>
 </context>
 <context>
@@ -1282,7 +1282,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hexadécimal</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1306,7 +1306,7 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished">Lecture seulement</translation>
+        <translation type="unfinished">Lecture seule</translation>
     </message>
     <message>
         <source>Show valid</source>
@@ -1364,7 +1364,7 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished">Lecture seulement</translation>
+        <translation type="unfinished">Lecture seule</translation>
     </message>
     <message>
         <source>Raw data</source>
@@ -1418,7 +1418,7 @@
     </message>
     <message>
         <source>Export file name</source>
-        <translation>Nom du fichier d&apos;exportation</translation>
+        <translation type="unfinished">Copier le nom de fichier</translation>
     </message>
 </context>
 <context>
@@ -1461,11 +1461,11 @@
     </message>
     <message>
         <source>Copy name</source>
-        <translation type="unfinished">Copier au format hexadécimal</translation>
+        <translation type="unfinished">Copier le nom</translation>
     </message>
     <message>
         <source>Copy signature</source>
-        <translation type="unfinished">Signature</translation>
+        <translation type="unfinished">Copier la signature</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -1473,11 +1473,11 @@
     </message>
     <message>
         <source>Copy offset</source>
-        <translation type="unfinished">Copier l&apos;offset</translation>
+        <translation type="unfinished">Copier le décalage</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hexadécimal</translation>
     </message>
 </context>
 <context>
@@ -1520,7 +1520,7 @@
     </message>
     <message>
         <source>Copy offset</source>
-        <translation type="unfinished">Copier l&apos;offset</translation>
+        <translation type="unfinished">Copier le décalage</translation>
     </message>
     <message>
         <source>Copy size</source>
@@ -1528,7 +1528,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hexadécimal</translation>
     </message>
     <message>
         <source>Demangle</source>
@@ -1615,7 +1615,7 @@
     </message>
     <message>
         <source>Joiner</source>
-        <translation type="unfinished"></translation>
+        <translation>Joindre</translation>
     </message>
     <message>
         <source>Language</source>
@@ -1647,7 +1647,7 @@
     </message>
     <message>
         <source>data</source>
-        <translation>data</translation>
+        <translation>données</translation>
     </message>
     <message>
         <source>Sign tool</source>
@@ -1659,7 +1659,7 @@
     </message>
     <message>
         <source>Stub</source>
-        <translation>Stub</translation>
+        <translation>Squelette</translation>
     </message>
     <message>
         <source>Entry point</source>
@@ -1727,11 +1727,11 @@
     <name>XBinary</name>
     <message>
         <source>Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Texte</translation>
     </message>
     <message>
         <source>Document</source>
-        <translation type="unfinished"></translation>
+        <translation>Document</translation>
     </message>
     <message>
         <source>Image</source>
@@ -1780,7 +1780,7 @@
     </message>
     <message>
         <source>Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatique</translation>
     </message>
 </context>
 <context>
@@ -1837,7 +1837,7 @@
     </message>
     <message>
         <source>Invalid opcode</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcode invalide</translation>
     </message>
     <message>
         <source>Go to address</source>
@@ -1845,11 +1845,11 @@
     </message>
     <message>
         <source>Go to offset</source>
-        <translation type="unfinished">Copier l&apos;offset</translation>
+        <translation type="unfinished">Aller au décalage</translation>
     </message>
     <message>
         <source>Go to entry point</source>
-        <translation type="unfinished"></translation>
+        <translation>Aller au point d&apos;entrée</translation>
     </message>
     <message>
         <source>Dump to file</source>
@@ -1857,7 +1857,7 @@
     </message>
     <message>
         <source>Hex signature</source>
-        <translation type="unfinished">Signature</translation>
+        <translation type="unfinished">Signature hexadécimale</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -1881,15 +1881,15 @@
     </message>
     <message>
         <source>Copy cursor offset</source>
-        <translation type="unfinished">Copier l&apos;offset</translation>
+        <translation type="unfinished">Copier le décalage du curseur</translation>
     </message>
     <message>
         <source>Copy cursor address</source>
-        <translation type="unfinished">Copier l&apos;adresse</translation>
+        <translation type="unfinished">Copier l&apos;adresse du curseur</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hexadécimal</translation>
     </message>
     <message>
         <source>Go to</source>
@@ -1905,7 +1905,7 @@
     </message>
     <message>
         <source>Relative address</source>
-        <translation type="unfinished"></translation>
+        <translation>Adresse relative</translation>
     </message>
     <message>
         <source>Raw data</source>
@@ -1917,7 +1917,7 @@
     </message>
     <message>
         <source>Nothing found</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Rien de trouvé</translation>
     </message>
 </context>
 <context>
@@ -2111,15 +2111,15 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hexadécimal</translation>
     </message>
     <message>
         <source>Symbols</source>
-        <translation type="unfinished"></translation>
+        <translation>Symboles</translation>
     </message>
     <message>
         <source>Go to offset</source>
-        <translation type="unfinished">Copier l&apos;offset</translation>
+        <translation type="unfinished">Aller au décalage</translation>
     </message>
     <message>
         <source>Go to address</source>
@@ -2151,11 +2151,11 @@
     </message>
     <message>
         <source>Copy cursor offset</source>
-        <translation type="unfinished">Copier l&apos;offset</translation>
+        <translation type="unfinished">Copier le décalage du curseur</translation>
     </message>
     <message>
         <source>Copy cursor address</source>
-        <translation type="unfinished">Copier l&apos;adresse</translation>
+        <translation type="unfinished">Copier l&apos;adresse du curseur</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -2187,14 +2187,14 @@
     </message>
     <message>
         <source>Nothing found</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Rien de trouvé</translation>
     </message>
 </context>
 <context>
     <name>XHexViewWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Format</translation>
+        <translation type="unfinished">Formulaire</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2281,7 +2281,7 @@
     <name>XMultiDisasmWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Format</translation>
+        <translation type="unfinished">Formulaire</translation>
     </message>
     <message>
         <source>Type</source>
@@ -2331,7 +2331,7 @@
     </message>
     <message>
         <source>Copy offset</source>
-        <translation type="unfinished">Copier l&apos;offset</translation>
+        <translation type="unfinished">Copier le décalage</translation>
     </message>
     <message>
         <source>Copy size</source>
@@ -2339,7 +2339,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hexadécimal</translation>
     </message>
     <message>
         <source>Demangle</source>
@@ -2347,11 +2347,11 @@
     </message>
     <message>
         <source>Copy name</source>
-        <translation type="unfinished">Copier au format hexadécimal</translation>
+        <translation type="unfinished">Copier le nom</translation>
     </message>
     <message>
         <source>Copy signature</source>
-        <translation type="unfinished">Signature</translation>
+        <translation type="unfinished">Copier la signature</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -2367,7 +2367,7 @@
     </message>
     <message>
         <source>Go to offset</source>
-        <translation type="unfinished">Copier l&apos;offset</translation>
+        <translation type="unfinished">Aller au décalage</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -2391,11 +2391,11 @@
     </message>
     <message>
         <source>Copy cursor offset</source>
-        <translation type="unfinished">Copier l&apos;offset</translation>
+        <translation type="unfinished">Copier le décalage du curseur</translation>
     </message>
     <message>
         <source>Copy cursor address</source>
-        <translation type="unfinished">Copier l&apos;adresse</translation>
+        <translation type="unfinished">Copier l&apos;adresse du curseur</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -2407,11 +2407,11 @@
     </message>
     <message>
         <source>Hex signature</source>
-        <translation type="unfinished">Signature</translation>
+        <translation type="unfinished">Signature hexadécimale</translation>
     </message>
     <message>
         <source>Run</source>
-        <translation type="unfinished"></translation>
+        <translation>Lancer</translation>
     </message>
     <message>
         <source>Breakpoint</source>
@@ -2419,15 +2419,15 @@
     </message>
     <message>
         <source>Step into</source>
-        <translation type="unfinished"></translation>
+        <translation>Pas à pas (entrant)</translation>
     </message>
     <message>
         <source>Step over</source>
-        <translation type="unfinished"></translation>
+        <translation>Pas à pas (saut)</translation>
     </message>
     <message>
         <source>Copy filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Copier le nom de fichier</translation>
     </message>
     <message>
         <source>Entropy</source>
@@ -2451,7 +2451,7 @@
     </message>
     <message>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>Action</translation>
     </message>
     <message>
         <source>Signatures</source>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS>
+<TS version="2.1" language="es">
 <context>
     <name>BinaryWidget</name>
     <message>
@@ -35,7 +35,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Strings</source>
@@ -112,7 +112,7 @@
     <name>DialogDemangle</name>
     <message>
         <source>Demangle</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Demangle</translation>
     </message>
     <message>
         <source>OK</source>
@@ -138,7 +138,7 @@
     </message>
     <message>
         <source>Go to</source>
-        <translation type="unfinished">Ir</translation>
+        <translation type="unfinished">Ir a</translation>
     </message>
     <message>
         <source>Close</source>
@@ -173,11 +173,11 @@
     </message>
     <message>
         <source>Ref to</source>
-        <translation>Ref a</translation>
+        <translation>Referencia a</translation>
     </message>
     <message>
         <source>Ref from</source>
-        <translation>Ref de</translation>
+        <translation>Referencia de</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -264,7 +264,7 @@
     </message>
     <message>
         <source>Offset</source>
-        <translation type="unfinished">Offset</translation>
+        <translation type="unfinished">Desplazamiento</translation>
     </message>
     <message>
         <source>Relative virtual address</source>
@@ -350,7 +350,7 @@
     <name>DialogInfo</name>
     <message>
         <source>Info</source>
-        <translation type="unfinished">Información</translation>
+        <translation type="unfinished">Info</translation>
     </message>
     <message>
         <source>Close</source>
@@ -442,7 +442,7 @@
     </message>
     <message>
         <source>Search signatures</source>
-        <translation type="unfinished">Firmas</translation>
+        <translation type="unfinished">Buscar firmas</translation>
     </message>
     <message>
         <source>Create view model</source>
@@ -489,7 +489,7 @@
     </message>
     <message>
         <source>Search signatures</source>
-        <translation type="unfinished">Firmas</translation>
+        <translation type="unfinished">Buscar firmas</translation>
     </message>
     <message>
         <source>OK</source>
@@ -505,11 +505,11 @@
     </message>
     <message>
         <source>Please restart the application</source>
-        <translation>Reinicia la aplicación</translation>
+        <translation>Por favor, reinicie la aplicación</translation>
     </message>
     <message>
         <source>Open directory</source>
-        <translation>Directorio abierto</translation>
+        <translation>Abrir directorio</translation>
     </message>
 </context>
 <context>
@@ -543,7 +543,7 @@
     </message>
     <message>
         <source>Match case</source>
-        <translation>Match case</translation>
+        <translation>Coincidir mayúsculas y minúsculas</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -622,7 +622,7 @@
     <name>DialogShortcuts</name>
     <message>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Atajos</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -642,7 +642,7 @@
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupo</translation>
     </message>
     <message>
         <source>Name</source>
@@ -650,11 +650,11 @@
     </message>
     <message>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Atajo</translation>
     </message>
     <message>
         <source>Cannot set shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>No se puede crear el acceso directo</translation>
     </message>
 </context>
 <context>
@@ -703,7 +703,7 @@
     <name>DialogTextInfo</name>
     <message>
         <source>Info</source>
-        <translation type="unfinished">Información</translation>
+        <translation type="unfinished">Info</translation>
     </message>
     <message>
         <source>Close</source>
@@ -749,7 +749,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Signatures</source>
@@ -761,22 +761,22 @@
     </message>
     <message>
         <source>Demangle</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Demangle</translation>
     </message>
     <message>
         <source>Header</source>
-        <translation type="unfinished">Header</translation>
+        <translation type="unfinished">Cabecera</translation>
     </message>
 </context>
 <context>
     <name>EntropyProcess</name>
     <message>
         <source>packed</source>
-        <translation>comprimido</translation>
+        <translation>empaquetado</translation>
     </message>
     <message>
         <source>not packed</source>
-        <translation>no empacado</translation>
+        <translation>no empaquetado</translation>
     </message>
 </context>
 <context>
@@ -787,7 +787,7 @@
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Salvar</translation>
+        <translation type="unfinished">Guardar</translation>
     </message>
     <message>
         <source>msec</source>
@@ -825,7 +825,7 @@
     </message>
     <message>
         <source>Offset</source>
-        <translation type="unfinished">Offset</translation>
+        <translation type="unfinished">Desplazamiento</translation>
     </message>
     <message>
         <source>Type</source>
@@ -860,7 +860,7 @@
     </message>
     <message>
         <source>Overlay</source>
-        <translation type="unfinished">Cubrir</translation>
+        <translation type="unfinished">Overlay</translation>
     </message>
     <message>
         <source>Export</source>
@@ -943,7 +943,7 @@
     </message>
     <message>
         <source>Exit</source>
-        <translation>Salida</translation>
+        <translation>Salir</translation>
     </message>
     <message>
         <source>Options</source>
@@ -955,15 +955,15 @@
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Atajos</translation>
     </message>
     <message>
         <source>Demangle</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Demangle</translation>
     </message>
     <message>
         <source>Open file</source>
-        <translation>Abrir documento</translation>
+        <translation>Abrir archivo</translation>
     </message>
     <message>
         <source>All files</source>
@@ -975,11 +975,11 @@
     </message>
     <message>
         <source>It is not a valid file</source>
-        <translation>No es un archivo valido</translation>
+        <translation>No es un archivo válido</translation>
     </message>
     <message>
         <source>Cannot open file</source>
-        <translation type="unfinished">No puede abrir el archivo</translation>
+        <translation type="unfinished">No se puede abrir el archivo</translation>
     </message>
 </context>
 <context>
@@ -1021,7 +1021,7 @@
     <name>InvWidget</name>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1047,7 +1047,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1071,7 +1071,7 @@
     </message>
     <message>
         <source>Overlay</source>
-        <translation type="unfinished">Cubrir</translation>
+        <translation type="unfinished">Overlay</translation>
     </message>
     <message>
         <source>Edit</source>
@@ -1097,7 +1097,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1156,7 +1156,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1180,7 +1180,7 @@
     </message>
     <message>
         <source>Overlay</source>
-        <translation type="unfinished">Cubrir</translation>
+        <translation type="unfinished">Overlay</translation>
     </message>
 </context>
 <context>
@@ -1191,7 +1191,7 @@
     </message>
     <message>
         <source>Offset</source>
-        <translation type="unfinished">Offset</translation>
+        <translation type="unfinished">Desplazamiento</translation>
     </message>
     <message>
         <source>Size</source>
@@ -1229,7 +1229,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1257,7 +1257,7 @@
     </message>
     <message>
         <source>Overlay</source>
-        <translation type="unfinished">Cubrir</translation>
+        <translation type="unfinished">Overlay</translation>
     </message>
 </context>
 <context>
@@ -1282,7 +1282,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1310,7 +1310,7 @@
     </message>
     <message>
         <source>Show valid</source>
-        <translation type="unfinished"></translation>
+        <translation>Ver válidos</translation>
     </message>
     <message>
         <source>Signatures</source>
@@ -1322,7 +1322,7 @@
     </message>
     <message>
         <source>Overlay</source>
-        <translation type="unfinished">Cubrir</translation>
+        <translation type="unfinished">Overlay</translation>
     </message>
     <message>
         <source>Calculate</source>
@@ -1334,7 +1334,7 @@
     </message>
     <message>
         <source>Header</source>
-        <translation type="unfinished">Header</translation>
+        <translation type="unfinished">Cabecera</translation>
     </message>
 </context>
 <context>
@@ -1368,7 +1368,7 @@
     </message>
     <message>
         <source>Raw data</source>
-        <translation type="unfinished">Datos Raw</translation>
+        <translation type="unfinished">Datos raw</translation>
     </message>
     <message>
         <source>Save dump</source>
@@ -1387,7 +1387,7 @@
     </message>
     <message>
         <source>Offset</source>
-        <translation type="unfinished">Offset</translation>
+        <translation type="unfinished">Desplazamiento</translation>
     </message>
     <message>
         <source>Size</source>
@@ -1403,7 +1403,7 @@
     </message>
     <message>
         <source>Cannot open file</source>
-        <translation type="unfinished">No puede abrir el archivo</translation>
+        <translation type="unfinished">No se puede abrir el archivo</translation>
     </message>
 </context>
 <context>
@@ -1414,11 +1414,11 @@
     </message>
     <message>
         <source>Images</source>
-        <translation type="unfinished">Imagenes</translation>
+        <translation type="unfinished">Imágenes</translation>
     </message>
     <message>
         <source>Export file name</source>
-        <translation>Exportar nombre de archivo</translation>
+        <translation type="unfinished">Exportar nombre de archivo</translation>
     </message>
 </context>
 <context>
@@ -1441,11 +1441,11 @@
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Salvar</translation>
+        <translation type="unfinished">Guardar</translation>
     </message>
     <message>
         <source>Save file</source>
-        <translation type="unfinished">Guardar el archivo</translation>
+        <translation type="unfinished">Guardar archivo</translation>
     </message>
     <message>
         <source>Signatures</source>
@@ -1461,11 +1461,11 @@
     </message>
     <message>
         <source>Copy name</source>
-        <translation type="unfinished">Copiar como hexadecimal</translation>
+        <translation type="unfinished">Copiar nombre</translation>
     </message>
     <message>
         <source>Copy signature</source>
-        <translation type="unfinished">Firma</translation>
+        <translation type="unfinished">Copiar firma</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -1473,11 +1473,11 @@
     </message>
     <message>
         <source>Copy offset</source>
-        <translation type="unfinished">Copiar offset</translation>
+        <translation type="unfinished">Copiar desplazamiento</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
 </context>
 <context>
@@ -1492,11 +1492,11 @@
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Salvar</translation>
+        <translation type="unfinished">Guardar</translation>
     </message>
     <message>
         <source>Save file</source>
-        <translation type="unfinished">Guardar el archivo</translation>
+        <translation type="unfinished">Guardar archivo</translation>
     </message>
     <message>
         <source>Strings</source>
@@ -1520,7 +1520,7 @@
     </message>
     <message>
         <source>Copy offset</source>
-        <translation type="unfinished">Copiar offset</translation>
+        <translation type="unfinished">Copiar desplazamiento</translation>
     </message>
     <message>
         <source>Copy size</source>
@@ -1528,11 +1528,11 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Demangle</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Demangle</translation>
     </message>
 </context>
 <context>
@@ -1543,11 +1543,11 @@
     </message>
     <message>
         <source>Header</source>
-        <translation type="unfinished">Header</translation>
+        <translation type="unfinished">Cabecera</translation>
     </message>
     <message>
         <source>Overlay</source>
-        <translation type="unfinished">Cubrir</translation>
+        <translation type="unfinished">Overlay</translation>
     </message>
     <message>
         <source>Archive record</source>
@@ -1571,11 +1571,11 @@
     </message>
     <message>
         <source>Converter</source>
-        <translation>Convertidor</translation>
+        <translation>Conversor</translation>
     </message>
     <message>
         <source>Cryptor</source>
-        <translation>Criptor</translation>
+        <translation>Encriptador</translation>
     </message>
     <message>
         <source>Database</source>
@@ -1587,7 +1587,7 @@
     </message>
     <message>
         <source>protection</source>
-        <translation>proteccion</translation>
+        <translation>protección</translation>
     </message>
     <message>
         <source>extender</source>
@@ -1635,7 +1635,7 @@
     </message>
     <message>
         <source>Packer</source>
-        <translation>Packer</translation>
+        <translation>Empaquetar</translation>
     </message>
     <message>
         <source>Protector</source>
@@ -1698,11 +1698,11 @@
     <name>StaticScan</name>
     <message>
         <source>File scan</source>
-        <translation>Escaneo de archivos</translation>
+        <translation>Escanear archivos</translation>
     </message>
     <message>
         <source>Directory scan</source>
-        <translation>Escaneo de directorio</translation>
+        <translation>Escanear directorio</translation>
     </message>
     <message>
         <source>Device scan</source>
@@ -1727,11 +1727,11 @@
     <name>XBinary</name>
     <message>
         <source>Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Texto</translation>
     </message>
     <message>
         <source>Document</source>
-        <translation type="unfinished"></translation>
+        <translation>Documento</translation>
     </message>
     <message>
         <source>Image</source>
@@ -1765,11 +1765,11 @@
     <name>XDEX</name>
     <message>
         <source>Header</source>
-        <translation type="unfinished">Header</translation>
+        <translation type="unfinished">Cabecera</translation>
     </message>
     <message>
         <source>Overlay</source>
-        <translation type="unfinished">Cubrir</translation>
+        <translation type="unfinished">Overlay</translation>
     </message>
 </context>
 <context>
@@ -1780,7 +1780,7 @@
     </message>
     <message>
         <source>Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Automático</translation>
     </message>
 </context>
 <context>
@@ -1798,7 +1798,7 @@
     </message>
     <message>
         <source>Offset</source>
-        <translation type="unfinished">Offset</translation>
+        <translation type="unfinished">Desplazamiento</translation>
     </message>
     <message>
         <source>Label</source>
@@ -1821,7 +1821,7 @@
     </message>
     <message>
         <source>Offset</source>
-        <translation type="unfinished">Offset</translation>
+        <translation type="unfinished">Desplazamiento</translation>
     </message>
     <message>
         <source>Bytes</source>
@@ -1833,11 +1833,11 @@
     </message>
     <message>
         <source>Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Comentario</translation>
     </message>
     <message>
         <source>Invalid opcode</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcode inválido</translation>
     </message>
     <message>
         <source>Go to address</source>
@@ -1845,11 +1845,11 @@
     </message>
     <message>
         <source>Go to offset</source>
-        <translation type="unfinished">Copiar offset</translation>
+        <translation type="unfinished">Ir al desplazamiento</translation>
     </message>
     <message>
         <source>Go to entry point</source>
-        <translation type="unfinished"></translation>
+        <translation>Ir al punto de entrada</translation>
     </message>
     <message>
         <source>Dump to file</source>
@@ -1857,7 +1857,7 @@
     </message>
     <message>
         <source>Hex signature</source>
-        <translation type="unfinished">Firma</translation>
+        <translation type="unfinished">Firma hexadecimal</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -1865,7 +1865,7 @@
     </message>
     <message>
         <source>Find</source>
-        <translation type="unfinished">Encontrar</translation>
+        <translation type="unfinished">Buscar</translation>
     </message>
     <message>
         <source>Find next</source>
@@ -1881,19 +1881,19 @@
     </message>
     <message>
         <source>Copy cursor offset</source>
-        <translation type="unfinished">Copiar offset</translation>
+        <translation type="unfinished">Copiar desplazamiento del cursor</translation>
     </message>
     <message>
         <source>Copy cursor address</source>
-        <translation type="unfinished">Copiar dirección</translation>
+        <translation type="unfinished">Copiar dirección del cursor</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Go to</source>
-        <translation type="unfinished">Ir</translation>
+        <translation type="unfinished">Ir a</translation>
     </message>
     <message>
         <source>Select</source>
@@ -1905,11 +1905,11 @@
     </message>
     <message>
         <source>Relative address</source>
-        <translation type="unfinished"></translation>
+        <translation>Dirección relativa</translation>
     </message>
     <message>
         <source>Raw data</source>
-        <translation type="unfinished">Datos Raw</translation>
+        <translation type="unfinished">Datos raw</translation>
     </message>
     <message>
         <source>Save dump</source>
@@ -1917,7 +1917,7 @@
     </message>
     <message>
         <source>Nothing found</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">No se ha encontrado nada</translation>
     </message>
 </context>
 <context>
@@ -1936,11 +1936,11 @@
     </message>
     <message>
         <source>Overlay</source>
-        <translation type="unfinished">Cubrir</translation>
+        <translation type="unfinished">Overlay</translation>
     </message>
     <message>
         <source>Go to</source>
-        <translation type="unfinished">Ir</translation>
+        <translation type="unfinished">Ir a</translation>
     </message>
     <message>
         <source>Entry point</source>
@@ -1956,7 +1956,7 @@
     </message>
     <message>
         <source>File offset</source>
-        <translation type="unfinished">Archivo offset</translation>
+        <translation type="unfinished">Desplazamiento en archivo</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -1980,7 +1980,7 @@
     </message>
     <message>
         <source>Raw data</source>
-        <translation type="unfinished">Datos Raw</translation>
+        <translation type="unfinished">Datos raw</translation>
     </message>
     <message>
         <source>Save dump</source>
@@ -2014,7 +2014,7 @@
     </message>
     <message>
         <source>Offset</source>
-        <translation type="unfinished">Offset</translation>
+        <translation type="unfinished">Desplazamiento</translation>
     </message>
     <message>
         <source>Size</source>
@@ -2034,7 +2034,7 @@
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Salvar</translation>
+        <translation type="unfinished">Guardar</translation>
     </message>
     <message>
         <source>Bytes</source>
@@ -2054,7 +2054,7 @@
     </message>
     <message>
         <source>Images</source>
-        <translation type="unfinished">Imagenes</translation>
+        <translation type="unfinished">Imágenes</translation>
     </message>
     <message>
         <source>Documents</source>
@@ -2077,7 +2077,7 @@
     </message>
     <message>
         <source>Offset</source>
-        <translation type="unfinished">Offset</translation>
+        <translation type="unfinished">Desplazamiento</translation>
     </message>
     <message>
         <source>Size</source>
@@ -2100,7 +2100,7 @@
     <name>XHexEdit</name>
     <message>
         <source>Offset</source>
-        <translation type="unfinished">Offset</translation>
+        <translation type="unfinished">Desplazamiento</translation>
     </message>
 </context>
 <context>
@@ -2111,15 +2111,15 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Symbols</source>
-        <translation type="unfinished"></translation>
+        <translation>Símbolos</translation>
     </message>
     <message>
         <source>Go to offset</source>
-        <translation type="unfinished">Copiar offset</translation>
+        <translation type="unfinished">Ir al desplazamiento</translation>
     </message>
     <message>
         <source>Go to address</source>
@@ -2135,7 +2135,7 @@
     </message>
     <message>
         <source>Find</source>
-        <translation type="unfinished">Encontrar</translation>
+        <translation type="unfinished">Buscar</translation>
     </message>
     <message>
         <source>Find next</source>
@@ -2151,11 +2151,11 @@
     </message>
     <message>
         <source>Copy cursor offset</source>
-        <translation type="unfinished">Copiar offset</translation>
+        <translation type="unfinished">Copiar desplazamiento del cursor</translation>
     </message>
     <message>
         <source>Copy cursor address</source>
-        <translation type="unfinished">Copiar dirección</translation>
+        <translation type="unfinished">Copiar dirección del cursor</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -2167,7 +2167,7 @@
     </message>
     <message>
         <source>Go to</source>
-        <translation type="unfinished">Ir</translation>
+        <translation type="unfinished">Ir a</translation>
     </message>
     <message>
         <source>Select</source>
@@ -2179,7 +2179,7 @@
     </message>
     <message>
         <source>Raw data</source>
-        <translation type="unfinished">Datos Raw</translation>
+        <translation type="unfinished">Datos raw</translation>
     </message>
     <message>
         <source>Save dump</source>
@@ -2187,14 +2187,14 @@
     </message>
     <message>
         <source>Nothing found</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">No se ha encontrado nada</translation>
     </message>
 </context>
 <context>
     <name>XHexViewWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Formato</translation>
+        <translation type="unfinished">Formulario</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2219,11 +2219,11 @@
     <name>XMSDOS</name>
     <message>
         <source>Header</source>
-        <translation type="unfinished">Header</translation>
+        <translation type="unfinished">Cabecera</translation>
     </message>
     <message>
         <source>Overlay</source>
-        <translation type="unfinished">Cubrir</translation>
+        <translation type="unfinished">Overlay</translation>
     </message>
 </context>
 <context>
@@ -2234,7 +2234,7 @@
     </message>
     <message>
         <source>File offset</source>
-        <translation type="unfinished">Archivo offset</translation>
+        <translation type="unfinished">Desplazamiento en archivo</translation>
     </message>
     <message>
         <source>Virtual address</source>
@@ -2266,7 +2266,7 @@
     </message>
     <message>
         <source>Offset</source>
-        <translation type="unfinished">Offset</translation>
+        <translation type="unfinished">Desplazamiento</translation>
     </message>
     <message>
         <source>Address</source>
@@ -2281,7 +2281,7 @@
     <name>XMultiDisasmWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Formato</translation>
+        <translation type="unfinished">Formulario</translation>
     </message>
     <message>
         <source>Type</source>
@@ -2300,7 +2300,7 @@
     <name>XPE</name>
     <message>
         <source>Header</source>
-        <translation type="unfinished">Header</translation>
+        <translation type="unfinished">Cabecera</translation>
     </message>
     <message>
         <source>Section</source>
@@ -2308,11 +2308,11 @@
     </message>
     <message>
         <source>Overlay</source>
-        <translation type="unfinished">Cubrir</translation>
+        <translation type="unfinished">Overlay</translation>
     </message>
     <message>
         <source>Cannot open file</source>
-        <translation type="unfinished">No puede abrir el archivo</translation>
+        <translation type="unfinished">No se puede abrir el archivo</translation>
     </message>
 </context>
 <context>
@@ -2331,7 +2331,7 @@
     </message>
     <message>
         <source>Copy offset</source>
-        <translation type="unfinished">Copiar offset</translation>
+        <translation type="unfinished">Copiar desplazamiento</translation>
     </message>
     <message>
         <source>Copy size</source>
@@ -2339,19 +2339,19 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Demangle</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Demangle</translation>
     </message>
     <message>
         <source>Copy name</source>
-        <translation type="unfinished">Copiar como hexadecimal</translation>
+        <translation type="unfinished">Copiar nombre</translation>
     </message>
     <message>
         <source>Copy signature</source>
-        <translation type="unfinished">Firma</translation>
+        <translation type="unfinished">Copiar firma</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -2367,7 +2367,7 @@
     </message>
     <message>
         <source>Go to offset</source>
-        <translation type="unfinished">Copiar offset</translation>
+        <translation type="unfinished">Ir al desplazamiento</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -2375,7 +2375,7 @@
     </message>
     <message>
         <source>Find</source>
-        <translation type="unfinished">Encontrar</translation>
+        <translation type="unfinished">Buscar</translation>
     </message>
     <message>
         <source>Find next</source>
@@ -2391,11 +2391,11 @@
     </message>
     <message>
         <source>Copy cursor offset</source>
-        <translation type="unfinished">Copiar offset</translation>
+        <translation type="unfinished">Copiar desplazamiento del cursor</translation>
     </message>
     <message>
         <source>Copy cursor address</source>
-        <translation type="unfinished">Copiar dirección</translation>
+        <translation type="unfinished">Copiar dirección del cursor</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -2407,27 +2407,27 @@
     </message>
     <message>
         <source>Hex signature</source>
-        <translation type="unfinished">Firma</translation>
+        <translation type="unfinished">Firma hexadecimal</translation>
     </message>
     <message>
         <source>Run</source>
-        <translation type="unfinished"></translation>
+        <translation>Ejecutar</translation>
     </message>
     <message>
         <source>Breakpoint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Fijar punto de interrupción</translation>
     </message>
     <message>
         <source>Step into</source>
-        <translation type="unfinished"></translation>
+        <translation>Step into</translation>
     </message>
     <message>
         <source>Step over</source>
-        <translation type="unfinished"></translation>
+        <translation>Step over</translation>
     </message>
     <message>
         <source>Copy filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiar nombre del archivo</translation>
     </message>
     <message>
         <source>Entropy</source>
@@ -2451,7 +2451,7 @@
     </message>
     <message>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>Acción</translation>
     </message>
     <message>
         <source>Signatures</source>

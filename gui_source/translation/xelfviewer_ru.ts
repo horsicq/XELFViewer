@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS>
+<TS version="2.1" language="ru">
 <context>
     <name>BinaryWidget</name>
     <message>
@@ -9,14 +9,14 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Только чтение</translation>
     </message>
 </context>
 <context>
     <name>DEXSectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Только чтение</translation>
     </message>
 </context>
 <context>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Только чтение</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -35,7 +35,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Strings</source>
@@ -81,7 +81,7 @@
     </message>
     <message>
         <source>Wildcard</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Маска</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -169,15 +169,15 @@
     </message>
     <message>
         <source>Jumps</source>
-        <translation type="unfinished"></translation>
+        <translation>Переходы</translation>
     </message>
     <message>
         <source>Ref to</source>
-        <translation type="unfinished"></translation>
+        <translation>Ссылка в</translation>
     </message>
     <message>
         <source>Ref from</source>
-        <translation type="unfinished"></translation>
+        <translation>Ссылка из</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -324,7 +324,7 @@
     </message>
     <message>
         <source>Wildcard</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Маска</translation>
     </message>
     <message>
         <source>Scan</source>
@@ -350,7 +350,7 @@
     <name>DialogInfo</name>
     <message>
         <source>Info</source>
-        <translation type="unfinished">Информация</translation>
+        <translation type="unfinished">Инфо</translation>
     </message>
     <message>
         <source>Close</source>
@@ -395,7 +395,7 @@
     </message>
     <message>
         <source>Wildcard</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Маска</translation>
     </message>
     <message>
         <source>Scan</source>
@@ -442,11 +442,11 @@
     </message>
     <message>
         <source>Search signatures</source>
-        <translation type="unfinished">Сигнатуры</translation>
+        <translation type="unfinished">Поиск сигнатур</translation>
     </message>
     <message>
         <source>Create view model</source>
-        <translation type="unfinished"></translation>
+        <translation>Создать вид/модель</translation>
     </message>
     <message>
         <source>Error</source>
@@ -489,7 +489,7 @@
     </message>
     <message>
         <source>Search signatures</source>
-        <translation type="unfinished">Сигнатуры</translation>
+        <translation type="unfinished">Поиск сигнатур</translation>
     </message>
     <message>
         <source>OK</source>
@@ -642,7 +642,7 @@
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Группа</translation>
     </message>
     <message>
         <source>Name</source>
@@ -654,7 +654,7 @@
     </message>
     <message>
         <source>Cannot set shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно создать ссылку</translation>
     </message>
 </context>
 <context>
@@ -703,7 +703,7 @@
     <name>DialogTextInfo</name>
     <message>
         <source>Info</source>
-        <translation type="unfinished">Информация</translation>
+        <translation type="unfinished">Инфо</translation>
     </message>
     <message>
         <source>Close</source>
@@ -714,7 +714,7 @@
     <name>ELFSectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Только чтение</translation>
     </message>
 </context>
 <context>
@@ -745,11 +745,11 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Только чтение</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Signatures</source>
@@ -776,7 +776,7 @@
     </message>
     <message>
         <source>not packed</source>
-        <translation>не сжатый</translation>
+        <translation>несжатый</translation>
     </message>
 </context>
 <context>
@@ -1021,7 +1021,7 @@
     <name>InvWidget</name>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1032,7 +1032,7 @@
     <name>LESectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Только чтение</translation>
     </message>
 </context>
 <context>
@@ -1043,11 +1043,11 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Только чтение</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1082,7 +1082,7 @@
     <name>MACHSectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Только чтение</translation>
     </message>
 </context>
 <context>
@@ -1093,11 +1093,11 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Только чтение</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1152,11 +1152,11 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Только чтение</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1214,7 +1214,7 @@
     <name>NESectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Только чтение</translation>
     </message>
 </context>
 <context>
@@ -1225,11 +1225,11 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Только чтение</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1271,7 +1271,7 @@
     <name>PESectionHeaderWidget</name>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Только чтение</translation>
     </message>
 </context>
 <context>
@@ -1282,7 +1282,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -1306,7 +1306,7 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Только чтение</translation>
     </message>
     <message>
         <source>Show valid</source>
@@ -1364,11 +1364,11 @@
     </message>
     <message>
         <source>Readonly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Только чтение</translation>
     </message>
     <message>
         <source>Raw data</source>
-        <translation type="unfinished">данные</translation>
+        <translation type="unfinished">Сырые данные</translation>
     </message>
     <message>
         <source>Save dump</source>
@@ -1418,7 +1418,7 @@
     </message>
     <message>
         <source>Export file name</source>
-        <translation>Экспорт имени файла</translation>
+        <translation type="unfinished">Имя файла экспорта</translation>
     </message>
 </context>
 <context>
@@ -1461,11 +1461,11 @@
     </message>
     <message>
         <source>Copy name</source>
-        <translation type="unfinished">Копировать как hex</translation>
+        <translation type="unfinished">Копировать имя</translation>
     </message>
     <message>
         <source>Copy signature</source>
-        <translation type="unfinished">Сигнатура</translation>
+        <translation type="unfinished">Копировать сигнатуру</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -1477,7 +1477,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
 </context>
 <context>
@@ -1528,7 +1528,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Demangle</source>
@@ -1551,7 +1551,7 @@
     </message>
     <message>
         <source>Archive record</source>
-        <translation>Арихвная запись</translation>
+        <translation>Архивная запись</translation>
     </message>
     <message>
         <source>obfuscator</source>
@@ -1567,15 +1567,15 @@
     </message>
     <message>
         <source>Compiler</source>
-        <translation type="unfinished"></translation>
+        <translation>Компилятор</translation>
     </message>
     <message>
         <source>Converter</source>
-        <translation type="unfinished"></translation>
+        <translation>Конвертер</translation>
     </message>
     <message>
         <source>Cryptor</source>
-        <translation>Криптор</translation>
+        <translation>Шифратор</translation>
     </message>
     <message>
         <source>Database</source>
@@ -1591,7 +1591,7 @@
     </message>
     <message>
         <source>extender</source>
-        <translation type="unfinished"></translation>
+        <translation>расширение</translation>
     </message>
     <message>
         <source>Format</source>
@@ -1599,7 +1599,7 @@
     </message>
     <message>
         <source>Generic</source>
-        <translation type="unfinished"></translation>
+        <translation>Обобщенный</translation>
     </message>
     <message>
         <source>Image</source>
@@ -1627,7 +1627,7 @@
     </message>
     <message>
         <source>Linker</source>
-        <translation>Линкер</translation>
+        <translation>Линковщик</translation>
     </message>
     <message>
         <source>compressor</source>
@@ -1635,7 +1635,7 @@
     </message>
     <message>
         <source>Packer</source>
-        <translation>Пакер</translation>
+        <translation>Упаковщик</translation>
     </message>
     <message>
         <source>Protector</source>
@@ -1651,7 +1651,7 @@
     </message>
     <message>
         <source>Sign tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Инструмент подписания</translation>
     </message>
     <message>
         <source>Source code</source>
@@ -1659,7 +1659,7 @@
     </message>
     <message>
         <source>Stub</source>
-        <translation>Стаб</translation>
+        <translation>Заглушка</translation>
     </message>
     <message>
         <source>Entry point</source>
@@ -1727,11 +1727,11 @@
     <name>XBinary</name>
     <message>
         <source>Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Текст</translation>
     </message>
     <message>
         <source>Document</source>
-        <translation type="unfinished"></translation>
+        <translation>Документ</translation>
     </message>
     <message>
         <source>Image</source>
@@ -1780,7 +1780,7 @@
     </message>
     <message>
         <source>Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматический</translation>
     </message>
 </context>
 <context>
@@ -1837,7 +1837,7 @@
     </message>
     <message>
         <source>Invalid opcode</source>
-        <translation type="unfinished"></translation>
+        <translation>Неверный код операции</translation>
     </message>
     <message>
         <source>Go to address</source>
@@ -1845,11 +1845,11 @@
     </message>
     <message>
         <source>Go to offset</source>
-        <translation type="unfinished">Копировать смещение</translation>
+        <translation type="unfinished">Перейти по смещению</translation>
     </message>
     <message>
         <source>Go to entry point</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейти на точку входа</translation>
     </message>
     <message>
         <source>Dump to file</source>
@@ -1857,7 +1857,7 @@
     </message>
     <message>
         <source>Hex signature</source>
-        <translation type="unfinished">Сигнатура</translation>
+        <translation type="unfinished">16-ричная сигнатура</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -1873,23 +1873,23 @@
     </message>
     <message>
         <source>Select all</source>
-        <translation type="unfinished">Выбрать всё</translation>
+        <translation type="unfinished">Выбрать все</translation>
     </message>
     <message>
         <source>Copy as hex</source>
-        <translation type="unfinished">Копировать как hex</translation>
+        <translation type="unfinished">Копировать как 16-ричное</translation>
     </message>
     <message>
         <source>Copy cursor offset</source>
-        <translation type="unfinished">Копировать смещение</translation>
+        <translation type="unfinished">Копировать текущее смещение</translation>
     </message>
     <message>
         <source>Copy cursor address</source>
-        <translation type="unfinished">Копировать адрес</translation>
+        <translation type="unfinished">Копировать текущий адрес</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Go to</source>
@@ -1905,11 +1905,11 @@
     </message>
     <message>
         <source>Relative address</source>
-        <translation type="unfinished"></translation>
+        <translation>Относительный адрес</translation>
     </message>
     <message>
         <source>Raw data</source>
-        <translation type="unfinished">данные</translation>
+        <translation type="unfinished">Сырые данные</translation>
     </message>
     <message>
         <source>Save dump</source>
@@ -1917,7 +1917,7 @@
     </message>
     <message>
         <source>Nothing found</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ничего не найдено</translation>
     </message>
 </context>
 <context>
@@ -1976,11 +1976,11 @@
     </message>
     <message>
         <source>To data</source>
-        <translation type="unfinished"></translation>
+        <translation>К данным</translation>
     </message>
     <message>
         <source>Raw data</source>
-        <translation type="unfinished">данные</translation>
+        <translation type="unfinished">Сырые данные</translation>
     </message>
     <message>
         <source>Save dump</source>
@@ -2111,15 +2111,15 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Symbols</source>
-        <translation type="unfinished"></translation>
+        <translation>Символы</translation>
     </message>
     <message>
         <source>Go to offset</source>
-        <translation type="unfinished">Копировать смещение</translation>
+        <translation type="unfinished">Перейти по смещению</translation>
     </message>
     <message>
         <source>Go to address</source>
@@ -2143,19 +2143,19 @@
     </message>
     <message>
         <source>Select all</source>
-        <translation type="unfinished">Выбрать всё</translation>
+        <translation type="unfinished">Выбрать все</translation>
     </message>
     <message>
         <source>Copy as hex</source>
-        <translation type="unfinished">Копировать как hex</translation>
+        <translation type="unfinished">Копировать как 16-ричное</translation>
     </message>
     <message>
         <source>Copy cursor offset</source>
-        <translation type="unfinished">Копировать смещение</translation>
+        <translation type="unfinished">Копировать текущее смещение</translation>
     </message>
     <message>
         <source>Copy cursor address</source>
-        <translation type="unfinished">Копировать адрес</translation>
+        <translation type="unfinished">Копировать текущий адрес</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -2179,7 +2179,7 @@
     </message>
     <message>
         <source>Raw data</source>
-        <translation type="unfinished">данные</translation>
+        <translation type="unfinished">Сырые данные</translation>
     </message>
     <message>
         <source>Save dump</source>
@@ -2187,14 +2187,14 @@
     </message>
     <message>
         <source>Nothing found</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ничего не найдено</translation>
     </message>
 </context>
 <context>
     <name>XHexViewWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Формат</translation>
+        <translation type="unfinished">Форма</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2281,7 +2281,7 @@
     <name>XMultiDisasmWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished">Формат</translation>
+        <translation type="unfinished">Форма</translation>
     </message>
     <message>
         <source>Type</source>
@@ -2339,7 +2339,7 @@
     </message>
     <message>
         <source>Hex</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hex</translation>
     </message>
     <message>
         <source>Demangle</source>
@@ -2347,11 +2347,11 @@
     </message>
     <message>
         <source>Copy name</source>
-        <translation type="unfinished">Копировать как hex</translation>
+        <translation type="unfinished">Копировать имя</translation>
     </message>
     <message>
         <source>Copy signature</source>
-        <translation type="unfinished">Сигнатура</translation>
+        <translation type="unfinished">Копировать сигнатуру</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -2367,7 +2367,7 @@
     </message>
     <message>
         <source>Go to offset</source>
-        <translation type="unfinished">Копировать смещение</translation>
+        <translation type="unfinished">Перейти по смещению</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -2383,19 +2383,19 @@
     </message>
     <message>
         <source>Select all</source>
-        <translation type="unfinished">Выбрать всё</translation>
+        <translation type="unfinished">Выбрать все</translation>
     </message>
     <message>
         <source>Copy as hex</source>
-        <translation type="unfinished">Копировать как hex</translation>
+        <translation type="unfinished">Копировать как 16-ричное</translation>
     </message>
     <message>
         <source>Copy cursor offset</source>
-        <translation type="unfinished">Копировать смещение</translation>
+        <translation type="unfinished">Копировать текущее смещение</translation>
     </message>
     <message>
         <source>Copy cursor address</source>
-        <translation type="unfinished">Копировать адрес</translation>
+        <translation type="unfinished">Копировать текущий адрес</translation>
     </message>
     <message>
         <source>Disasm</source>
@@ -2407,27 +2407,27 @@
     </message>
     <message>
         <source>Hex signature</source>
-        <translation type="unfinished">Сигнатура</translation>
+        <translation type="unfinished">16-ричная сигнатура</translation>
     </message>
     <message>
         <source>Run</source>
-        <translation type="unfinished"></translation>
+        <translation>Запустить</translation>
     </message>
     <message>
         <source>Breakpoint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Поставить точку останова</translation>
     </message>
     <message>
         <source>Step into</source>
-        <translation type="unfinished"></translation>
+        <translation>Шаг внутрь</translation>
     </message>
     <message>
         <source>Step over</source>
-        <translation type="unfinished"></translation>
+        <translation>Шаг поверх</translation>
     </message>
     <message>
         <source>Copy filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Копировать имя файла</translation>
     </message>
     <message>
         <source>Entropy</source>
@@ -2451,7 +2451,7 @@
     </message>
     <message>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>Действие</translation>
     </message>
     <message>
         <source>Signatures</source>
@@ -2467,7 +2467,7 @@
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Таблица</translation>
     </message>
 </context>
 </TS>
