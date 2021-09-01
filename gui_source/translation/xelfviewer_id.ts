@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="fr">
+<TS version="2.1" language="id">
 <context>
     <name>DialogAbout</name>
     <message>
         <source>About</source>
-        <translation>À propos</translation>
+        <translation>Tentang</translation>
     </message>
     <message>
         <source>OK</source>
@@ -16,39 +16,39 @@
     <name>DialogOptions</name>
     <message>
         <source>Options</source>
-        <translation>Options</translation>
+        <translation>Pilihan</translation>
     </message>
     <message>
         <source>Save last directory</source>
-        <translation>Sauvegarder le dernier répertoire</translation>
+        <translation>Simpan direktori terakhir</translation>
     </message>
     <message>
         <source>Stay on top</source>
-        <translation>Rester au dessus</translation>
+        <translation>Tetap diatas</translation>
     </message>
     <message>
         <source>Save backup</source>
-        <translation>Enregistrer la sauvegarde</translation>
+        <translation>Simpan cadangan</translation>
     </message>
     <message>
         <source>Show logo</source>
-        <translation>Afficher les options</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Context</source>
-        <translation>Contexte</translation>
+        <translation>Konteks</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation>Style</translation>
+        <translation>Gaya</translation>
     </message>
     <message>
         <source>Language</source>
-        <translation>Langue</translation>
+        <translation>Bahasa</translation>
     </message>
     <message>
         <source>Search signatures</source>
-        <translation>Recherche des signatures</translation>
+        <translation>Markah</translation>
     </message>
     <message>
         <source>OK</source>
@@ -56,58 +56,58 @@
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Annuler</translation>
+        <translation>Batal</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informations</translation>
+        <translation>Informasi</translation>
     </message>
     <message>
         <source>Please restart the application</source>
-        <translation>Veuillez redémarrer l&apos;application</translation>
+        <translation>Silahkan mulai ulang aplikasi</translation>
     </message>
     <message>
         <source>Open directory</source>
-        <translation>Ouvrir un dossier</translation>
+        <translation>Buka direktori</translation>
     </message>
 </context>
 <context>
     <name>GuiMainWindow</name>
     <message>
         <source>File</source>
-        <translation>Fichier</translation>
+        <translation>File</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation>Outils</translation>
+        <translation>Alat-alat</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Aide</translation>
+        <translation>Bantuan</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Ouvrir</translation>
+        <translation>Buka</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Fermer</translation>
+        <translation>Tutup</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>Sortie</translation>
+        <translation>Keluar</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Options</translation>
+        <translation>Pilihan</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>À propos</translation>
+        <translation>Tentang</translation>
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation>Raccourcis</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Demangle</source>
@@ -115,23 +115,23 @@
     </message>
     <message>
         <source>Open file</source>
-        <translation>Ouvrir un fichier</translation>
+        <translation>Buka file</translation>
     </message>
     <message>
         <source>All files</source>
-        <translation>Tout les fichiers</translation>
+        <translation>Semua file</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Erreur</translation>
+        <translation>Kesalahan</translation>
     </message>
     <message>
         <source>It is not a valid file</source>
-        <translation>Fichier non valide</translation>
+        <translation>Ini bukan file yang valid</translation>
     </message>
     <message>
         <source>Cannot open file</source>
-        <translation>Ne peut pas ouvrir le fichier</translation>
+        <translation>Tidak dapat membuka file</translation>
     </message>
 </context>
 </TS>

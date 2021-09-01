@@ -6,8 +6,8 @@
 ELF file viewer/editor for Windows, Linux and MacOS.
 
 * Download: https://github.com/horsicq/XELFViewer/releases
-* How to run: https://github.com/horsicq/XELFViewer/docs/RUN.md
-* How to build: https://github.com/horsicq/XELFViewer/docs/BUILD.md
+* How to run: https://github.com/horsicq/XELFViewer/blob/master/docs/RUN.md
+* How to build: https://github.com/horsicq/XELFViewer/blob/master/docs/BUILD.md
 
 ![alt text](https://github.com/horsicq/XELFViewer/blob/master/mascots/xelfviewer.png "Mascot")
 

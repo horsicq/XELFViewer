@@ -3,6 +3,7 @@
 [+] Linux AppImage
 [+] Autotools build system
 [+] PKG installer for OSX
+[+] RISCV disassembler
 [+] Many bugs have been fixed.
 #######################################################################
 0.02
