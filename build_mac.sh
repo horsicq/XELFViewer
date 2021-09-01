@@ -2,7 +2,7 @@
 export QMAKE_PATH=$HOME/Qt/5.15.2/clang_64/bin/qmake
 
 export X_SOURCE_PATH=$PWD
-export X_BUILD_NAME=xapkdetector_mac_portable
+export X_BUILD_NAME=xapkdetector_mac
 export X_RELEASE_VERSION=$(cat "release_version.txt")
 
 source build_tools/mac.sh
