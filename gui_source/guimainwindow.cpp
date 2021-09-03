@@ -121,6 +121,7 @@ void GuiMainWindow::adjust()
     g_xOptions.adjustStayOnTop(this);
 
     g_formatOptions.bIsSaveBackup=g_xOptions.isSaveBackup();
+    g_formatOptions.sSearchSignaturesPath=g_xOptions.getSearchSignaturesPath();
 
     ui->widgetViewer->setOptions(g_formatOptions);
     ui->widgetViewer->setShortcuts(&g_xShortcuts);
