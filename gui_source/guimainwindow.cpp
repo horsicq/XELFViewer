@@ -31,7 +31,7 @@ GuiMainWindow::GuiMainWindow(QWidget *parent) :
 
     ui->stackedWidget->setCurrentIndex(0);
 
-    setWindowTitle(QString("%1 v%2").arg(X_APPLICATIONDISPLAYNAME).arg(X_APPLICATIONVERSION));
+    setWindowTitle(XOptions::getTitle(X_APPLICATIONDISPLAYNAME,X_APPLICATIONVERSION));
 
     setAcceptDrops(true);
 

@@ -23,6 +23,7 @@
 
 #include <QDialog>
 #include <QMessageBox>
+#include "xoptions.h"
 #include "../global.h"
 
 namespace Ui {
