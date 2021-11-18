@@ -61,6 +61,8 @@ GuiMainWindow::GuiMainWindow(QWidget *parent) :
 
     g_xShortcuts.load();
 
+    ui->widgetViewer->setGlobal(&g_xShortcuts,&g_xOptions);
+
     adjust();
 
     if(QCoreApplication::arguments().count()>1)
@@ -120,12 +122,6 @@ void GuiMainWindow::adjust()
 {
     g_xOptions.adjustStayOnTop(this);
 
-    g_formatOptions.bIsSaveBackup=g_xOptions.isSaveBackup();
-    g_formatOptions.sSearchSignaturesPath=g_xOptions.getSearchSignaturesPath();
-
-    ui->widgetViewer->setOptions(g_formatOptions);
-    ui->widgetViewer->setShortcuts(&g_xShortcuts);
-
     if(g_xOptions.isShowLogo())
     {
         ui->labelLogo->show();
@@ -164,7 +160,6 @@ void GuiMainWindow::processFile(QString sFileName)
                 g_formatOptions.bIsImage=false;
                 g_formatOptions.nImageBase=-1;
                 g_formatOptions.nStartType=SELF::TYPE_HEURISTICSCAN;
-                g_formatOptions.sSearchSignaturesPath=g_xOptions.getSearchSignaturesPath();
                 ui->widgetViewer->setData(g_pFile,g_formatOptions,0,0,0);
 
                 ui->widgetViewer->reload();
