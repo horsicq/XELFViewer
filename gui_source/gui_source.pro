@@ -1,6 +1,11 @@
 QT       += core gui widgets
 
 TARGET = xelfviewer
+
+macx {
+    TARGET = XELFViewer
+}
+
 TEMPLATE = app
 
 CONFIG += c++11
