@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(XELFOViewer VERSION 0.04 LANGUAGES CXX)
+project(XELFViewer VERSION 0.04 LANGUAGES CXX)
 
 include_guard(DIRECTORY)
 
