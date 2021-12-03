@@ -49,3 +49,11 @@ macx {
 
 RESOURCES += \
     rsrc.qrc
+
+DISTFILES += \
+    ../CMakeLists.txt \
+    ../LICENSE \
+    ../README.md \
+    ../changelog.txt \
+    ../release_version.txt \
+    CMakeLists.txt
