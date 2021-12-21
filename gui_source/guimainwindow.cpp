@@ -37,18 +37,16 @@ GuiMainWindow::GuiMainWindow(QWidget *pParent) :
 
     g_xOptions.setName(X_OPTIONSFILE);
 
-    QList<XOptions::ID> listIDs;
+    // TODO default
+    g_xOptions.addID(XOptions::ID_STYLE);
+    g_xOptions.addID(XOptions::ID_QSS);
+    g_xOptions.addID(XOptions::ID_LANG);
+    g_xOptions.addID(XOptions::ID_STAYONTOP);
+    g_xOptions.addID(XOptions::ID_SAVELASTDIRECTORY);
+    g_xOptions.addID(XOptions::ID_SAVEBACKUP);
+    g_xOptions.addID(XOptions::ID_SEARCHSIGNATURESPATH);
+    g_xOptions.addID(XOptions::ID_SHOWLOGO);
 
-    listIDs.append(XOptions::ID_STYLE);
-    listIDs.append(XOptions::ID_QSS);
-    listIDs.append(XOptions::ID_LANG);
-    listIDs.append(XOptions::ID_STAYONTOP);
-    listIDs.append(XOptions::ID_SAVELASTDIRECTORY);
-    listIDs.append(XOptions::ID_SAVEBACKUP);
-    listIDs.append(XOptions::ID_SEARCHSIGNATURESPATH);
-    listIDs.append(XOptions::ID_SHOWLOGO);
-
-    g_xOptions.setValueIDs(listIDs);
     g_xOptions.load();
 
     g_xShortcuts.setName(X_SHORTCUTSFILE);
