@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>334</width>
-    <height>230</height>
+    <height>238</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -55,7 +55,7 @@
        <item>
         <widget class="QCheckBox" name="checkBoxContext">
          <property name="text">
-          <string>Context</string>
+          <string>Add to context menu</string>
          </property>
         </widget>
        </item>
