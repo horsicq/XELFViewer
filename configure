@@ -2943,11 +2943,7 @@ fi
 
 X_QMAKE_SPEC=$($QT_QMAKE -query QMAKE_SPEC)
 X_QT_VERSION=$($QT_QMAKE -query QT_VERSION)
-{ $as_echo "$as_me:${as_lineno-$LINENO}: Qt version: $X_QT_VERSION" >&5
-$as_echo "$as_me: Qt version: $X_QT_VERSION" >&6;}
-{ $as_echo "$as_me:${as_lineno-$LINENO}: Running qmake to generate the makefile..." >&5
-$as_echo "$as_me: Running qmake to generate the makefile..." >&6;}
-$QT_QMAKE "xelfviewer_source.pro" -spec $X_QMAKE_SPEC PREFIX=if test "x$prefix" = xNONE; then
+X_QT_PREFIX=if test "x$prefix" = xNONE; then
   $as_echo_n "checking for prefix by " >&6
   # Extract the first word of "", so it can be a program name with args.
 set dummy ; ac_word=$2
@@ -3039,6 +3035,11 @@ $as_echo X"$prefix" |
   fi
 fi
 
+{ $as_echo "$as_me:${as_lineno-$LINENO}: Qt version: $X_QT_VERSION" >&5
+$as_echo "$as_me: Qt version: $X_QT_VERSION" >&6;}
+{ $as_echo "$as_me:${as_lineno-$LINENO}: Running qmake to generate the makefile..." >&5
+$as_echo "$as_me: Running qmake to generate the makefile..." >&6;}
+$QT_QMAKE "xelfviewer_source.pro" -spec $X_QMAKE_SPEC PREFIX=X_QT_PREFIX
 
 { $as_echo "$as_me:${as_lineno-$LINENO}: The configure finished. Please type \"make\" to compile the project." >&5
 $as_echo "$as_me: The configure finished. Please type \"make\" to compile the project." >&6;}
