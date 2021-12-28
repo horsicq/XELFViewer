@@ -3,6 +3,8 @@ export X_SOURCE_PATH=$PWD
 
 if [ -z "$1" ]; then
     X_PREFIX="/usr"
+else
+    X_PREFIX="$1"
 fi
 
 cp -f $X_SOURCE_PATH/build/release/xelfviewer                       $X_PREFIX/bin/
