@@ -581,7 +581,8 @@ PACKAGE_STRING='XELFViewer 0.03'
 PACKAGE_BUGREPORT=''
 PACKAGE_URL=''
 
-ac_subst_vars='QT_QMAKE
+ac_subst_vars='ac_prefix_program
+QT_QMAKE
 Qt5Widgets_LIBS
 Qt5Widgets_CFLAGS
 Qt5Gui_LIBS
@@ -2946,7 +2947,98 @@ X_QT_VERSION=$($QT_QMAKE -query QT_VERSION)
 $as_echo "$as_me: Qt version: $X_QT_VERSION" >&6;}
 { $as_echo "$as_me:${as_lineno-$LINENO}: Running qmake to generate the makefile..." >&5
 $as_echo "$as_me: Running qmake to generate the makefile..." >&6;}
-$QT_QMAKE "xelfviewer_source.pro" -spec $X_QMAKE_SPEC
+$QT_QMAKE "xelfviewer_source.pro" -spec $X_QMAKE_SPEC PREFIX=if test "x$prefix" = xNONE; then
+  $as_echo_n "checking for prefix by " >&6
+  # Extract the first word of "", so it can be a program name with args.
+set dummy ; ac_word=$2
+{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for $ac_word" >&5
+$as_echo_n "checking for $ac_word... " >&6; }
+if ${ac_cv_path_ac_prefix_program+:} false; then :
+  $as_echo_n "(cached) " >&6
+else
+  case $ac_prefix_program in
+  [\\/]* | ?:[\\/]*)
+  ac_cv_path_ac_prefix_program="$ac_prefix_program" # Let the user override the test with a path.
+  ;;
+  *)
+  as_save_IFS=$IFS; IFS=$PATH_SEPARATOR
+for as_dir in $PATH
+do
+  IFS=$as_save_IFS
+  test -z "$as_dir" && as_dir=.
+    for ac_exec_ext in '' $ac_executable_extensions; do
+  if as_fn_executable_p "$as_dir/$ac_word$ac_exec_ext"; then
+    ac_cv_path_ac_prefix_program="$as_dir/$ac_word$ac_exec_ext"
+    $as_echo "$as_me:${as_lineno-$LINENO}: found $as_dir/$ac_word$ac_exec_ext" >&5
+    break 2
+  fi
+done
+  done
+IFS=$as_save_IFS
+
+  ;;
+esac
+fi
+ac_prefix_program=$ac_cv_path_ac_prefix_program
+if test -n "$ac_prefix_program"; then
+  { $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_prefix_program" >&5
+$as_echo "$ac_prefix_program" >&6; }
+else
+  { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
+$as_echo "no" >&6; }
+fi
+
+
+  if test -n "$ac_prefix_program"; then
+    prefix=`$as_dirname -- "$ac_prefix_program" ||
+$as_expr X"$ac_prefix_program" : 'X\(.*[^/]\)//*[^/][^/]*/*$' \| \
+	 X"$ac_prefix_program" : 'X\(//\)[^/]' \| \
+	 X"$ac_prefix_program" : 'X\(//\)$' \| \
+	 X"$ac_prefix_program" : 'X\(/\)' \| . 2>/dev/null ||
+$as_echo X"$ac_prefix_program" |
+    sed '/^X\(.*[^/]\)\/\/*[^/][^/]*\/*$/{
+	    s//\1/
+	    q
+	  }
+	  /^X\(\/\/\)[^/].*/{
+	    s//\1/
+	    q
+	  }
+	  /^X\(\/\/\)$/{
+	    s//\1/
+	    q
+	  }
+	  /^X\(\/\).*/{
+	    s//\1/
+	    q
+	  }
+	  s/.*/./; q'`
+    prefix=`$as_dirname -- "$prefix" ||
+$as_expr X"$prefix" : 'X\(.*[^/]\)//*[^/][^/]*/*$' \| \
+	 X"$prefix" : 'X\(//\)[^/]' \| \
+	 X"$prefix" : 'X\(//\)$' \| \
+	 X"$prefix" : 'X\(/\)' \| . 2>/dev/null ||
+$as_echo X"$prefix" |
+    sed '/^X\(.*[^/]\)\/\/*[^/][^/]*\/*$/{
+	    s//\1/
+	    q
+	  }
+	  /^X\(\/\/\)[^/].*/{
+	    s//\1/
+	    q
+	  }
+	  /^X\(\/\/\)$/{
+	    s//\1/
+	    q
+	  }
+	  /^X\(\/\).*/{
+	    s//\1/
+	    q
+	  }
+	  s/.*/./; q'`
+  fi
+fi
+
 
 { $as_echo "$as_me:${as_lineno-$LINENO}: The configure finished. Please type \"make\" to compile the project." >&5
 $as_echo "$as_me: The configure finished. Please type \"make\" to compile the project." >&6;}

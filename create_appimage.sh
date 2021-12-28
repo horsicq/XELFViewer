@@ -8,9 +8,9 @@ source build_tools/linux.sh
 create_image_app_dir xelfviewer
 
 cp -f $X_SOURCE_PATH/build/release/xelfviewer                       $X_SOURCE_PATH/release/appDir/usr/bin/
-cp -f $X_SOURCE_PATH/DEBIAN/xelfviewer.desktop                      $X_SOURCE_PATH/release/appDir/usr/share/applications/
+cp -f $X_SOURCE_PATH/LINUX/xelfviewer.desktop                       $X_SOURCE_PATH/release/appDir/usr/share/applications/
 sed -i "s/#VERSION#/1.0/"                                           $X_SOURCE_PATH/release/appDir/usr/share/applications/xelfviewer.desktop
-cp -Rf $X_SOURCE_PATH/DEBIAN/hicolor/                               $X_SOURCE_PATH/release/appDir/usr/share/icons/
+cp -Rf $X_SOURCE_PATH/LINUX/hicolor/                                $X_SOURCE_PATH/release/appDir/usr/share/icons/
 cp -Rf $X_SOURCE_PATH/XStyles/qss/                                  $X_SOURCE_PATH/release/appDir/usr/lib/xelfviewer/
 mkdir -p $X_SOURCE_PATH/release/appDir/usr/lib/xelfviewer/signatures
 cp -f $X_SOURCE_PATH/signatures/crypto.db                           $X_SOURCE_PATH/release/appDir/usr/lib/xelfviewer/signatures/

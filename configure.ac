@@ -13,7 +13,7 @@ X_QMAKE_SPEC=$($QT_QMAKE -query QMAKE_SPEC)
 X_QT_VERSION=$($QT_QMAKE -query QT_VERSION)
 AC_MSG_NOTICE([Qt version: $X_QT_VERSION])
 AC_MSG_NOTICE([Running qmake to generate the makefile...])
-$QT_QMAKE "xelfviewer_source.pro" -spec $X_QMAKE_SPEC
+$QT_QMAKE "xelfviewer_source.pro" -spec $X_QMAKE_SPEC PREFIX=AC_PREFIX_PROGRAM
 
 AC_MSG_NOTICE([The configure finished. Please type "make" to compile the project.])
 AS_ECHO()
