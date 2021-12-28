@@ -2942,7 +2942,8 @@ fi
 
 X_QMAKE_SPEC=$($QT_QMAKE -query QMAKE_SPEC)
 X_QT_VERSION=$($QT_QMAKE -query QT_VERSION)
-X_QT_PREFIX=$prefix
+X_QT_PREFIX=${prefix}
+echo $X_QT_PREFIX
 { $as_echo "$as_me:${as_lineno-$LINENO}: Qt version: $X_QT_VERSION" >&5
 $as_echo "$as_me: Qt version: $X_QT_VERSION" >&6;}
 { $as_echo "$as_me:${as_lineno-$LINENO}: Running qmake to generate the makefile..." >&5
