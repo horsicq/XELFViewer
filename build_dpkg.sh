@@ -21,13 +21,13 @@ if [ -z "$X_ERROR" ]; then
         create_deb_app_dir xelfviewer
         
         #cp -f $X_SOURCE_PATH/LICENSE                                        $X_SOURCE_PATH/release/$X_BUILD_NAME/
-        cp -f $X_SOURCE_PATH/DEBIAN/control                                 $X_SOURCE_PATH/release/$X_BUILD_NAME/DEBIAN/
+        cp -f $X_SOURCE_PATH/LINUX/control                                  $X_SOURCE_PATH/release/$X_BUILD_NAME/DEBIAN/
         sed -i "s/#VERSION#/$X_RELEASE_VERSION/"                            $X_SOURCE_PATH/release/$X_BUILD_NAME/DEBIAN/control
         sed -i "s/#ARCH#/$X_ARCHITECTURE/"                                  $X_SOURCE_PATH/release/$X_BUILD_NAME/DEBIAN/control
         cp -f $X_SOURCE_PATH/build/release/xelfviewer                       $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/bin/
-        cp -f $X_SOURCE_PATH/DEBIAN/xelfviewer.desktop                      $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/share/applications/
+        cp -f $X_SOURCE_PATH/LINUX/xelfviewer.desktop                       $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/share/applications/
         sed -i "s/#VERSION#/$X_RELEASE_VERSION/"                            $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/share/applications/xelfviewer.desktop
-        cp -Rf $X_SOURCE_PATH/DEBIAN/hicolor/                               $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/share/icons/
+        cp -Rf $X_SOURCE_PATH/LINUX/hicolor/                                $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/share/icons/
         cp -Rf $X_SOURCE_PATH/XStyles/qss/                                  $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/lib/xelfviewer/
         mkdir -p $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/lib/xelfviewer/lang/
         cp -f $X_SOURCE_PATH/gui_source/translation/*.qm                    $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/lib/xelfviewer/lang/
