@@ -37,15 +37,23 @@ GuiMainWindow::GuiMainWindow(QWidget *pParent) :
 
     g_xOptions.setName(X_OPTIONSFILE);
 
-    // TODO default
-    g_xOptions.addID(XOptions::ID_STYLE);
-    g_xOptions.addID(XOptions::ID_QSS);
-    g_xOptions.addID(XOptions::ID_LANG);
-    g_xOptions.addID(XOptions::ID_STAYONTOP);
-    g_xOptions.addID(XOptions::ID_SAVELASTDIRECTORY);
-    g_xOptions.addID(XOptions::ID_SAVEBACKUP);
-    g_xOptions.addID(XOptions::ID_SEARCHSIGNATURESPATH);
-    g_xOptions.addID(XOptions::ID_SHOWLOGO);
+    g_xOptions.addID(XOptions::ID_VIEW_STYLE,"Fusion");
+    g_xOptions.addID(XOptions::ID_VIEW_QSS,"");
+    g_xOptions.addID(XOptions::ID_VIEW_LANG,"System");
+    g_xOptions.addID(XOptions::ID_VIEW_STAYONTOP,false);
+    g_xOptions.addID(XOptions::ID_VIEW_SHOWLOGO,true);
+    g_xOptions.addID(XOptions::ID_FILE_SAVELASTDIRECTORY,true);
+    g_xOptions.addID(XOptions::ID_FILE_SAVEBACKUP,true);
+    g_xOptions.addID(XOptions::ID_SIGNATURES_PATH,"$data/signatures");
+    g_xOptions.addID(XOptions::ID_SCAN_SCANAFTEROPEN,true);
+    g_xOptions.addID(XOptions::ID_SCAN_RECURSIVE,true);
+    g_xOptions.addID(XOptions::ID_SCAN_DEEP,true);
+    g_xOptions.addID(XOptions::ID_SCAN_HEURISTIC,false);
+    g_xOptions.addID(XOptions::ID_SCAN_ALLTYPES,false);
+
+#ifdef Q_OS_WIN32
+    g_xOptions.addID(XOptions::ID_FILE_CONTEXT,"*");
+#endif
 
     g_xOptions.load();
 
