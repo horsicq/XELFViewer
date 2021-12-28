@@ -2947,7 +2947,7 @@ X_QT_PREFIX=$prefix
 $as_echo "$as_me: Qt version: $X_QT_VERSION" >&6;}
 { $as_echo "$as_me:${as_lineno-$LINENO}: Running qmake to generate the makefile..." >&5
 $as_echo "$as_me: Running qmake to generate the makefile..." >&6;}
-$QT_QMAKE "xelfviewer_source.pro" -spec $X_QMAKE_SPEC PREFIX=X_QT_PREFIX
+$QT_QMAKE "xelfviewer_source.pro" -spec $X_QMAKE_SPEC PREFIX=$X_QT_PREFIX
 
 { $as_echo "$as_me:${as_lineno-$LINENO}: The configure finished. Please type \"make\" to compile the project." >&5
 $as_echo "$as_me: The configure finished. Please type \"make\" to compile the project." >&6;}
