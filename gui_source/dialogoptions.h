@@ -30,6 +30,7 @@
 #include "xbinary.h"
 #include "staticscanoptionswidget.h"
 #include "searchsignaturesoptionswidget.h"
+#include "xhexviewoptionswidget.h"
 #include "../global.h"
 
 namespace Ui {
@@ -51,7 +52,8 @@ private slots:
 private:
     Ui::DialogOptions *ui;
     StaticScanOptionsWidget *g_pStaticScanOptionsWidget;
-    SearchSignaturesOptionsWidget *g_SearchSignaturesOptionsWidget;
+    SearchSignaturesOptionsWidget *g_pSearchSignaturesOptionsWidget;
+    XHexViewOptionsWidget *g_pXHexViewOptionsWidget;
     XOptions *g_pOptions;
 };
 

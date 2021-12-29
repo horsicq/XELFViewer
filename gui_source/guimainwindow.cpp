@@ -44,16 +44,14 @@ GuiMainWindow::GuiMainWindow(QWidget *pParent) :
     g_xOptions.addID(XOptions::ID_VIEW_SHOWLOGO,true);
     g_xOptions.addID(XOptions::ID_FILE_SAVELASTDIRECTORY,true);
     g_xOptions.addID(XOptions::ID_FILE_SAVEBACKUP,true);
-    g_xOptions.addID(XOptions::ID_SIGNATURES_PATH,"$data/signatures");
-    g_xOptions.addID(XOptions::ID_SCAN_SCANAFTEROPEN,true);
-    g_xOptions.addID(XOptions::ID_SCAN_RECURSIVE,true);
-    g_xOptions.addID(XOptions::ID_SCAN_DEEP,true);
-    g_xOptions.addID(XOptions::ID_SCAN_HEURISTIC,false);
-    g_xOptions.addID(XOptions::ID_SCAN_ALLTYPES,false);
 
 #ifdef Q_OS_WIN32
     g_xOptions.addID(XOptions::ID_FILE_CONTEXT,"*");
 #endif
+
+    StaticScanOptionsWidget::setDefaultValues(&g_xOptions);
+    SearchSignaturesOptionsWidget::setDefaultValues(&g_xOptions);
+    XHexViewOptionsWidget::setDefaultValues(&g_xOptions);
 
     g_xOptions.load();
 

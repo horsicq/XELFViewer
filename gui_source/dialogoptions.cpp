@@ -30,17 +30,19 @@ DialogOptions::DialogOptions(QWidget *parent, XOptions *pOptions) :
     this->g_pOptions=pOptions;
 
     g_pStaticScanOptionsWidget=new StaticScanOptionsWidget(this);
-    g_SearchSignaturesOptionsWidget=new SearchSignaturesOptionsWidget(this);
-
-    this->g_pOptions=pOptions;
+    g_pSearchSignaturesOptionsWidget=new SearchSignaturesOptionsWidget(this);
+    g_pXHexViewOptionsWidget=new XHexViewOptionsWidget(this);
 
     ui->widgetOptions->setOptions(pOptions,X_APPLICATIONDISPLAYNAME);
 
     ui->widgetOptions->addPage(g_pStaticScanOptionsWidget,tr("Scan"));
     g_pStaticScanOptionsWidget->setOptions(pOptions);
 
-    ui->widgetOptions->addPage(g_SearchSignaturesOptionsWidget,tr("Signatures"));
-    g_SearchSignaturesOptionsWidget->setOptions(pOptions);
+    ui->widgetOptions->addPage(g_pSearchSignaturesOptionsWidget,tr("Signatures"));
+    g_pSearchSignaturesOptionsWidget->setOptions(pOptions);
+
+    ui->widgetOptions->addPage(g_pXHexViewOptionsWidget,tr("Hex"));
+    g_pXHexViewOptionsWidget->setOptions(pOptions);
 
     ui->widgetOptions->setCurrentPage(1);
 }
@@ -54,7 +56,8 @@ void DialogOptions::on_pushButtonOK_clicked()
 {
     ui->widgetOptions->save();
     g_pStaticScanOptionsWidget->save();
-    g_SearchSignaturesOptionsWidget->save();
+    g_pSearchSignaturesOptionsWidget->save();
+    g_pXHexViewOptionsWidget->save();
 
     if(g_pOptions->isRestartNeeded())
     {
