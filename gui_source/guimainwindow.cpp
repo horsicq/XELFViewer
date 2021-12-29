@@ -45,7 +45,7 @@ GuiMainWindow::GuiMainWindow(QWidget *pParent) :
     g_xOptions.addID(XOptions::ID_FILE_SAVELASTDIRECTORY,true);
     g_xOptions.addID(XOptions::ID_FILE_SAVEBACKUP,true);
 
-#ifdef Q_OS_WIN32
+#ifdef Q_OS_WIN
     g_xOptions.addID(XOptions::ID_FILE_CONTEXT,"*");
 #endif
 
