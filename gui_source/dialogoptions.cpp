@@ -32,6 +32,7 @@ DialogOptions::DialogOptions(QWidget *parent, XOptions *pOptions) :
     g_pStaticScanOptionsWidget=new StaticScanOptionsWidget(this);
     g_pSearchSignaturesOptionsWidget=new SearchSignaturesOptionsWidget(this);
     g_pXHexViewOptionsWidget=new XHexViewOptionsWidget(this);
+    g_pXDisasmViewOptionsWidget=new XDisasmViewOptionsWidget(this);
 
     ui->widgetOptions->setOptions(pOptions,X_APPLICATIONDISPLAYNAME);
 
@@ -43,6 +44,9 @@ DialogOptions::DialogOptions(QWidget *parent, XOptions *pOptions) :
 
     ui->widgetOptions->addPage(g_pXHexViewOptionsWidget,tr("Hex"));
     g_pXHexViewOptionsWidget->setOptions(pOptions);
+
+    ui->widgetOptions->addPage(g_pXDisasmViewOptionsWidget,tr("Disasm"));
+    g_pXDisasmViewOptionsWidget->setOptions(pOptions);
 
     ui->widgetOptions->setCurrentPage(1);
 }
@@ -58,6 +62,7 @@ void DialogOptions::on_pushButtonOK_clicked()
     g_pStaticScanOptionsWidget->save();
     g_pSearchSignaturesOptionsWidget->save();
     g_pXHexViewOptionsWidget->save();
+    g_pXDisasmViewOptionsWidget->save();
 
     if(g_pOptions->isRestartNeeded())
     {

@@ -31,6 +31,7 @@
 #include "staticscanoptionswidget.h"
 #include "searchsignaturesoptionswidget.h"
 #include "xhexviewoptionswidget.h"
+#include "xdisasmviewoptionswidget.h"
 #include "../global.h"
 
 namespace Ui {
@@ -54,6 +55,7 @@ private:
     StaticScanOptionsWidget *g_pStaticScanOptionsWidget;
     SearchSignaturesOptionsWidget *g_pSearchSignaturesOptionsWidget;
     XHexViewOptionsWidget *g_pXHexViewOptionsWidget;
+    XDisasmViewOptionsWidget *g_pXDisasmViewOptionsWidget;
     XOptions *g_pOptions;
 };
 

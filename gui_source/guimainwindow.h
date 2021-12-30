@@ -53,7 +53,7 @@ private slots:
     void on_actionShortcuts_triggered();
     void on_actionOptions_triggered();
     void on_actionAbout_triggered();
-    void adjust();
+    void adjustWindow();
     void processFile(QString sFileName);
     void closeCurrentFile();
 

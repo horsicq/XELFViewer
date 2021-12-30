@@ -52,6 +52,7 @@ GuiMainWindow::GuiMainWindow(QWidget *pParent) :
     StaticScanOptionsWidget::setDefaultValues(&g_xOptions);
     SearchSignaturesOptionsWidget::setDefaultValues(&g_xOptions);
     XHexViewOptionsWidget::setDefaultValues(&g_xOptions);
+    XDisasmViewOptionsWidget::setDefaultValues(&g_xOptions);
 
     g_xOptions.load();
 
@@ -67,7 +68,7 @@ GuiMainWindow::GuiMainWindow(QWidget *pParent) :
 
     ui->widgetViewer->setGlobal(&g_xShortcuts,&g_xOptions);
 
-    adjust();
+    adjustWindow();
 
     if(QCoreApplication::arguments().count()>1)
     {
@@ -113,7 +114,8 @@ void GuiMainWindow::on_actionOptions_triggered()
     DialogOptions dialogOptions(this,&g_xOptions);
     dialogOptions.exec();
 
-    adjust();
+    ui->widgetViewer->adjustView();
+    adjustWindow();
 }
 
 void GuiMainWindow::on_actionAbout_triggered()
@@ -122,8 +124,10 @@ void GuiMainWindow::on_actionAbout_triggered()
     dialogAbout.exec();
 }
 
-void GuiMainWindow::adjust()
+void GuiMainWindow::adjustWindow()
 {
+    ui->widgetViewer->adjustView();
+
     g_xOptions.adjustStayOnTop(this);
 
     if(g_xOptions.isShowLogo())
@@ -168,7 +172,7 @@ void GuiMainWindow::processFile(QString sFileName)
 
                 ui->widgetViewer->reload();
 
-                adjust();
+                adjustWindow();
 
                 setWindowTitle(sFileName);
                 ui->stackedWidget->setCurrentIndex(1);
@@ -236,7 +240,7 @@ void GuiMainWindow::on_actionShortcuts_triggered()
 
     dialogShortcuts.exec();
 
-    adjust();
+    adjustWindow();
 }
 
 void GuiMainWindow::on_actionDemangle_triggered()
