@@ -29,6 +29,38 @@ DialogAbout::DialogAbout(QWidget *parent) :
 
     ui->labelVersion->setText(QString("<span style=\" font-weight:600;\">%1</span>")
                               .arg(XOptions::getTitle(X_APPLICATIONDISPLAYNAME,X_APPLICATIONVERSION)));
+
+    ui->labelBugreports->setText(QString("<html><head/><body><p><span style=\" font-weight:600;\">%1</span>: <a href=\"mailto:horsicq@gmail.com\"><span style=\" text-decoration: underline; color:#ff0000;\">horsicq@gmail.com</span></a></p></body></html>")
+                                .arg(tr("Bugreports")));
+    ui->labelWebsite->setText(QString("<html><head/><body><p><span style=\" font-weight:600;\">%1</span>: <a href=\"http://ntinfo.biz\"><span style=\" text-decoration: underline; color:#ff0000;\">http://ntinfo.biz</span></a></p></body></html>")
+                                .arg(tr("Website")));
+    ui->labelDonate->setText(QString("<html><head/><body><p><span style=\" font-weight:600;\">%1(Paypal): </span><a href=\"mailto:ntinfo.re@gmail.com\"><span style=\" text-decoration: underline; color:#ff0000;\">ntinfo.re@gmail.com</span></a></p></body></html>")
+                                .arg(tr("Donate")));
+    ui->labelSourceCode->setText(QString("<html><head/><body><p><span style=\" font-weight:600;\">%1: </span><a href=\"https://github.com/horsicq/XELFViewer\"><span style=\" text-decoration: underline; color:#ff0000;\">https://github.com/horsicq/XELFViewer</span></a></p></body></html>")
+                                .arg(tr("Source code")));
+    ui->labelThanks->setText(QString("<html><head/><body>"
+                                         "<p align=\"center\"><span style=\" font-weight:600;\">%1:</span></p>"
+                                         "<p align=\"center\">"
+                                             "<a href=\"https://www.mentebinaria.com.br/\"><span style=\" text-decoration: underline; color:#ff0000; \">Fernando Mercês</span></a>, "
+                                             "<a href=\"http://sandsprite.com/\"><span style=\" text-decoration: underline; color:#ff0000;\">David Zimmer</span></a>, "
+                                             "<a href=\"https://github.com/miso-xyz\"><span style=\" text-decoration: underline; color:#ff0000;\">misonothx</span></a>, "
+                                         "</p>"
+                                         "<p align=\"center\">"
+                                            "<a href=\"https://twitter.com/frenchyeti\"><span style=\" text-decoration: underline; color:#ff0000;\">FrenchYeti</span></a>, "
+                                            "<a href=\"https://github.com/fr0zenbag\"><span style=\" text-decoration: underline; color:#ff0000;\">fr0zenbag</span></a>, "
+                                            "<a href=\"https://github.com/AandersonL\"><span style=\" text-decoration: underline; color:#ff0000;\">Anderson Leite</span></a>, "
+                                         "</p>"
+                                         "<p align=\"center\">"
+                                            "<a href=\"https://github.com/filipnavara\"><span style=\" text-decoration: underline; color:#ff0000;\">Filip Navara</span></a>, "
+                                            "<a href=\"https://www.ashemery.com/\"><span style=\" text-decoration: underline; color:#ff0000;\">Ali Hadi</span></a>, "
+                                            "<a href=\"http://mrexodia.re/\"><span style=\" text-decoration: underline; color:#ff0000;\">Duncan Ogilvie</span></a>, "
+                                         "</p>"
+                                         "<p align=\"center\">"
+                                            "<a href=\"https://github.com/leandrofroes\"><span style=\" text-decoration: underline; color:#ff0000;\">Leandro Fróes</span></a>"
+                                         "</p>"
+                                     "</body></html>")
+                                .arg(tr("Thanks")));
+
 }
 
 DialogAbout::~DialogAbout()
