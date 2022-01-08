@@ -17,3 +17,12 @@ add_subdirectory(XCppfilt)
 add_subdirectory(XCapstone)
 add_subdirectory(XArchive)
 add_subdirectory(gui_source)
+
+include(GNUInstallDirs)
+
+install (TARGETS XELFViewer)
+install (FILES LINUX/xelfviewer.desktop DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/applications/)
+install (DIRECTORY LINUX/hicolor DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/icons)
+install (DIRECTORY XStyles/qss DESTINATION ${CMAKE_INSTALL_LIBDIR}/xelfviewer)
+install (FILES signatures/crypto.db DESTINATION ${CMAKE_INSTALL_LIBDIR}/xelfviewer/signatures)
+

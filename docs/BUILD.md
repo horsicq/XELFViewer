@@ -90,3 +90,15 @@ Edit build_msvc_win64.bat ( check VSVARS_PATH, SEVENZIP_PATH, INNOSETUP_PATH, QM
 Run build_win32.bat
 
 Run build_win64.bat
+
+How to build with CMAKE
+=======
+git clone --recursive https://github.com/horsicq/XELFViewer.git
+
+cd XELFViewer
+
+cmake .
+
+make
+
+sudo make install
