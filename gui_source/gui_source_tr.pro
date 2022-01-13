@@ -1,20 +1,22 @@
 TRANSLATIONS = \
-        translation/xelfviewer_it.ts \
         translation/xelfviewer_ar.ts \
         translation/xelfviewer_de.ts \
-        translation/xelfviewer_ja.ts \
-        translation/xelfviewer_pl.ts \
-        translation/xelfviewer_ru.ts \
-        translation/xelfviewer_vi.ts \
         translation/xelfviewer_es.ts \
         translation/xelfviewer_fr.ts \
-        translation/xelfviewer_pt_BR.ts \
+        translation/xelfviewer_he.ts \
+        translation/xelfviewer_id.ts \
+        translation/xelfviewer_it.ts \
+        translation/xelfviewer_ja.ts \
         translation/xelfviewer_ko.ts \
+        translation/xelfviewer_pl.ts \
+        translation/xelfviewer_pt_BR.ts \
+        translation/xelfviewer_pt_PT.ts \
+        translation/xelfviewer_ru.ts \
+        translation/xelfviewer_tr.ts \
+        translation/xelfviewer_uk.ts \
+        translation/xelfviewer_vi.ts \
         translation/xelfviewer_zh.ts \
         translation/xelfviewer_zh_TW.ts\
-        translation/xelfviewer_tr.ts \
-        translation/xelfviewer_he.ts \
-        translation/xelfviewer_id.ts
 
 FORMS += \
     ../FormatDialogs/dialogdump.ui \
