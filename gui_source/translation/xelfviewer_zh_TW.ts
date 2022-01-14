@@ -11,44 +11,32 @@
         <source>OK</source>
         <translation>確定</translation>
     </message>
+    <message>
+        <source>Bugreports</source>
+        <translation>錯誤報告</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>網站</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>贊助</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>源代碼</translation>
+    </message>
+    <message>
+        <source>Thanks</source>
+        <translation>特別感謝</translation>
+    </message>
 </context>
 <context>
     <name>DialogOptions</name>
     <message>
         <source>Options</source>
         <translation>選項</translation>
-    </message>
-    <message>
-        <source>Save last directory</source>
-        <translation>保存最後一個路徑</translation>
-    </message>
-    <message>
-        <source>Stay on top</source>
-        <translation>始終在最上層</translation>
-    </message>
-    <message>
-        <source>Save backup</source>
-        <translation>保存備份</translation>
-    </message>
-    <message>
-        <source>Show logo</source>
-        <translation>選項</translation>
-    </message>
-    <message>
-        <source>Context</source>
-        <translation>選單關聯</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation>樣式</translation>
-    </message>
-    <message>
-        <source>Language</source>
-        <translation>語言</translation>
-    </message>
-    <message>
-        <source>Search signatures</source>
-        <translation>搜尋簽名</translation>
     </message>
     <message>
         <source>OK</source>
@@ -59,16 +47,28 @@
         <translation>取消</translation>
     </message>
     <message>
+        <source>Scan</source>
+        <translation>掃描</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>簽章</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>十六進制</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>反組譯</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>資訊</translation>
     </message>
     <message>
         <source>Please restart the application</source>
         <translation>請重啟應用程式</translation>
-    </message>
-    <message>
-        <source>Open directory</source>
-        <translation>打開目錄</translation>
     </message>
 </context>
 <context>

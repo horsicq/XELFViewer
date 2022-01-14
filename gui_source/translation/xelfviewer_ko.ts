@@ -11,44 +11,32 @@
         <source>OK</source>
         <translation>확인</translation>
     </message>
+    <message>
+        <source>Bugreports</source>
+        <translation>버그 신고</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>웹사이트</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>기부</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>소스 코드</translation>
+    </message>
+    <message>
+        <source>Thanks</source>
+        <translation>감사</translation>
+    </message>
 </context>
 <context>
     <name>DialogOptions</name>
     <message>
         <source>Options</source>
         <translation>옵션</translation>
-    </message>
-    <message>
-        <source>Save last directory</source>
-        <translation>마지막 디렉터리 저장</translation>
-    </message>
-    <message>
-        <source>Stay on top</source>
-        <translation>항상 위에 놓기</translation>
-    </message>
-    <message>
-        <source>Save backup</source>
-        <translation>백업 저장</translation>
-    </message>
-    <message>
-        <source>Show logo</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Context</source>
-        <translation>컨텍스트 메뉴</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation>스타일</translation>
-    </message>
-    <message>
-        <source>Language</source>
-        <translation>언어</translation>
-    </message>
-    <message>
-        <source>Search signatures</source>
-        <translation></translation>
     </message>
     <message>
         <source>OK</source>
@@ -59,16 +47,28 @@
         <translation>취소</translation>
     </message>
     <message>
+        <source>Scan</source>
+        <translation>검색</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>서명</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>마녀</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>정보</translation>
     </message>
     <message>
         <source>Please restart the application</source>
         <translation>프로그램을 재시작하세요</translation>
-    </message>
-    <message>
-        <source>Open directory</source>
-        <translation>디렉터리 열기</translation>
     </message>
 </context>
 <context>
@@ -107,11 +107,11 @@
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation></translation>
+        <translation>바로가기</translation>
     </message>
     <message>
         <source>Demangle</source>
-        <translation></translation>
+        <translation>디망글</translation>
     </message>
     <message>
         <source>Open file</source>

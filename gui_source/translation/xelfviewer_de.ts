@@ -11,44 +11,32 @@
         <source>OK</source>
         <translation>OK</translation>
     </message>
+    <message>
+        <source>Bugreports</source>
+        <translation>Fehlerberichte</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Webseite</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>Spenden</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>Quellcode</translation>
+    </message>
+    <message>
+        <source>Thanks</source>
+        <translation>Danke</translation>
+    </message>
 </context>
 <context>
     <name>DialogOptions</name>
     <message>
         <source>Options</source>
         <translation>Optionen</translation>
-    </message>
-    <message>
-        <source>Save last directory</source>
-        <translation>Letzte Ordner speichern</translation>
-    </message>
-    <message>
-        <source>Stay on top</source>
-        <translation>Im Vordergrund bleiben</translation>
-    </message>
-    <message>
-        <source>Save backup</source>
-        <translation>Backup speichern</translation>
-    </message>
-    <message>
-        <source>Show logo</source>
-        <translation>Optionen anzeigen</translation>
-    </message>
-    <message>
-        <source>Context</source>
-        <translation>Kontext</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation>Stil</translation>
-    </message>
-    <message>
-        <source>Language</source>
-        <translation>Sprache</translation>
-    </message>
-    <message>
-        <source>Search signatures</source>
-        <translation>Suche Signaturen</translation>
     </message>
     <message>
         <source>OK</source>
@@ -59,16 +47,28 @@
         <translation>Abbrechen</translation>
     </message>
     <message>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disassembler</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>Information</translation>
     </message>
     <message>
         <source>Please restart the application</source>
         <translation>Bitte die Anwendung neu starten</translation>
-    </message>
-    <message>
-        <source>Open directory</source>
-        <translation>Ordner öffnen</translation>
     </message>
 </context>
 <context>

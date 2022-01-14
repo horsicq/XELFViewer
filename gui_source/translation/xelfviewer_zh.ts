@@ -11,44 +11,32 @@
         <source>OK</source>
         <translation>确定</translation>
     </message>
+    <message>
+        <source>Bugreports</source>
+        <translation>错误报告</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>网站</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>捐赠</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>源代码</translation>
+    </message>
+    <message>
+        <source>Thanks</source>
+        <translation>致谢名单</translation>
+    </message>
 </context>
 <context>
     <name>DialogOptions</name>
     <message>
         <source>Options</source>
         <translation>选项</translation>
-    </message>
-    <message>
-        <source>Save last directory</source>
-        <translation>保存到上次目录</translation>
-    </message>
-    <message>
-        <source>Stay on top</source>
-        <translation>窗口置顶</translation>
-    </message>
-    <message>
-        <source>Save backup</source>
-        <translation>保存备份</translation>
-    </message>
-    <message>
-        <source>Show logo</source>
-        <translation>显示选项</translation>
-    </message>
-    <message>
-        <source>Context</source>
-        <translation>上下文</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation>样式</translation>
-    </message>
-    <message>
-        <source>Language</source>
-        <translation>语言</translation>
-    </message>
-    <message>
-        <source>Search signatures</source>
-        <translation>搜索签名</translation>
     </message>
     <message>
         <source>OK</source>
@@ -59,16 +47,28 @@
         <translation>取消</translation>
     </message>
     <message>
+        <source>Scan</source>
+        <translation>扫描</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>签名</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>十六进制</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>反汇编</translation>
+    </message>
+    <message>
         <source>Information</source>
-        <translation>资讯</translation>
+        <translation>信息</translation>
     </message>
     <message>
         <source>Please restart the application</source>
         <translation>请重启应用程序</translation>
-    </message>
-    <message>
-        <source>Open directory</source>
-        <translation>打开目录</translation>
     </message>
 </context>
 <context>
@@ -107,7 +107,7 @@
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation>快捷指令</translation>
+        <translation>快捷键</translation>
     </message>
     <message>
         <source>Demangle</source>

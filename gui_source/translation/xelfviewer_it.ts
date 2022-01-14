@@ -11,44 +11,32 @@
         <source>OK</source>
         <translation>OK</translation>
     </message>
+    <message>
+        <source>Bugreports</source>
+        <translation>Segnalazioni di bug</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Sito web</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>Dona</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>Codice sorgente</translation>
+    </message>
+    <message>
+        <source>Thanks</source>
+        <translation>Grazie</translation>
+    </message>
 </context>
 <context>
     <name>DialogOptions</name>
     <message>
         <source>Options</source>
         <translation>Opzioni</translation>
-    </message>
-    <message>
-        <source>Save last directory</source>
-        <translation>Salva le cartelle recenti</translation>
-    </message>
-    <message>
-        <source>Stay on top</source>
-        <translation>Rimani davanti</translation>
-    </message>
-    <message>
-        <source>Save backup</source>
-        <translation>Salva backup</translation>
-    </message>
-    <message>
-        <source>Show logo</source>
-        <translation>Opzioni</translation>
-    </message>
-    <message>
-        <source>Context</source>
-        <translation>Contesto</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation>Stile</translation>
-    </message>
-    <message>
-        <source>Language</source>
-        <translation>Lingua</translation>
-    </message>
-    <message>
-        <source>Search signatures</source>
-        <translation>Firme di ricerca</translation>
     </message>
     <message>
         <source>OK</source>
@@ -59,16 +47,28 @@
         <translation>Annulla</translation>
     </message>
     <message>
+        <source>Scan</source>
+        <translation>Scansione</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>Firme</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Esadecimale</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>Informazioni</translation>
     </message>
     <message>
         <source>Please restart the application</source>
         <translation>Riavvia l&apos;applicazione</translation>
-    </message>
-    <message>
-        <source>Open directory</source>
-        <translation>Apri cartella</translation>
     </message>
 </context>
 <context>

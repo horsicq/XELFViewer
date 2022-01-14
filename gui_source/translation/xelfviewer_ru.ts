@@ -11,44 +11,32 @@
         <source>OK</source>
         <translation>ОК</translation>
     </message>
+    <message>
+        <source>Bugreports</source>
+        <translation>Сообщения об ошибках</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Веб-сайт</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>Донат</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>Исходный код</translation>
+    </message>
+    <message>
+        <source>Thanks</source>
+        <translation>Благодарности</translation>
+    </message>
 </context>
 <context>
     <name>DialogOptions</name>
     <message>
         <source>Options</source>
         <translation>Настройки</translation>
-    </message>
-    <message>
-        <source>Save last directory</source>
-        <translation>Сохранить место последнего сканирования</translation>
-    </message>
-    <message>
-        <source>Stay on top</source>
-        <translation>Поверх всех окон</translation>
-    </message>
-    <message>
-        <source>Save backup</source>
-        <translation>Сохранить резервную копию</translation>
-    </message>
-    <message>
-        <source>Show logo</source>
-        <translation>Показать настройки</translation>
-    </message>
-    <message>
-        <source>Context</source>
-        <translation>Контекст</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation>Стиль</translation>
-    </message>
-    <message>
-        <source>Language</source>
-        <translation>Язык</translation>
-    </message>
-    <message>
-        <source>Search signatures</source>
-        <translation>Поиск сигнатур</translation>
     </message>
     <message>
         <source>OK</source>
@@ -59,16 +47,28 @@
         <translation>Отмена</translation>
     </message>
     <message>
+        <source>Scan</source>
+        <translation>Сканировать</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>Сигнатуры</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Дизассемблировать</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>Информация</translation>
     </message>
     <message>
         <source>Please restart the application</source>
         <translation>Пожалуйста перезапустите приложение</translation>
-    </message>
-    <message>
-        <source>Open directory</source>
-        <translation>Открыть папку для сканирования</translation>
     </message>
 </context>
 <context>
@@ -107,11 +107,11 @@
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation>Ссылки</translation>
+        <translation>Сочетания клавиш</translation>
     </message>
     <message>
         <source>Demangle</source>
-        <translation></translation>
+        <translation>Demangle</translation>
     </message>
     <message>
         <source>Open file</source>

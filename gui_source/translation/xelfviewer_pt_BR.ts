@@ -11,44 +11,32 @@
         <source>OK</source>
         <translation>OK</translation>
     </message>
+    <message>
+        <source>Bugreports</source>
+        <translation>Relatório de erros</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Local na rede Internet</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>Doar</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>Código Fonte</translation>
+    </message>
+    <message>
+        <source>Thanks</source>
+        <translation>Obrigado</translation>
+    </message>
 </context>
 <context>
     <name>DialogOptions</name>
     <message>
         <source>Options</source>
         <translation>Opções</translation>
-    </message>
-    <message>
-        <source>Save last directory</source>
-        <translation>Salvar último diretório</translation>
-    </message>
-    <message>
-        <source>Stay on top</source>
-        <translation>Permanecer no topo</translation>
-    </message>
-    <message>
-        <source>Save backup</source>
-        <translation>Salvar backup</translation>
-    </message>
-    <message>
-        <source>Show logo</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Context</source>
-        <translation>Contexto</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Language</source>
-        <translation>Linguagem</translation>
-    </message>
-    <message>
-        <source>Search signatures</source>
-        <translation></translation>
     </message>
     <message>
         <source>OK</source>
@@ -59,16 +47,28 @@
         <translation>Cancelar</translation>
     </message>
     <message>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>Signatures</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Desastre</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>Informação</translation>
     </message>
     <message>
         <source>Please restart the application</source>
         <translation>Por favor reinicie a aplicação</translation>
-    </message>
-    <message>
-        <source>Open directory</source>
-        <translation>Abrir diretórios</translation>
     </message>
 </context>
 <context>
@@ -107,11 +107,11 @@
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation></translation>
+        <translation>Atalhos</translation>
     </message>
     <message>
         <source>Demangle</source>
-        <translation></translation>
+        <translation>Demangle</translation>
     </message>
     <message>
         <source>Open file</source>

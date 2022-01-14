@@ -11,44 +11,32 @@
         <source>OK</source>
         <translation>OK</translation>
     </message>
+    <message>
+        <source>Bugreports</source>
+        <translation>バグレポート</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Webサイト</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>寄付</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>ソース コード</translation>
+    </message>
+    <message>
+        <source>Thanks</source>
+        <translation>Thanks</translation>
+    </message>
 </context>
 <context>
     <name>DialogOptions</name>
     <message>
         <source>Options</source>
         <translation>設定</translation>
-    </message>
-    <message>
-        <source>Save last directory</source>
-        <translation>最後に使用したディレクトリを保持</translation>
-    </message>
-    <message>
-        <source>Stay on top</source>
-        <translation>常に最前面表示</translation>
-    </message>
-    <message>
-        <source>Save backup</source>
-        <translation>バックアップを保存</translation>
-    </message>
-    <message>
-        <source>Show logo</source>
-        <translation>オプションを表示</translation>
-    </message>
-    <message>
-        <source>Context</source>
-        <translation>コンテキスト</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation>スタイル</translation>
-    </message>
-    <message>
-        <source>Language</source>
-        <translation>言語</translation>
-    </message>
-    <message>
-        <source>Search signatures</source>
-        <translation>署名</translation>
     </message>
     <message>
         <source>OK</source>
@@ -59,16 +47,28 @@
         <translation>キャンセル</translation>
     </message>
     <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>インフォメーション</translation>
     </message>
     <message>
         <source>Please restart the application</source>
         <translation>プログラムを再起動してください</translation>
-    </message>
-    <message>
-        <source>Open directory</source>
-        <translation>ディレクトリを開く</translation>
     </message>
 </context>
 <context>
@@ -79,11 +79,11 @@
     </message>
     <message>
         <source>Tools</source>
-        <translation></translation>
+        <translation>ツール</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation></translation>
+        <translation>ヘルプ</translation>
     </message>
     <message>
         <source>Open</source>
@@ -127,7 +127,7 @@
     </message>
     <message>
         <source>It is not a valid file</source>
-        <translation></translation>
+        <translation>有効なファイルではありません</translation>
     </message>
     <message>
         <source>Cannot open file</source>

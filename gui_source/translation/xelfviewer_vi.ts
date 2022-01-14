@@ -11,44 +11,32 @@
         <source>OK</source>
         <translation>OK</translation>
     </message>
+    <message>
+        <source>Bugreports</source>
+        <translation>Báo cáo lỗi</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Trang mạng</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>Quyên tặng</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>Mã nguồn</translation>
+    </message>
+    <message>
+        <source>Thanks</source>
+        <translation>Cảm ơn</translation>
+    </message>
 </context>
 <context>
     <name>DialogOptions</name>
     <message>
         <source>Options</source>
         <translation>Tùy chọn</translation>
-    </message>
-    <message>
-        <source>Save last directory</source>
-        <translation>Lưu thư mục cuối cùng</translation>
-    </message>
-    <message>
-        <source>Stay on top</source>
-        <translation>Ở trên đầu</translation>
-    </message>
-    <message>
-        <source>Save backup</source>
-        <translation>Lưu sao lưu</translation>
-    </message>
-    <message>
-        <source>Show logo</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Context</source>
-        <translation>Ngữ cảnh</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation>Kiểu</translation>
-    </message>
-    <message>
-        <source>Language</source>
-        <translation>Ngôn ngữ</translation>
-    </message>
-    <message>
-        <source>Search signatures</source>
-        <translation></translation>
     </message>
     <message>
         <source>OK</source>
@@ -59,16 +47,28 @@
         <translation>Hủy</translation>
     </message>
     <message>
+        <source>Scan</source>
+        <translation>Quét</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>Chữ ký</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Rối loạn</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>Thông tin</translation>
     </message>
     <message>
         <source>Please restart the application</source>
         <translation>Vui lòng khởi động lại ứng dụng</translation>
-    </message>
-    <message>
-        <source>Open directory</source>
-        <translation>Mở thư mục</translation>
     </message>
 </context>
 <context>
@@ -107,11 +107,11 @@
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation></translation>
+        <translation>Các phím tắt</translation>
     </message>
     <message>
         <source>Demangle</source>
-        <translation></translation>
+        <translation>Gỡ rối</translation>
     </message>
     <message>
         <source>Open file</source>

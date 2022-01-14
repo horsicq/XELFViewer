@@ -11,44 +11,32 @@
         <source>OK</source>
         <translation>OK</translation>
     </message>
+    <message>
+        <source>Bugreports</source>
+        <translation>laporan bug</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Situs web</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>Donasi</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>Sumber kode</translation>
+    </message>
+    <message>
+        <source>Thanks</source>
+        <translation>Terimakasih</translation>
+    </message>
 </context>
 <context>
     <name>DialogOptions</name>
     <message>
         <source>Options</source>
         <translation>Pilihan</translation>
-    </message>
-    <message>
-        <source>Save last directory</source>
-        <translation>Simpan direktori terakhir</translation>
-    </message>
-    <message>
-        <source>Stay on top</source>
-        <translation>Tetap diatas</translation>
-    </message>
-    <message>
-        <source>Save backup</source>
-        <translation>Simpan cadangan</translation>
-    </message>
-    <message>
-        <source>Show logo</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Context</source>
-        <translation>Konteks</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation>Gaya</translation>
-    </message>
-    <message>
-        <source>Language</source>
-        <translation>Bahasa</translation>
-    </message>
-    <message>
-        <source>Search signatures</source>
-        <translation>Markah</translation>
     </message>
     <message>
         <source>OK</source>
@@ -59,16 +47,28 @@
         <translation>Batal</translation>
     </message>
     <message>
+        <source>Scan</source>
+        <translation>Pindai</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>Markah</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Mengulik</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>Informasi</translation>
     </message>
     <message>
         <source>Please restart the application</source>
         <translation>Silahkan mulai ulang aplikasi</translation>
-    </message>
-    <message>
-        <source>Open directory</source>
-        <translation>Buka direktori</translation>
     </message>
 </context>
 <context>
@@ -107,11 +107,11 @@
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation></translation>
+        <translation>Jalan pintas</translation>
     </message>
     <message>
         <source>Demangle</source>
-        <translation></translation>
+        <translation>Demangle</translation>
     </message>
     <message>
         <source>Open file</source>

@@ -5,133 +5,133 @@
     <name>DialogAbout</name>
     <message>
         <source>About</source>
-        <translation></translation>
+        <translation>عن</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation></translation>
+        <translation>نعم</translation>
+    </message>
+    <message>
+        <source>Bugreports</source>
+        <translation>تقارير الأخطاء</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>موقع إلكتروني</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>يتبرع</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>مصدر الرمز</translation>
+    </message>
+    <message>
+        <source>Thanks</source>
+        <translation>شكرا</translation>
     </message>
 </context>
 <context>
     <name>DialogOptions</name>
     <message>
         <source>Options</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Save last directory</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Stay on top</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Save backup</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Show logo</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Context</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Language</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Search signatures</source>
-        <translation></translation>
+        <translation>خيارات</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation></translation>
+        <translation>نعم</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation></translation>
+        <translation>يلغي</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>مسح</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>التوقيعات</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>عرافة</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>كارثة</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation></translation>
+        <translation>معلومة</translation>
     </message>
     <message>
         <source>Please restart the application</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Open directory</source>
-        <translation></translation>
+        <translation>الرجاء إعادة تشغيل التطبيق</translation>
     </message>
 </context>
 <context>
     <name>GuiMainWindow</name>
     <message>
         <source>File</source>
-        <translation></translation>
+        <translation>ملف</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation></translation>
+        <translation>أدوات</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation></translation>
+        <translation>يساعد</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation></translation>
+        <translation>افتح</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation></translation>
+        <translation>قريب</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation></translation>
+        <translation>مخرج</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation></translation>
+        <translation>خيارات</translation>
     </message>
     <message>
         <source>About</source>
-        <translation></translation>
+        <translation>عن</translation>
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation></translation>
+        <translation>الاختصارات</translation>
     </message>
     <message>
         <source>Demangle</source>
-        <translation></translation>
+        <translation>شطب</translation>
     </message>
     <message>
         <source>Open file</source>
-        <translation></translation>
+        <translation>افتح الملف</translation>
     </message>
     <message>
         <source>All files</source>
-        <translation></translation>
+        <translation>كل الملفات</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation></translation>
+        <translation>خطأ</translation>
     </message>
     <message>
         <source>It is not a valid file</source>
-        <translation></translation>
+        <translation>إنه ليس ملفًا صالحًا</translation>
     </message>
     <message>
         <source>Cannot open file</source>
-        <translation></translation>
+        <translation>لا يمكن فتح ملف</translation>
     </message>
 </context>
 </TS>

@@ -11,44 +11,32 @@
         <source>OK</source>
         <translation>Tamam</translation>
     </message>
+    <message>
+        <source>Bugreports</source>
+        <translation>Hata raporları</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>İnternet sitesi</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>Bağış yap</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>Kaynak kodu</translation>
+    </message>
+    <message>
+        <source>Thanks</source>
+        <translation>Teşekkürler</translation>
+    </message>
 </context>
 <context>
     <name>DialogOptions</name>
     <message>
         <source>Options</source>
         <translation>Ayarlar</translation>
-    </message>
-    <message>
-        <source>Save last directory</source>
-        <translation>Son klasöre kaydet</translation>
-    </message>
-    <message>
-        <source>Stay on top</source>
-        <translation>Üstte tut</translation>
-    </message>
-    <message>
-        <source>Save backup</source>
-        <translation>Yedek kayfet</translation>
-    </message>
-    <message>
-        <source>Show logo</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Context</source>
-        <translation>İçerik</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation>Stil</translation>
-    </message>
-    <message>
-        <source>Language</source>
-        <translation>Diller</translation>
-    </message>
-    <message>
-        <source>Search signatures</source>
-        <translation></translation>
     </message>
     <message>
         <source>OK</source>
@@ -59,16 +47,28 @@
         <translation>İptal</translation>
     </message>
     <message>
+        <source>Scan</source>
+        <translation>Tarama</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>İmzalar</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>altıgen</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>Bilgilendirme</translation>
     </message>
     <message>
         <source>Please restart the application</source>
         <translation>Lütfen uygulamya tekrar başlatın</translation>
-    </message>
-    <message>
-        <source>Open directory</source>
-        <translation>Klasör aç</translation>
     </message>
 </context>
 <context>
@@ -107,11 +107,11 @@
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation></translation>
+        <translation>Kısayollar</translation>
     </message>
     <message>
         <source>Demangle</source>
-        <translation></translation>
+        <translation>parçalamak</translation>
     </message>
     <message>
         <source>Open file</source>

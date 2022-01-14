@@ -11,44 +11,32 @@
         <source>OK</source>
         <translation>OK</translation>
     </message>
+    <message>
+        <source>Bugreports</source>
+        <translation>Zgłaszanie błędów</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Stronie internetowej</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>Podarować</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>Kod źródłowy</translation>
+    </message>
+    <message>
+        <source>Thanks</source>
+        <translation>Podziękowania</translation>
+    </message>
 </context>
 <context>
     <name>DialogOptions</name>
     <message>
         <source>Options</source>
         <translation>Ustawienia</translation>
-    </message>
-    <message>
-        <source>Save last directory</source>
-        <translation>Zapamiętaj ostatni katalog</translation>
-    </message>
-    <message>
-        <source>Stay on top</source>
-        <translation>Zawsze na wierzchu</translation>
-    </message>
-    <message>
-        <source>Save backup</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Show logo</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Context</source>
-        <translation>Menu systemu</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Language</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Search signatures</source>
-        <translation></translation>
     </message>
     <message>
         <source>OK</source>
@@ -59,39 +47,51 @@
         <translation>Anuluj</translation>
     </message>
     <message>
+        <source>Scan</source>
+        <translation>Skanuj</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>Sygnatury</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Klątwa</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disazm</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>Informacja</translation>
     </message>
     <message>
         <source>Please restart the application</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Open directory</source>
-        <translation>Otwórz katalog</translation>
+        <translation>Uruchom ponownie aplikację</translation>
     </message>
 </context>
 <context>
     <name>GuiMainWindow</name>
     <message>
         <source>File</source>
-        <translation></translation>
+        <translation>Plik</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation></translation>
+        <translation>Narzędzia</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation></translation>
+        <translation>Pomoc</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation></translation>
+        <translation>otwarty</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation></translation>
+        <translation>Blisko</translation>
     </message>
     <message>
         <source>Exit</source>
@@ -107,19 +107,19 @@
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation></translation>
+        <translation>Skróty</translation>
     </message>
     <message>
         <source>Demangle</source>
-        <translation></translation>
+        <translation>Demaglanie</translation>
     </message>
     <message>
         <source>Open file</source>
-        <translation></translation>
+        <translation>Otwórz plik</translation>
     </message>
     <message>
         <source>All files</source>
-        <translation></translation>
+        <translation>Wszystkie pliki</translation>
     </message>
     <message>
         <source>Error</source>
@@ -127,11 +127,11 @@
     </message>
     <message>
         <source>It is not a valid file</source>
-        <translation></translation>
+        <translation>To nie jest prawidłowy plik</translation>
     </message>
     <message>
         <source>Cannot open file</source>
-        <translation></translation>
+        <translation>Nie można otworzyć pliku</translation>
     </message>
 </context>
 </TS>

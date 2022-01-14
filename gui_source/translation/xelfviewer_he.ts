@@ -11,44 +11,32 @@
         <source>OK</source>
         <translation>אישור</translation>
     </message>
+    <message>
+        <source>Bugreports</source>
+        <translation>דיווחי שגיאות</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>אתר אינטרנט</translation>
+    </message>
+    <message>
+        <source>Donate</source>
+        <translation>תרום</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>קוד מקור</translation>
+    </message>
+    <message>
+        <source>Thanks</source>
+        <translation>תודה</translation>
+    </message>
 </context>
 <context>
     <name>DialogOptions</name>
     <message>
         <source>Options</source>
         <translation>אפשרויות</translation>
-    </message>
-    <message>
-        <source>Save last directory</source>
-        <translation>שמור תיקייה אחרונה</translation>
-    </message>
-    <message>
-        <source>Stay on top</source>
-        <translation>השאר בקידמה</translation>
-    </message>
-    <message>
-        <source>Save backup</source>
-        <translation>שמור גיבוי</translation>
-    </message>
-    <message>
-        <source>Show logo</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Context</source>
-        <translation>הקשר</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation>סגנון</translation>
-    </message>
-    <message>
-        <source>Language</source>
-        <translation>שפה</translation>
-    </message>
-    <message>
-        <source>Search signatures</source>
-        <translation>חתימות</translation>
     </message>
     <message>
         <source>OK</source>
@@ -59,16 +47,28 @@
         <translation>בטל</translation>
     </message>
     <message>
+        <source>Scan</source>
+        <translation>סרוק</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>חתימות</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>הקס</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>פירוק לפקודות</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>מידע</translation>
     </message>
     <message>
         <source>Please restart the application</source>
         <translation>אנא הפעל את התוכנית מחדש</translation>
-    </message>
-    <message>
-        <source>Open directory</source>
-        <translation>פתח תיקייה</translation>
     </message>
 </context>
 <context>
@@ -107,11 +107,11 @@
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation></translation>
+        <translation>קיצורי דרך</translation>
     </message>
     <message>
         <source>Demangle</source>
-        <translation></translation>
+        <translation>להסיר</translation>
     </message>
     <message>
         <source>Open file</source>
