@@ -24,12 +24,12 @@
 #include <QMainWindow>
 
 #include "../global.h"
-#include <QMainWindow>
-#include <QFileDialog>
 #include <QDragEnterEvent>
+#include <QFileDialog>
+#include <QMainWindow>
 #include <QMimeData>
-#include "dialogoptions.h"
 #include "dialogabout.h"
+#include "dialogoptions.h"
 #include "dialogshortcuts.h"
 #include "elfwidget.h"
 
