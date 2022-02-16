@@ -97,6 +97,4 @@
 [submodule "XPDF"]
 	path = XPDF
 	url = https://github.com/horsicq/XPDF
-[submodule "archive_widget"]
-	path = archive_widget
-	url = https://github.com/horsicq/archive_widget
+
