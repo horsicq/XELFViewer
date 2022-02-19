@@ -1,5 +1,5 @@
 [Desktop Entry]
-Version=#VERSION#
+Version=1.0
 Type=Application
 Name=XELFViewer
 Comment=XELFViewer is a ELF file viewer/editor.
