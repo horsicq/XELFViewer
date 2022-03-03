@@ -200,7 +200,7 @@ void GuiMainWindow::closeCurrentFile()
 
     ui->stackedWidget->setCurrentIndex(0);
 
-    setWindowTitle(QString("%1 v%2").arg(X_APPLICATIONDISPLAYNAME).arg(X_APPLICATIONVERSION));
+    setWindowTitle(QString("%1 v%2").arg(X_APPLICATIONDISPLAYNAME,X_APPLICATIONVERSION));
 }
 
 void GuiMainWindow::dragEnterEvent(QDragEnterEvent *event)
