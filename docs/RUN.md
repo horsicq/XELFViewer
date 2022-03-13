@@ -1,3 +1,9 @@
+There are two versions of  program.
+
+**xapkd** - GUI version
+**xapkc** - console version.
+
+
 How to run portable version on Linux
 =======
 
