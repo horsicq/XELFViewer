@@ -46,13 +46,14 @@ public:
     ~GuiMainWindow();
 
 private slots:
-    void on_actionOpen_triggered();
-    void on_actionClose_triggered();
-    void on_actionExit_triggered();
-    void on_actionDemangle_triggered();
-    void on_actionShortcuts_triggered();
-    void on_actionOptions_triggered();
-    void on_actionAbout_triggered();
+    void createMenus();
+    void actionOpenSlot();
+    void actionCloseSlot();
+    void actionExitSlot();
+    void actionDemangleSlot();
+    void actionShortcutsSlot();
+    void actionOptionsSlot();
+    void actionAboutSlot();
     void adjustWindow();
     void processFile(QString sFileName);
     void closeCurrentFile();
