@@ -46,17 +46,12 @@ public:
     explicit DialogOptions(QWidget *parent,XOptions *pOptions);
     ~DialogOptions();
 
-private slots:
-    void on_pushButtonOK_clicked();
-    void on_pushButtonCancel_clicked();
-
 private:
     Ui::DialogOptions *ui;
     StaticScanOptionsWidget *g_pStaticScanOptionsWidget;
     SearchSignaturesOptionsWidget *g_pSearchSignaturesOptionsWidget;
     XHexViewOptionsWidget *g_pXHexViewOptionsWidget;
     XDisasmViewOptionsWidget *g_pXDisasmViewOptionsWidget;
-    XOptions *g_pOptions;
 };
 
 #endif // DIALOGOPTIONS_H
