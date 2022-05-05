@@ -1,11 +1,11 @@
 #define MyAppName "XELFViewer"
-#define MyAppVersion "0.03"
+#define MyAppVersion "0.04"
 #define MyAppPublisher "NTInfo"
 #define MyAppURL "ntinfo.biz"
 #define MyAppExeName "xelfviewer.exe"
 
 [Setup]
-AppId={{E175FE98-9EAA-446B-89AE-389DA7E1C97B}
+AppId={{E175FE98-9EAA-446B-80DE-389DA7E1C97B}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppPublisher={#MyAppPublisher}

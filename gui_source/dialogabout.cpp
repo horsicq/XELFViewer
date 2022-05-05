@@ -55,9 +55,15 @@ DialogAbout::DialogAbout(QWidget *parent) :
                                             "<a href=\"https://www.ashemery.com/\"><span style=\" text-decoration: underline; color:#ff0000;\">Ali Hadi</span></a>, "
                                             "<a href=\"http://mrexodia.re/\"><span style=\" text-decoration: underline; color:#ff0000;\">Duncan Ogilvie</span></a>, "
                                          "</p>"
-                                         "<p align=\"center\">"
-                                            "<a href=\"https://github.com/leandrofroes\"><span style=\" text-decoration: underline; color:#ff0000;\">Leandro Fróes</span></a>"
-                                         "</p>"
+                                        "<p align=\"center\">"
+                                            "<a href=\"https://github.com/leandrofroes\"><span style=\" text-decoration: underline; color:#ff0000;\">Leandro Fróes</span></a>, "
+                                            "<a href=\"https://www.leavesongs.com/\"><span style=\" text-decoration: underline; color:#ff0000;\">phithon</span></a>, "
+                                            "<a href=\"https://github.com/clayne/\"><span style=\" text-decoration: underline; color:#ff0000;\">Christopher Layne</span></a>, "
+                                        "</p>"
+                                        "<p align=\"center\">"
+                                            "<a href=\"http://dfirnotes.net/\"><span style=\" text-decoration: underline; color:#ff0000;\">Adric Net</span></a>, "
+                                            "<a href=\"https://greich.com/\"><span style=\" text-decoration: underline; color:#ff0000;\">Gilad Reich</span></a>"
+                                        "</p>"
                                      "</body></html>")
                                 .arg(tr("Thanks")));
 
