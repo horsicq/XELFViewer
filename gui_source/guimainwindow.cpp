@@ -28,6 +28,7 @@ GuiMainWindow::GuiMainWindow(QWidget *pParent) :
     ui->setupUi(this);
 
     g_pFile=nullptr;
+    g_pXInfo=nullptr;
 
     ui->stackedWidget->setCurrentIndex(0);
 
@@ -191,6 +192,7 @@ void GuiMainWindow::processFile(QString sFileName)
         closeCurrentFile();
 
         g_pFile=new QFile;
+        g_pXInfo=new XInfoDB;
 
         g_pFile->setFileName(sFileName);
 
@@ -207,6 +209,8 @@ void GuiMainWindow::processFile(QString sFileName)
             XELF elf(g_pFile);
             if(elf.isValid())
             {
+                g_pXInfo->setDevice(g_pFile,elf.getFileType());
+
                 g_formatOptions.bIsImage=false;
                 g_formatOptions.nImageBase=-1;
                 g_formatOptions.nStartType=SELF::TYPE_INFO;
@@ -233,6 +237,12 @@ void GuiMainWindow::processFile(QString sFileName)
 
 void GuiMainWindow::closeCurrentFile()
 {
+    if(g_pXInfo)
+    {
+        delete g_pXInfo;
+        g_pXInfo=nullptr;
+    }
+
     if(g_pFile)
     {
         g_pFile->close();
@@ -242,7 +252,7 @@ void GuiMainWindow::closeCurrentFile()
 
     ui->stackedWidget->setCurrentIndex(0);
 
-    setWindowTitle(QString("%1 v%2").arg(X_APPLICATIONDISPLAYNAME,X_APPLICATIONVERSION));
+    setWindowTitle(XOptions::getTitle(X_APPLICATIONDISPLAYNAME,X_APPLICATIONVERSION));
 }
 
 void GuiMainWindow::dragEnterEvent(QDragEnterEvent *event)
