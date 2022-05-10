@@ -62,10 +62,10 @@ GuiMainWindow::GuiMainWindow(QWidget *pParent) :
     g_xShortcuts.setName(X_SHORTCUTSFILE);
     g_xShortcuts.setNative(g_xOptions.isNative());
 
-    g_xShortcuts.addGroup(XShortcuts::ID_STRINGS);
-    g_xShortcuts.addGroup(XShortcuts::ID_SIGNATURES);
-    g_xShortcuts.addGroup(XShortcuts::ID_HEX);
-    g_xShortcuts.addGroup(XShortcuts::ID_DISASM);
+    g_xShortcuts.addGroup(XShortcuts::GROUPID_STRINGS);
+    g_xShortcuts.addGroup(XShortcuts::GROUPID_SIGNATURES);
+    g_xShortcuts.addGroup(XShortcuts::GROUPID_HEX);
+    g_xShortcuts.addGroup(XShortcuts::GROUPID_DISASM);
 
     g_xShortcuts.load();
 
@@ -215,6 +215,7 @@ void GuiMainWindow::processFile(QString sFileName)
                 g_formatOptions.nImageBase=-1;
                 g_formatOptions.nStartType=SELF::TYPE_INFO;
                 ui->widgetViewer->setData(g_pFile,g_formatOptions,0,0,0);
+                ui->widgetViewer->setXInfoDB(g_pXInfo);
 
                 ui->widgetViewer->reload();
 
