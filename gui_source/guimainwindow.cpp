@@ -252,6 +252,7 @@ void GuiMainWindow::closeCurrentFile()
     }
 
     ui->stackedWidget->setCurrentIndex(0);
+    ui->widgetViewer->cleanup();
 
     setWindowTitle(XOptions::getTitle(X_APPLICATIONDISPLAYNAME,X_APPLICATIONVERSION));
 }
