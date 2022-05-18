@@ -2,6 +2,7 @@
 -----------------------------------------------------------------------
 [+] Bundle for Ubuntu 22.04
 [+] Bundle for Apple M1 processor
+[+] New disasm features
 [+] Many bugs have been fixed
 #######################################################################
 0.04
