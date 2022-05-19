@@ -1,9 +1,10 @@
-AC_INIT([XELFViewer], 0.04)
+AC_INIT([XELFViewer], 0.05)
 AC_PROG_CC
 AC_LANG(C++)
 PKG_CHECK_MODULES(Qt5Core,              [Qt5Core >= 5.2.0],             [], [AC_MSG_ERROR([Qt5Core >= 5.2.0] is required.)])
 PKG_CHECK_MODULES(Qt5Gui,               [Qt5Gui >= 5.2.0],              [], [AC_MSG_ERROR([Qt5Gui >= 5.2.0] is required.)])
 PKG_CHECK_MODULES(Qt5Widgets,           [Qt5Widgets >= 5.2.0],          [], [AC_MSG_ERROR([Qt5Widgets >= 5.2.0] is required.)])
+PKG_CHECK_MODULES(Qt5Sql,               [Qt5Sql >= 5.2.0],              [], [AC_MSG_ERROR([Qt5Sql >= 5.2.0] is required.)])
  
 PKG_CHECK_EXISTS([Qt5Core >= 5.2.0],[PKG_CHECK_VAR(QT_QMAKE,[Qt5Core >= 5.2.0],[host_bins])])
 

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(xelfviewer VERSION 0.04 LANGUAGES CXX)
+project(xelfviewer VERSION 0.05 LANGUAGES CXX)
 
 include_guard(DIRECTORY)
 
@@ -24,6 +24,7 @@ find_package(Qt5 COMPONENTS Concurrent REQUIRED)
 find_package(Qt5 COMPONENTS OpenGL REQUIRED)
 find_package(Qt5 COMPONENTS PrintSupport REQUIRED)
 find_package(Qt5 COMPONENTS Svg REQUIRED)
+find_package(Qt5 COMPONENTS Sql REQUIRED)
 
 add_definitions(-DUSE_DEX)
 add_definitions(-DUSE_PDF)
@@ -74,6 +75,7 @@ target_link_libraries(${PROJECT_NAME} Qt5::Concurrent)
 target_link_libraries(${PROJECT_NAME} Qt5::OpenGL)
 target_link_libraries(${PROJECT_NAME} Qt5::PrintSupport)
 target_link_libraries(${PROJECT_NAME} Qt5::Svg)
+target_link_libraries(${PROJECT_NAME} Qt5::Sql)
 
 if(WIN32)
     target_link_libraries(${PROJECT_NAME} Wintrust)
