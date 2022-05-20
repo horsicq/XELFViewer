@@ -52,10 +52,10 @@ int main(int argc,char *argv[])
 
     xOptions.setName(X_OPTIONSFILE);
 
-    xOptions.addID(XOptions::ID_VIEW_STYLE,"Fusion");
-    xOptions.addID(XOptions::ID_VIEW_QSS,"");
-    xOptions.addID(XOptions::ID_VIEW_LANG,"System");
     xOptions.addID(XOptions::ID_VIEW_FONT,"");
+    xOptions.addID(XOptions::ID_VIEW_LANG,"System");
+    xOptions.addID(XOptions::ID_VIEW_QSS);
+    xOptions.addID(XOptions::ID_VIEW_STYLE,"Fusion");
 
     xOptions.load();
 
