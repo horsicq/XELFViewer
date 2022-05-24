@@ -21,8 +21,6 @@
 #ifndef GUIMAINWINDOW_H
 #define GUIMAINWINDOW_H
 
-#include <QMainWindow>
-
 #include "../global.h"
 #include <QDragEnterEvent>
 #include <QFileDialog>
