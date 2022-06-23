@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(MainProject)
+project(XELFViewer)
 
 if(WIN32)
     set (CMAKE_PREFIX_PATH "C:/Qt/5.15.2/msvc2019/")
