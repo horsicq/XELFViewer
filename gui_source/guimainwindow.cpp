@@ -234,6 +234,10 @@ void GuiMainWindow::processFile(QString sFileName)
             QMessageBox::critical(this,tr("Error"),tr("Cannot open file"));
         }
     }
+    else
+    {
+        QMessageBox::critical(this,tr("Error"),tr("Cannot open file"));
+    }
 }
 
 void GuiMainWindow::closeCurrentFile()
