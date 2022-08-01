@@ -113,3 +113,6 @@
 [submodule "die_script"]
 	path = die_script
 	url = https://github.com/horsicq/die_script
+[submodule "hex_templates"]
+	path = hex_templates
+	url = https://github.com/horsicq/hex_templates
