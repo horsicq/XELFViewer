@@ -39,6 +39,7 @@ if [ -z "$X_ERROR" ]; then
         sed -i "s/#VERSION#/$X_RELEASE_VERSION/"                            $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/share/applications/xelfviewer.desktop
         cp -Rf $X_SOURCE_PATH/LINUX/hicolor/                                $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/share/icons/
         cp -Rf $X_SOURCE_PATH/XStyles/qss/                                  $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/lib/xelfviewer/
+        cp -Rf $X_SOURCE_PATH/images/                                       $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/lib/xelfviewer/
         mkdir -p $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/lib/xelfviewer/lang/
         cp -f $X_SOURCE_PATH/gui_source/translation/*.qm                    $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/lib/xelfviewer/lang/
         mkdir -p $X_SOURCE_PATH/release/$X_BUILD_NAME/usr/lib/xelfviewer/signatures
