@@ -28,7 +28,7 @@ if [ -z "$X_ERROR" ]; then
 
         deploy_qt XELFViewer
 
-        make_release
+        make_release XELFViewer
         make_clear
     fi
 fi

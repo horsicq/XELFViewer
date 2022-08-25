@@ -27,45 +27,44 @@ DialogAbout::DialogAbout(QWidget *pParent) :
 {
     ui->setupUi(this);
 
-    ui->labelVersion->setText(QString("<span style=\" font-weight:600;\">%1</span>")
-                              .arg(XOptions::getTitle(X_APPLICATIONDISPLAYNAME,X_APPLICATIONVERSION)));
+    XAboutWidget::DATA _data={};
 
-    ui->labelBugreports->setText(QString("<html><head/><body><p><span style=\" font-weight:600;\">%1</span>: <a href=\"mailto:horsicq@gmail.com\"><span style=\" text-decoration: underline; color:#ff0000;\">horsicq@gmail.com</span></a></p></body></html>")
-                                .arg(tr("Bugreports")));
-    ui->labelWebsite->setText(QString("<html><head/><body><p><span style=\" font-weight:600;\">%1</span>: <a href=\"http://ntinfo.biz\"><span style=\" text-decoration: underline; color:#ff0000;\">http://ntinfo.biz</span></a></p></body></html>")
-                                .arg(tr("Website")));
-    ui->labelDonate->setText(QString("<html><head/><body><p><span style=\" font-weight:600;\">%1(Paypal): </span><a href=\"mailto:ntinfo.re@gmail.com\"><span style=\" text-decoration: underline; color:#ff0000;\">ntinfo.re@gmail.com</span></a></p></body></html>")
-                                .arg(tr("Donate")));
-    ui->labelSourceCode->setText(QString("<html><head/><body><p><span style=\" font-weight:600;\">%1: </span><a href=\"https://github.com/horsicq/XELFViewer\"><span style=\" text-decoration: underline; color:#ff0000;\">https://github.com/horsicq/XELFViewer</span></a></p></body></html>")
-                                .arg(tr("Source code")));
-    ui->labelThanks->setText(QString("<html><head/><body>"
-                                         "<p align=\"center\"><span style=\" font-weight:600;\">%1:</span></p>"
-                                         "<p align=\"center\">"
-                                             "<a href=\"https://www.mentebinaria.com.br/\"><span style=\" text-decoration: underline; color:#ff0000; \">Fernando Mercês</span></a>, "
-                                             "<a href=\"http://sandsprite.com/\"><span style=\" text-decoration: underline; color:#ff0000;\">David Zimmer</span></a>, "
-                                             "<a href=\"https://github.com/miso-xyz\"><span style=\" text-decoration: underline; color:#ff0000;\">misonothx</span></a>, "
-                                         "</p>"
-                                         "<p align=\"center\">"
-                                            "<a href=\"https://twitter.com/frenchyeti\"><span style=\" text-decoration: underline; color:#ff0000;\">FrenchYeti</span></a>, "
-                                            "<a href=\"https://github.com/fr0zenbag\"><span style=\" text-decoration: underline; color:#ff0000;\">fr0zenbag</span></a>, "
-                                            "<a href=\"https://github.com/AandersonL\"><span style=\" text-decoration: underline; color:#ff0000;\">Anderson Leite</span></a>, "
-                                         "</p>"
-                                         "<p align=\"center\">"
-                                            "<a href=\"https://github.com/filipnavara\"><span style=\" text-decoration: underline; color:#ff0000;\">Filip Navara</span></a>, "
-                                            "<a href=\"https://www.ashemery.com/\"><span style=\" text-decoration: underline; color:#ff0000;\">Ali Hadi</span></a>, "
-                                            "<a href=\"http://mrexodia.re/\"><span style=\" text-decoration: underline; color:#ff0000;\">Duncan Ogilvie</span></a>, "
-                                         "</p>"
-                                        "<p align=\"center\">"
-                                            "<a href=\"https://github.com/leandrofroes\"><span style=\" text-decoration: underline; color:#ff0000;\">Leandro Fróes</span></a>, "
-                                            "<a href=\"https://www.leavesongs.com/\"><span style=\" text-decoration: underline; color:#ff0000;\">phithon</span></a>, "
-                                            "<a href=\"https://github.com/clayne/\"><span style=\" text-decoration: underline; color:#ff0000;\">Christopher Layne</span></a>, "
-                                        "</p>"
-                                        "<p align=\"center\">"
-                                            "<a href=\"http://dfirnotes.net/\"><span style=\" text-decoration: underline; color:#ff0000;\">Adric Net</span></a>, "
-                                            "<a href=\"https://greich.com/\"><span style=\" text-decoration: underline; color:#ff0000;\">Gilad Reich</span></a>"
-                                        "</p>"
-                                     "</body></html>")
-                                .arg(tr("Thanks")));
+    _data.sInfo+=QString("<p align=\"center\"><span style=\" font-weight:600;\">%1</span></p>")
+            .arg(XOptions::getTitle(X_APPLICATIONDISPLAYNAME,X_APPLICATIONVERSION));
+    _data.sInfo+=QString("<p align=\"center\"><span style=\" font-weight:600;\">Copyright (C) 2019-2022 Hors</span></p>");
+    _data.sInfo+=QString("<p align=\"center\"><span style=\" font-weight:600;\">%1: </span><a href=\"mailto:horsicq@gmail.com\"><span style=\" text-decoration: underline; color:#ff0000;\">horsicq@gmail.com</span></a></p>")
+            .arg(tr("Bugreports"));
+    _data.sInfo+=QString("<p align=\"center\"><span style=\" font-weight:600;\">%1: </span><a href=\"http://ntinfo.biz\"><span style=\" text-decoration: underline; color:#ff0000;\">http://ntinfo.biz</span></a></p>")
+            .arg(tr("Website"));
+    _data.sInfo+=QString("<p align=\"center\"><span style=\" font-weight:600;\">%1(Paypal): </span><a href=\"ntinfo.re@gmail.com\"><span style=\" text-decoration: underline; color:#ff0000;\">ntinfo.re@gmail.com</span></a></p>")
+            .arg(tr("Donate"));
+    _data.sInfo+=QString("<p align=\"center\"><span style=\" font-weight:600;\">%1(BTC): </span><a href=\"3DqddVBX9PKqMvNPXZ3gPHBNNRtD9CnmJo\"><span style=\" text-decoration: underline; color:#ff0000;\">3DqddVBX9PKqMvNPXZ3gPHBNNRtD9CnmJo</span></a></p>")
+            .arg(tr("Donate"));
+    _data.sInfo+=QString("<p align=\"center\"><span style=\" font-weight:600;\">%1: </span><a href=\"https://github.com/horsicq/XELFViewer\"><span style=\" text-decoration: underline; color:#ff0000;\">https://github.com/horsicq/XELFViewer</span></a></p>")
+            .arg(tr("Source code"));
+
+    _data.sLibraries+=QString("<p align=\"center\"><span style=\" font-weight:600;\">QT Library %1 </span><a href=\"http://qt-project.org\"><span style=\" text-decoration: underline; color:#ff0000;\">http://qt-project.org</span></a></p>")
+            .arg(QT_VERSION_STR);
+    _data.sLibraries+=QString("<p align=\"center\"><span style=\" font-weight:600;\">QWT Library %1 </span><a href=\"http://qwt.sourceforge.net\"><span style=\" text-decoration: underline; color:#ff0000;\">http://qwt.sourceforge.net</span></a></p>")
+            .arg(QWT_VERSION_STR);
+    _data.sLibraries+=QString("<p align=\"center\"><span style=\" font-weight:600;\">Capstone %1.%2.%3 </span><a href=\"http://www.capstone-engine.org\"><span style=\" text-decoration: underline; color:#ff0000;\">http://www.capstone-engine.org</span></a></p>")
+            .arg(QString::number(CS_VERSION_MAJOR),QString::number(CS_VERSION_MINOR),QString::number(CS_VERSION_EXTRA));
+
+    _data.sLogoPath=":/pics/logo.png";
+    _data.sUpdatesLink="https://github.com/horsicq/XELFViewer/releases";
+
+#ifndef QT_DEBUG
+    _data.sThanksPath=XOptions().getApplicationDataPath()+QDir::separator()+"images"+QDir::separator()+"thanks";
+#else
+    QDir dir(XOptions().getApplicationDataPath());
+
+    dir.cdUp();
+    dir.cdUp();
+
+    _data.sThanksPath=dir.absolutePath()+QDir::separator()+"images"+QDir::separator()+"thanks";
+#endif
+
+    ui->widgetAbout->setData(_data);
 
 }
 

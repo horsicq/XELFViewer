@@ -25,15 +25,20 @@ find_package(Qt5 COMPONENTS OpenGL REQUIRED)
 find_package(Qt5 COMPONENTS PrintSupport REQUIRED)
 find_package(Qt5 COMPONENTS Svg REQUIRED)
 find_package(Qt5 COMPONENTS Sql REQUIRED)
+find_package(Qt5 COMPONENTS Network REQUIRED)
+find_package(Qt5 COMPONENTS Script REQUIRED)
+find_package(Qt5 COMPONENTS ScriptTools REQUIRED)
 
 add_definitions(-DUSE_DEX)
 add_definitions(-DUSE_PDF)
 add_definitions(-DUSE_ARCHIVE)
 
 include(${PROJECT_SOURCE_DIR}/../FormatWidgets/ELF/elfwidget.cmake)
+include(${PROJECT_SOURCE_DIR}/../XAboutWidget/xaboutwidget.cmake)
 
 set(PROJECT_SOURCES
             ${ELFWIDGET_SOURCES}
+            ${XABOUTWIDGET_SOURCES}
             dialogabout.cpp
             dialogabout.ui
             dialogoptions.cpp
@@ -76,6 +81,9 @@ target_link_libraries(${PROJECT_NAME} Qt5::OpenGL)
 target_link_libraries(${PROJECT_NAME} Qt5::PrintSupport)
 target_link_libraries(${PROJECT_NAME} Qt5::Svg)
 target_link_libraries(${PROJECT_NAME} Qt5::Sql)
+target_link_libraries(${PROJECT_NAME} Qt5::Network)
+target_link_libraries(${PROJECT_NAME} Qt5::Script)
+target_link_libraries(${PROJECT_NAME} Qt5::ScriptTools)
 
 if(WIN32)
     target_link_libraries(${PROJECT_NAME} Wintrust)

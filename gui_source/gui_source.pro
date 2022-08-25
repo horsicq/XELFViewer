@@ -36,9 +36,9 @@ XCONFIG += use_extrabuttons
     include(../FormatWidgets/ELF/elfwidget.pri)
 }
 
-!contains(XCONFIG, xoptions) {
-    XCONFIG += xoptions
-    include(../XOptions/xoptions.pri)
+!contains(XCONFIG, xaboutwidget) {
+    XCONFIG += xaboutwidget
+    include(../XAboutWidget/xaboutwidget.pri)
 }
 
 win32 {

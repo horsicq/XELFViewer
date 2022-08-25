@@ -43,7 +43,7 @@ GuiMainWindow::GuiMainWindow(QWidget *pParent) :
     g_xOptions.addID(XOptions::ID_VIEW_LANG,"System");
     g_xOptions.addID(XOptions::ID_VIEW_FONT,"");
     g_xOptions.addID(XOptions::ID_VIEW_STAYONTOP,false);
-    g_xOptions.addID(XOptions::ID_VIEW_SHOWLOGO,true);
+    g_xOptions.addID(XOptions::ID_VIEW_SHOWLOGO,false);
     g_xOptions.addID(XOptions::ID_FILE_SAVELASTDIRECTORY,true);
     g_xOptions.addID(XOptions::ID_FILE_SAVEBACKUP,true);
     g_xOptions.addID(XOptions::ID_FILE_SAVERECENTFILES,true);
