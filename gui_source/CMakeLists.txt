@@ -33,11 +33,11 @@ add_definitions(-DUSE_DEX)
 add_definitions(-DUSE_PDF)
 add_definitions(-DUSE_ARCHIVE)
 
-include(${PROJECT_SOURCE_DIR}/../FormatWidgets/ELF/elfwidget.cmake)
+include(${PROJECT_SOURCE_DIR}/../archive_widget/archive_widget.cmake)
 include(${PROJECT_SOURCE_DIR}/../XAboutWidget/xaboutwidget.cmake)
 
 set(PROJECT_SOURCES
-            ${ELFWIDGET_SOURCES}
+            ${ARCHIVE_WIDGET_SOURCES}
             ${XABOUTWIDGET_SOURCES}
             dialogabout.cpp
             dialogabout.ui

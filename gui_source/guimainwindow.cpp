@@ -28,6 +28,7 @@ GuiMainWindow::GuiMainWindow(QWidget *pParent) :
     ui->setupUi(this);
 
     g_pFile=nullptr;
+    g_pTempFile=nullptr;
     g_pXInfo=nullptr;
 
     ui->stackedWidget->setCurrentIndex(0);
@@ -185,44 +186,131 @@ void GuiMainWindow::adjustWindow()
 
 void GuiMainWindow::processFile(QString sFileName)
 {
-    if((sFileName!="")&&(QFileInfo(sFileName).isFile()))
+    bool bIsFile=XBinary::isFileExists(sFileName);
+    bool bIsDirectory=XBinary::isDirectoryExists(sFileName);
+
+    QString sTitle=sFileName;
+
+    if((sFileName!="")&&(bIsFile||bIsDirectory))
     {
+        QIODevice *pOpenDevice=nullptr;
+
         g_xOptions.setLastFileName(sFileName);
 
         closeCurrentFile();
 
-        g_pFile=new QFile;
-        g_pXInfo=new XInfoDB;
-
-        g_pFile->setFileName(sFileName);
-
-        if(!g_pFile->open(QIODevice::ReadWrite))
+        if(bIsFile)
         {
-            if(!g_pFile->open(QIODevice::ReadOnly))
+            g_pFile=new QFile;
+
+            g_pFile->setFileName(sFileName);
+
+            if(!g_pFile->open(QIODevice::ReadWrite))
             {
-                closeCurrentFile();
+                if(!g_pFile->open(QIODevice::ReadOnly))
+                {
+                    closeCurrentFile();
+                }
+            }
+
+            pOpenDevice=g_pFile;
+        }
+
+        QSet<XBinary::FT> ftArchiveAvailable;
+
+        ftArchiveAvailable.insert(XBinary::FT_AR);
+
+        if(XArchives::isArchiveOpenValid(g_pFile,ftArchiveAvailable)||bIsDirectory)
+        {
+            bool bError=false;
+
+            QSet<XBinary::FT> ftOpenAvailable;
+
+            ftOpenAvailable.insert(XBinary::FT_ELF);
+            ftOpenAvailable.insert(XBinary::FT_ELF32);
+            ftOpenAvailable.insert(XBinary::FT_ELF64);
+
+            FW_DEF::OPTIONS options={};
+            options.sTitle=sFileName;
+            options.bFilter=true;
+            options.bNoWindowOpen=true;
+
+            DialogArchive dialogArchive(this);
+            dialogArchive.setGlobal(&g_xShortcuts,&g_xOptions);
+
+            if(bIsFile)
+            {
+                dialogArchive.setDevice(g_pFile,options,ftOpenAvailable);
+            }
+            else if(bIsDirectory)
+            {
+                dialogArchive.setDirectory(sFileName,options,ftOpenAvailable);
+            }
+
+            if(dialogArchive.exec()==QDialog::Accepted)
+            {
+                QString sRecordName=dialogArchive.getCurrentRecordFileName();
+
+                if(bIsFile)
+                {
+                    g_pTempFile=new QTemporaryFile;
+                    g_pTempFile->open();
+
+                    if(XArchives::decompressToFile(XBinary::getDeviceFileName(g_pFile),sRecordName,g_pTempFile->fileName()))
+                    {
+                        pOpenDevice=g_pTempFile;
+                    }
+                    else
+                    {
+                        bError=true;
+                    }
+                }
+                else // Directory
+                {
+                    g_pFile=new QFile;
+                    sTitle=sRecordName;
+
+                    g_pFile->setFileName(sRecordName);
+
+                    if(!g_pFile->open(QIODevice::ReadWrite))
+                    {
+                        if(!g_pFile->open(QIODevice::ReadOnly))
+                        {
+                            closeCurrentFile();
+                        }
+                    }
+
+                    pOpenDevice=g_pFile;
+                }
+            }
+            else
+            {
+                bError=true;
+            }
+
+            if(bError)
+            {
+                close();
+                return;
             }
         }
 
-        if(g_pFile)
+        if(pOpenDevice)
         {
-            XELF elf(g_pFile);
-            if(elf.isValid())
+            if(XELF::isValid(pOpenDevice))
             {
-                g_pXInfo->setDevice(g_pFile,elf.getFileType());
-
+                ui->stackedWidget->setCurrentIndex(1);
                 g_formatOptions.bIsImage=false;
                 g_formatOptions.nImageBase=-1;
-                g_formatOptions.nStartType=SELF::TYPE_INFO;
-                ui->widgetViewer->setData(g_pFile,g_formatOptions,0,0,0);
-                ui->widgetViewer->setXInfoDB(g_pXInfo);
+                g_formatOptions.nStartType=SMACH::TYPE_INFO;
+                ui->widgetViewer->setGlobal(&g_xShortcuts,&g_xOptions);
+                ui->widgetViewer->setData(pOpenDevice,g_formatOptions,0,0,0);
 
                 ui->widgetViewer->reload();
 
                 adjustWindow();
 
-                setWindowTitle(sFileName);
-                ui->stackedWidget->setCurrentIndex(1);
+                setWindowTitle(sTitle);
             }
             else
             {
@@ -253,6 +341,13 @@ void GuiMainWindow::closeCurrentFile()
         g_pFile->close();
         delete g_pFile;
         g_pFile=nullptr;
+    }
+
+    if(g_pTempFile)
+    {
+        g_pTempFile->close();
+        delete g_pTempFile;
+        g_pTempFile=nullptr;
     }
 
     ui->stackedWidget->setCurrentIndex(0);

@@ -30,6 +30,7 @@
 #include "dialogoptions.h"
 #include "dialogshortcuts.h"
 #include "elfwidget.h"
+#include "dialogarchive.h"
 
 namespace Ui {
 class GuiMainWindow;
@@ -68,6 +69,7 @@ private:
     FW_DEF::OPTIONS g_formatOptions;
 
     QFile *g_pFile;
+    QTemporaryFile *g_pTempFile;
     XInfoDB *g_pXInfo;
 };
 
