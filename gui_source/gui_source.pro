@@ -29,11 +29,12 @@ FORMS += \
 
 include(../build.pri)
 
+XCONFIG += use_disasm
 XCONFIG += use_extrabuttons
 
-!contains(XCONFIG, elfwidget) {
-    XCONFIG += elfwidget
-    include(../FormatWidgets/ELF/elfwidget.pri)
+!contains(XCONFIG, archive_widget) {
+    XCONFIG += archive_widget
+    include(../archive_widget/archive_widget.pri)
 }
 
 !contains(XCONFIG, xaboutwidget) {
