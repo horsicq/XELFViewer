@@ -97,7 +97,6 @@
 [submodule "XPDF"]
 	path = XPDF
 	url = https://github.com/horsicq/XPDF
-
 [submodule "XInfoDB"]
 	path = XInfoDB
 	url = https://github.com/horsicq/XInfoDB
