@@ -116,3 +116,6 @@
 [submodule "hex_templates"]
 	path = hex_templates
 	url = https://github.com/horsicq/hex_templates
+[submodule "archive_widget"]
+	path = archive_widget
+	url = https://github.com/horsicq/archive_widget
