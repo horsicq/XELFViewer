@@ -17,3 +17,7 @@ ELF file viewer/editor for Windows, Linux and MacOS.
 ![alt text](https://github.com/horsicq/XELFViewer/blob/master/docs/3.png "3")
 ![alt text](https://github.com/horsicq/XELFViewer/blob/master/docs/4.png "4")
 ![alt text](https://github.com/horsicq/XELFViewer/blob/master/docs/5.png "5")
+
+## Special Thanks
+
+- [PELock Software Protection & Reverse Engineering](https://www.pelock.com)
