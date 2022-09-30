@@ -118,6 +118,3 @@
 [submodule "archive_widget"]
 	path = archive_widget
 	url = https://github.com/horsicq/archive_widget
-[submodule "XExtractorWidget"]
-	path = XExtractorWidget
-	url = https://github.com/horsicq/XExtractorWidget
