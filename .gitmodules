@@ -124,3 +124,9 @@
 [submodule "XExtractor"]
 	path = XExtractor
 	url = https://github.com/horsicq/XExtractor
+[submodule "XUpdate"]
+	path = XUpdate
+	url = https://github.com/horsicq/XUpdate
+[submodule "XGithub"]
+	path = XGithub
+	url = https://github.com/horsicq/XGithub
