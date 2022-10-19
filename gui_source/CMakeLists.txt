@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(xelfviewer VERSION 0.05 LANGUAGES CXX)
+project(xelfviewer VERSION 0.06 LANGUAGES CXX)
 
 include_guard(DIRECTORY)
 
@@ -33,11 +33,11 @@ add_definitions(-DUSE_DEX)
 add_definitions(-DUSE_PDF)
 add_definitions(-DUSE_ARCHIVE)
 
-include(${PROJECT_SOURCE_DIR}/../archive_widget/archive_widget.cmake)
+include(${PROJECT_SOURCE_DIR}/../FormatWidgets/ELF/elfwidget.cmake)
 include(${PROJECT_SOURCE_DIR}/../XAboutWidget/xaboutwidget.cmake)
 
 set(PROJECT_SOURCES
-            ${ARCHIVE_WIDGET_SOURCES}
+            ${ELFWIDGET_SOURCES}
             ${XABOUTWIDGET_SOURCES}
             dialogabout.cpp
             dialogabout.ui

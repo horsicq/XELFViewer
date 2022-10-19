@@ -25,7 +25,7 @@
 
 #define X_APPLICATIONDISPLAYNAME "XELFViewer"
 #define X_APPLICATIONNAME "xelfviewer"
-#define X_APPLICATIONVERSION "0.05"
+#define X_APPLICATIONVERSION "0.06"
 #define X_ORGANIZATIONNAME "NTInfo"
 #define X_ORGANIZATIONDOMAIN "ntinfo.biz"
 #define X_OPTIONSFILE "xelfviewer.ini"

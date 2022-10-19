@@ -1,5 +1,5 @@
 #define MyAppName "XELFViewer"
-#define MyAppVersion "0.05"
+#define MyAppVersion "0.06"
 #define MyAppPublisher "NTInfo"
 #define MyAppURL "ntinfo.biz"
 #define MyAppExeName "xelfviewer.exe"
