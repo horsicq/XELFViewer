@@ -3277,8 +3277,8 @@ printf "%s\n" "no" >&6; }
 fi
 
 pkg_failed=no
-{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for Qt5Core" >&5
-printf %s "checking for Qt5Core... " >&6; }
+{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for Qt5Core >= 5.2.0" >&5
+printf %s "checking for Qt5Core >= 5.2.0... " >&6; }
 
 if test -n "$Qt5Core_CFLAGS"; then
     pkg_cv_Qt5Core_CFLAGS="$Qt5Core_CFLAGS"
@@ -3318,7 +3318,7 @@ fi
 
 
 if test $pkg_failed = yes; then
-   	{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
+        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
 
 if $PKG_CONFIG --atleast-pkgconfig-version 0.20; then
@@ -3336,7 +3336,7 @@ fi
 
 	as_fn_error $? "Qt5Core >= 5.2.0 is required." "$LINENO" 5
 elif test $pkg_failed = untried; then
-     	{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
+        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
 	as_fn_error $? "Qt5Core >= 5.2.0 is required." "$LINENO" 5
 else
@@ -3348,8 +3348,8 @@ printf "%s\n" "yes" >&6; }
 fi
 
 pkg_failed=no
-{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for Qt5Gui" >&5
-printf %s "checking for Qt5Gui... " >&6; }
+{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for Qt5Gui >= 5.2.0" >&5
+printf %s "checking for Qt5Gui >= 5.2.0... " >&6; }
 
 if test -n "$Qt5Gui_CFLAGS"; then
     pkg_cv_Qt5Gui_CFLAGS="$Qt5Gui_CFLAGS"
@@ -3389,7 +3389,7 @@ fi
 
 
 if test $pkg_failed = yes; then
-   	{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
+        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
 
 if $PKG_CONFIG --atleast-pkgconfig-version 0.20; then
@@ -3407,7 +3407,7 @@ fi
 
 	as_fn_error $? "Qt5Gui >= 5.2.0 is required." "$LINENO" 5
 elif test $pkg_failed = untried; then
-     	{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
+        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
 	as_fn_error $? "Qt5Gui >= 5.2.0 is required." "$LINENO" 5
 else
@@ -3419,8 +3419,8 @@ printf "%s\n" "yes" >&6; }
 fi
 
 pkg_failed=no
-{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for Qt5Widgets" >&5
-printf %s "checking for Qt5Widgets... " >&6; }
+{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for Qt5Widgets >= 5.2.0" >&5
+printf %s "checking for Qt5Widgets >= 5.2.0... " >&6; }
 
 if test -n "$Qt5Widgets_CFLAGS"; then
     pkg_cv_Qt5Widgets_CFLAGS="$Qt5Widgets_CFLAGS"
@@ -3460,7 +3460,7 @@ fi
 
 
 if test $pkg_failed = yes; then
-   	{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
+        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
 
 if $PKG_CONFIG --atleast-pkgconfig-version 0.20; then
@@ -3478,7 +3478,7 @@ fi
 
 	as_fn_error $? "Qt5Widgets >= 5.2.0 is required." "$LINENO" 5
 elif test $pkg_failed = untried; then
-     	{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
+        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
 	as_fn_error $? "Qt5Widgets >= 5.2.0 is required." "$LINENO" 5
 else
@@ -3490,8 +3490,8 @@ printf "%s\n" "yes" >&6; }
 fi
 
 pkg_failed=no
-{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for Qt5Sql" >&5
-printf %s "checking for Qt5Sql... " >&6; }
+{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for Qt5Sql >= 5.2.0" >&5
+printf %s "checking for Qt5Sql >= 5.2.0... " >&6; }
 
 if test -n "$Qt5Sql_CFLAGS"; then
     pkg_cv_Qt5Sql_CFLAGS="$Qt5Sql_CFLAGS"
@@ -3531,7 +3531,7 @@ fi
 
 
 if test $pkg_failed = yes; then
-   	{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
+        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
 
 if $PKG_CONFIG --atleast-pkgconfig-version 0.20; then
@@ -3549,7 +3549,7 @@ fi
 
 	as_fn_error $? "Qt5Sql >= 5.2.0 is required." "$LINENO" 5
 elif test $pkg_failed = untried; then
-     	{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
+        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
 	as_fn_error $? "Qt5Sql >= 5.2.0 is required." "$LINENO" 5
 else
@@ -3561,8 +3561,8 @@ printf "%s\n" "yes" >&6; }
 fi
 
 pkg_failed=no
-{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for Qt5Script" >&5
-printf %s "checking for Qt5Script... " >&6; }
+{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for Qt5Script >= 5.2.0" >&5
+printf %s "checking for Qt5Script >= 5.2.0... " >&6; }
 
 if test -n "$Qt5Script_CFLAGS"; then
     pkg_cv_Qt5Script_CFLAGS="$Qt5Script_CFLAGS"
@@ -3602,7 +3602,7 @@ fi
 
 
 if test $pkg_failed = yes; then
-   	{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
+        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
 
 if $PKG_CONFIG --atleast-pkgconfig-version 0.20; then
@@ -3620,7 +3620,7 @@ fi
 
 	as_fn_error $? "Qt5Script >= 5.2.0 is required." "$LINENO" 5
 elif test $pkg_failed = untried; then
-     	{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
+        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
 	as_fn_error $? "Qt5Script >= 5.2.0 is required." "$LINENO" 5
 else
@@ -3632,8 +3632,8 @@ printf "%s\n" "yes" >&6; }
 fi
 
 pkg_failed=no
-{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for Qt5ScriptTools" >&5
-printf %s "checking for Qt5ScriptTools... " >&6; }
+{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for Qt5ScriptTools >= 5.2.0" >&5
+printf %s "checking for Qt5ScriptTools >= 5.2.0... " >&6; }
 
 if test -n "$Qt5ScriptTools_CFLAGS"; then
     pkg_cv_Qt5ScriptTools_CFLAGS="$Qt5ScriptTools_CFLAGS"
@@ -3673,7 +3673,7 @@ fi
 
 
 if test $pkg_failed = yes; then
-   	{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
+        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
 
 if $PKG_CONFIG --atleast-pkgconfig-version 0.20; then
@@ -3691,7 +3691,7 @@ fi
 
 	as_fn_error $? "Qt5ScriptTools >= 5.2.0 is required." "$LINENO" 5
 elif test $pkg_failed = untried; then
-     	{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
+        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
 	as_fn_error $? "Qt5ScriptTools >= 5.2.0 is required." "$LINENO" 5
 else
@@ -3703,8 +3703,8 @@ printf "%s\n" "yes" >&6; }
 fi
 
 pkg_failed=no
-{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for Qt5Network" >&5
-printf %s "checking for Qt5Network... " >&6; }
+{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for Qt5Network >= 5.2.0" >&5
+printf %s "checking for Qt5Network >= 5.2.0... " >&6; }
 
 if test -n "$Qt5Network_CFLAGS"; then
     pkg_cv_Qt5Network_CFLAGS="$Qt5Network_CFLAGS"
@@ -3744,7 +3744,7 @@ fi
 
 
 if test $pkg_failed = yes; then
-   	{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
+        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
 
 if $PKG_CONFIG --atleast-pkgconfig-version 0.20; then
@@ -3762,7 +3762,7 @@ fi
 
 	as_fn_error $? "Qt5Network >= 5.2.0 is required." "$LINENO" 5
 elif test $pkg_failed = untried; then
-     	{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
+        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
 	as_fn_error $? "Qt5Network >= 5.2.0 is required." "$LINENO" 5
 else
