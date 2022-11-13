@@ -19,37 +19,34 @@
  * SOFTWARE.
  */
 #include "dialogoptions.h"
+
 #include "ui_dialogoptions.h"
 
-DialogOptions::DialogOptions(QWidget *pParent,XOptions *pOptions) :
-    QDialog(pParent),
-    ui(new Ui::DialogOptions)
-{
+DialogOptions::DialogOptions(QWidget *pParent, XOptions *pOptions) : QDialog(pParent), ui(new Ui::DialogOptions) {
     ui->setupUi(this);
 
-    g_pStaticScanOptionsWidget=new StaticScanOptionsWidget(this);
-    g_pSearchSignaturesOptionsWidget=new SearchSignaturesOptionsWidget(this);
-    g_pXHexViewOptionsWidget=new XHexViewOptionsWidget(this);
-    g_pXDisasmViewOptionsWidget=new XDisasmViewOptionsWidget(this);
+    g_pStaticScanOptionsWidget = new StaticScanOptionsWidget(this);
+    g_pSearchSignaturesOptionsWidget = new SearchSignaturesOptionsWidget(this);
+    g_pXHexViewOptionsWidget = new XHexViewOptionsWidget(this);
+    g_pXDisasmViewOptionsWidget = new XDisasmViewOptionsWidget(this);
 
-    ui->widgetOptions->setOptions(pOptions,X_APPLICATIONDISPLAYNAME);
+    ui->widgetOptions->setOptions(pOptions, X_APPLICATIONDISPLAYNAME);
 
-    ui->widgetOptions->addPage(g_pStaticScanOptionsWidget,tr("Scan"));
+    ui->widgetOptions->addPage(g_pStaticScanOptionsWidget, tr("Scan"));
     g_pStaticScanOptionsWidget->setOptions(pOptions);
 
-    ui->widgetOptions->addPage(g_pSearchSignaturesOptionsWidget,tr("Signatures"));
+    ui->widgetOptions->addPage(g_pSearchSignaturesOptionsWidget, tr("Signatures"));
     g_pSearchSignaturesOptionsWidget->setOptions(pOptions);
 
-    ui->widgetOptions->addPage(g_pXHexViewOptionsWidget,tr("Hex"));
+    ui->widgetOptions->addPage(g_pXHexViewOptionsWidget, tr("Hex"));
     g_pXHexViewOptionsWidget->setOptions(pOptions);
 
-    ui->widgetOptions->addPage(g_pXDisasmViewOptionsWidget,tr("Disasm"));
+    ui->widgetOptions->addPage(g_pXDisasmViewOptionsWidget, tr("Disasm"));
     g_pXDisasmViewOptionsWidget->setOptions(pOptions);
 
     ui->widgetOptions->setCurrentPage(1);
 }
 
-DialogOptions::~DialogOptions()
-{
+DialogOptions::~DialogOptions() {
     delete ui;
 }
