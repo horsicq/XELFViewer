@@ -55,10 +55,11 @@ DialogAbout::DialogAbout(QWidget *pParent) : QDialog(pParent), ui(new Ui::Dialog
                             "<p align=\"center\"><span style=\" font-weight:600;\">QT Library %1 </span><a href=\"http://qt-project.org\"><span style=\" text-decoration: "
                             "underline; color:#ff0000;\">http://qt-project.org</span></a></p>")
                             .arg(QT_VERSION_STR);
-    _data.sLibraries += QString(
-                            "<p align=\"center\"><span style=\" font-weight:600;\">QWT Library %1 </span><a href=\"http://qwt.sourceforge.net\"><span style=\" text-decoration: "
-                            "underline; color:#ff0000;\">http://qwt.sourceforge.net</span></a></p>")
-                            .arg(QWT_VERSION_STR);
+    _data.sLibraries +=
+        QString(
+            "<p align=\"center\"><span style=\" font-weight:600;\">QWT Library %1 </span><a href=\"http://qwt.sourceforge.net\"><span style=\" text-decoration: "
+            "underline; color:#ff0000;\">http://qwt.sourceforge.net</span></a></p>")
+            .arg(QWT_VERSION_STR);
     _data.sLibraries += QString(
                             "<p align=\"center\"><span style=\" font-weight:600;\">Capstone %1.%2.%3 </span><a href=\"http://www.capstone-engine.org\"><span style=\" "
                             "text-decoration: underline; color:#ff0000;\">http://www.capstone-engine.org</span></a></p>")
