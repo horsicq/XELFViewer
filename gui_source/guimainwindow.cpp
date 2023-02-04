@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2022 hors<horsicq@gmail.com>
+/* Copyright (c) 2019-2023 hors<horsicq@gmail.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -194,6 +194,7 @@ void GuiMainWindow::processFile(QString sFileName)
 
         if (bIsFile) {
             g_pFile = new QFile;
+            g_pXInfo = new XInfoDB;
 
             g_pFile->setFileName(sFileName);
 
@@ -271,13 +272,18 @@ void GuiMainWindow::processFile(QString sFileName)
         }
 
         if (pOpenDevice) {
-            if (XELF::isValid(pOpenDevice)) {
+            XELF elf(pOpenDevice);
+            if (elf.isValid(pOpenDevice)) {
+                g_pXInfo->setDevice(g_pFile);
+                g_pXInfo->setFileType(elf.getFileType());
+
                 ui->stackedWidget->setCurrentIndex(1);
                 g_formatOptions.bIsImage = false;
                 g_formatOptions.nImageBase = -1;
                 g_formatOptions.nStartType = SMACH::TYPE_INFO;
                 ui->widgetViewer->setGlobal(&g_xShortcuts, &g_xOptions);
                 ui->widgetViewer->setData(pOpenDevice, g_formatOptions, 0, 0, 0);
+                ui->widgetViewer->setXInfoDB(g_pXInfo);
 
                 ui->widgetViewer->reload();
 
