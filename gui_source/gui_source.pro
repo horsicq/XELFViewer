@@ -8,7 +8,7 @@ macx {
 
 TEMPLATE = app
 
-CONFIG += c++20
+CONFIG += c++11
 
 SOURCES += \
         guimainwindow.cpp \
