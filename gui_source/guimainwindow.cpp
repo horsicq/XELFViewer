@@ -62,7 +62,7 @@ GuiMainWindow::GuiMainWindow(QWidget *pParent) : QMainWindow(pParent), ui(new Ui
     g_xShortcuts.setName(X_SHORTCUTSFILE);
     g_xShortcuts.setNative(g_xOptions.isNative());
 
-    g_xShortcuts.addGroup(XShortcuts::GROUPID_STRING);
+    g_xShortcuts.addGroup(XShortcuts::GROUPID_STRINGS);
     g_xShortcuts.addGroup(XShortcuts::GROUPID_SIGNATURE);
     g_xShortcuts.addGroup(XShortcuts::GROUPID_HEX);
     g_xShortcuts.addGroup(XShortcuts::GROUPID_DISASM);
