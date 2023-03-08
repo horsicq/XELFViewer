@@ -62,6 +62,10 @@ GuiMainWindow::GuiMainWindow(QWidget *pParent) : QMainWindow(pParent), ui(new Ui
     g_xShortcuts.setName(X_SHORTCUTSFILE);
     g_xShortcuts.setNative(g_xOptions.isNative());
 
+    // TODO add open file
+    // TODO exit
+    // TODO full screen
+
     g_xShortcuts.addGroup(XShortcuts::GROUPID_STRINGS);
     g_xShortcuts.addGroup(XShortcuts::GROUPID_SIGNATURE);
     g_xShortcuts.addGroup(XShortcuts::GROUPID_HEX);
@@ -246,8 +250,8 @@ void GuiMainWindow::processFile(QString sFileName)
                     } else {
                         bError = true;
                     }
-                } else  // Directory
-                {
+                } else  {
+                    // Directory
                     g_pFile = new QFile;
                     sTitle = sRecordName;
 
