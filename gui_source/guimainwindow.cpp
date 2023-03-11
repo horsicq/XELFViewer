@@ -250,7 +250,7 @@ void GuiMainWindow::processFile(QString sFileName)
                     } else {
                         bError = true;
                     }
-                } else  {
+                } else {
                     // Directory
                     g_pFile = new QFile;
                     sTitle = sRecordName;
