@@ -130,3 +130,6 @@
 [submodule "XGithub"]
 	path = XGithub
 	url = https://github.com/horsicq/XGithub
+[submodule "XVisualizationWidget"]
+	path = XVisualizationWidget
+	url = https://github.com/horsicq/XVisualizationWidget
