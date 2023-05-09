@@ -278,8 +278,7 @@ void GuiMainWindow::processFile(QString sFileName)
         if (pOpenDevice) {
             XELF elf(pOpenDevice);
             if (elf.isValid(pOpenDevice)) {
-                g_pXInfo->setDevice(g_pFile);
-                g_pXInfo->setFileType(elf.getFileType());
+                g_pXInfo->setData(g_pFile, elf.getFileType());
 
                 ui->stackedWidget->setCurrentIndex(1);
                 g_formatOptions.bIsImage = false;
