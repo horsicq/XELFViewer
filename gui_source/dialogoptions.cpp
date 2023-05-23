@@ -26,15 +26,15 @@ DialogOptions::DialogOptions(QWidget *pParent, XOptions *pOptions) : QDialog(pPa
 {
     ui->setupUi(this);
 
-    g_pStaticScanOptionsWidget = new StaticScanOptionsWidget(this);
+    g_pNFDOptionsWidget = new NFDOptionsWidget(this);
     g_pSearchSignaturesOptionsWidget = new SearchSignaturesOptionsWidget(this);
     g_pXHexViewOptionsWidget = new XHexViewOptionsWidget(this);
     g_pXDisasmViewOptionsWidget = new XDisasmViewOptionsWidget(this);
 
     ui->widgetOptions->setOptions(pOptions, X_APPLICATIONDISPLAYNAME);
 
-    ui->widgetOptions->addPage(g_pStaticScanOptionsWidget, tr("Scan"));
-    g_pStaticScanOptionsWidget->setOptions(pOptions);
+    ui->widgetOptions->addPage(g_pNFDOptionsWidget, tr("Scan"));
+    g_pNFDOptionsWidget->setOptions(pOptions);
 
     ui->widgetOptions->addPage(g_pSearchSignaturesOptionsWidget, tr("Signatures"));
     g_pSearchSignaturesOptionsWidget->setOptions(pOptions);
