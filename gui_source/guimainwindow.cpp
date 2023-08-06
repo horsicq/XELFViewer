@@ -82,6 +82,7 @@ GuiMainWindow::GuiMainWindow(QWidget *pParent) : QMainWindow(pParent), ui(new Ui
     ui->widgetViewer->setGlobal(&g_xShortcuts, &g_xOptions);
 
     connect(&g_xOptions, SIGNAL(openFile(QString)), this, SLOT(processFile(QString)));
+    connect(&g_xOptions, SIGNAL(errorMessage(QString)), this, SLOT(errorMessageSlot(QString)));
 
     createMenus();
 
@@ -336,6 +337,11 @@ void GuiMainWindow::closeCurrentFile()
     ui->widgetViewer->cleanup();
 
     setWindowTitle(XOptions::getTitle(X_APPLICATIONDISPLAYNAME, X_APPLICATIONVERSION));
+}
+
+void GuiMainWindow::errorMessageSlot(QString sText)
+{
+    QMessageBox::critical(this, tr("Error"), sText);
 }
 
 void GuiMainWindow::dragEnterEvent(QDragEnterEvent *pEvent)
