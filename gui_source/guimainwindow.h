@@ -57,9 +57,9 @@ private slots:
     void actionOptionsSlot();
     void actionAboutSlot();
     void adjustWindow();
-    void processFile(QString sFileName);
+    void processFile(const QString &sFileName);
     void closeCurrentFile();
-    void errorMessageSlot(QString sText);
+    void errorMessageSlot(const QString &sText);
 
 protected:
     void dragEnterEvent(QDragEnterEvent *pEvent) override;

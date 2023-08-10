@@ -60,9 +60,9 @@ GuiMainWindow::GuiMainWindow(QWidget *pParent) : QMainWindow(pParent), ui(new Ui
     XDisasmViewOptionsWidget::setDefaultValues(&g_xOptions);
     XOnlineToolsOptionsWidget::setDefaultValues(&g_xOptions);
     XInfoDBOptionsWidget::setDefaultValues(&g_xOptions);
-
+#ifdef USE_YARA
     g_xOptions.addID(XOptions::ID_SCAN_YARARULESPATH, "$data/yara_rules");
-
+#endif
     g_xOptions.load();
 
     g_xShortcuts.setName(X_SHORTCUTSFILE);
@@ -192,7 +192,7 @@ void GuiMainWindow::adjustWindow()
     }
 }
 
-void GuiMainWindow::processFile(QString sFileName)
+void GuiMainWindow::processFile(const QString &sFileName)
 {
     bool bIsFile = XBinary::isFileExists(sFileName);
     bool bIsDirectory = XBinary::isDirectoryExists(sFileName);
@@ -339,7 +339,7 @@ void GuiMainWindow::closeCurrentFile()
     setWindowTitle(XOptions::getTitle(X_APPLICATIONDISPLAYNAME, X_APPLICATIONVERSION));
 }
 
-void GuiMainWindow::errorMessageSlot(QString sText)
+void GuiMainWindow::errorMessageSlot(const QString &sText)
 {
     QMessageBox::critical(this, tr("Error"), sText);
 }
