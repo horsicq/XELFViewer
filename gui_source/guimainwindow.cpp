@@ -101,6 +101,8 @@ GuiMainWindow::~GuiMainWindow()
     g_xOptions.save();
     g_xShortcuts.save();
 
+    DialogXInfoDBTransferProcess::saveDatabase(g_pXInfo);
+
     delete ui;
 #ifdef USE_YARA
     XYara::finalize();
