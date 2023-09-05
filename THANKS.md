@@ -1,20 +1,6 @@
 <p><table>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/AdamHenault.png?raw=true" /></td>
-    <td>
-      <p>
-        <big><b>Adam Henault</b></big>
-      </p>
-      <p>
-        Website: <a href="http://adamhlt.com/">http://adamhlt.com/</a>
-      </p>
-      <p>
-        GitHub: <a href="https://github.com/adamhlt">adamhlt</a>
-      </p>
-    </td>
-</tr>
-<tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/AdricNet.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/AdricNet.png" /></td>
     <td>
       <p>
         <big><b>Adric Net</b></big>
@@ -31,7 +17,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/AliHadi.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/AliHadi.png" /></td>
     <td>
       <p>
         <big><b>Ali Hadi</b></big>
@@ -48,7 +34,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/AndersonLeite.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/AndersonLeite.png" /></td>
     <td>
       <p>
         <big><b>Anderson Leite</b></big>
@@ -65,7 +51,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/Bartosz.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/Bartosz.png" /></td>
     <td>
       <p>
         <big><b>Bartosz Wójcik</b></big>
@@ -82,7 +68,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/clayne.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/clayne.png" /></td>
     <td>
       <p>
         <big><b>Christopher Layne</b></big>
@@ -93,7 +79,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/DavClark.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/DavClark.png" /></td>
     <td>
       <p>
         <big><b>Dav Clark</b></big>
@@ -110,7 +96,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/DavidZimmer.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/DavidZimmer.png" /></td>
     <td>
       <p>
         <big><b>David Zimmer</b></big>
@@ -124,7 +110,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/DuncanOgilvie.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/DuncanOgilvie.png" /></td>
     <td>
       <p>
         <big><b>Duncan Ogilvie</b></big>
@@ -141,7 +127,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/FernandoMerces.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/FernandoMerces.png" /></td>
     <td>
       <p>
         <big><b>Fernando Mercês</b></big>
@@ -158,7 +144,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/FilipNavara.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/FilipNavara.png" /></td>
     <td>
       <p>
         <big><b>Filip Navara</b></big>
@@ -172,7 +158,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/fr0zenbag.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/fr0zenbag.png" /></td>
     <td>
       <p>
         <big><b>fr0zenbag</b></big>
@@ -183,7 +169,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/FrenchYeti.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/FrenchYeti.png" /></td>
     <td>
       <p>
         <big><b>FrenchYeti</b></big>
@@ -197,7 +183,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/GiladReich.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/GiladReich.png" /></td>
     <td>
       <p>
         <big><b>Gilad Reich</b></big>
@@ -211,7 +197,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/IntegralTech.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/IntegralTech.png" /></td>
     <td>
       <p>
         <big><b>Integral-Tech</b></big>
@@ -225,7 +211,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/JasonJackTan.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/JasonJackTan.png" /></td>
     <td>
       <p>
         <big><b>Jason Jack Tan</b></big>
@@ -236,7 +222,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/JoaoVitor.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/JoaoVitor.png" /></td>
     <td>
       <p>
         <big><b>João Vitor</b></big>
@@ -250,7 +236,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/LeandroFroes.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/LeandroFroes.png" /></td>
     <td>
       <p>
         <big><b>Leandro Fróes</b></big>
@@ -264,7 +250,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/misonothx.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/misonothx.png" /></td>
     <td>
       <p>
         <big><b>misonothx</b></big>
@@ -275,7 +261,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/phithon.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/phithon.png" /></td>
     <td>
       <p>
         <big><b>phithon</b></big>
@@ -289,7 +275,7 @@
     </td>
 </tr>
 <tr>
-    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/Xylit0l.png?raw=true" /></td>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/Xylit0l.png" /></td>
     <td>
       <p>
         <big><b>Xylit0l</b></big>
