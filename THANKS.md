@@ -1,5 +1,19 @@
 <p><table>
 <tr>
+    <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/AdamHenault.png" /></td>
+    <td>
+      <p>
+        <big><b>Adam Henault</b></big>
+      </p>
+      <p>
+        Website: <a href="http://adamhlt.com/">http://adamhlt.com/</a>
+      </p>
+      <p>
+        GitHub: <a href="https://github.com/adamhlt">adamhlt</a>
+      </p>
+    </td>
+</tr>
+<tr>
     <td><img src="https://github.com/horsicq/XELFViewer/blob/master/images/thanks/AdricNet.png" /></td>
     <td>
       <p>
