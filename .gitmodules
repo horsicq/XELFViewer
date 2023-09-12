@@ -148,3 +148,6 @@
 [submodule "die_widget"]
 	path = die_widget
 	url = https://github.com/horsicq/die_widget
+[submodule "Detect-It-Easy"]
+	path = Detect-It-Easy
+	url = https://github.com/horsicq/Detect-It-Easy
