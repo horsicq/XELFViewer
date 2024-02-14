@@ -171,7 +171,6 @@ void GuiMainWindow::actionOptionsSlot()
     DialogOptions dialogOptions(this, &g_xOptions, XOptions::GROUPID_FILE);
     dialogOptions.exec();
 
-    ui->widgetViewer->adjustView();
     adjustWindow();
 }
 
