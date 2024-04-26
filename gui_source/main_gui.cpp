@@ -46,6 +46,7 @@ int main(int argc, char *argv[])
     }
 
     QApplication a(argc, argv);
+    a.setDesktopFileName("xelfviewer");
     // TODO set main image
 
     XOptions xOptions;
