@@ -244,7 +244,7 @@ void GuiMainWindow::processFile(const QString &sFileName)
             dialogArchive.setGlobal(&g_xShortcuts, &g_xOptions);
 
             if (bIsFile) {
-                dialogArchive.setDevice(g_pFile, options, ftOpenAvailable);
+                dialogArchive.setDevice(g_pFile, XBinary::FT_UNKNOWN, options, ftOpenAvailable);
             } else if (bIsDirectory) {
                 dialogArchive.setDirectory(sFileName, options, ftOpenAvailable);
             }
