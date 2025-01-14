@@ -160,3 +160,6 @@
 [submodule "XDisasmCore"]
 	path = XDisasmCore
 	url = https://github.com/horsicq/XDisasmCore.git
+[submodule "XRegionsWidget"]
+	path = XRegionsWidget
+	url = https://github.com/horsicq/XRegionsWidget.git
