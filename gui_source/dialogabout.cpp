@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2024 hors<horsicq@gmail.com>
+/* Copyright (c) 2019-2025 hors<horsicq@gmail.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -29,7 +29,7 @@ DialogAbout::DialogAbout(QWidget *pParent) : QDialog(pParent), ui(new Ui::Dialog
     XAboutWidget::DATA _data = {};
 
     _data.sInfo += QString("<p align=\"center\"><span style=\" font-weight:600;\">%1</span></p>").arg(XOptions::getTitle(X_APPLICATIONDISPLAYNAME, X_APPLICATIONVERSION));
-    _data.sInfo += QString("<p align=\"center\"><span style=\" font-weight:600;\">Copyright (C) 2019-2024 Hors</span></p>");
+    _data.sInfo += QString("<p align=\"center\"><span style=\" font-weight:600;\">Copyright (C) 2019-2025 Hors</span></p>");
     _data.sInfo += QString(
                        "<p align=\"center\"><span style=\" font-weight:600;\">%1: </span><a href=\"mailto:horsicq@gmail.com\"><span style=\" text-decoration: underline; "
                        "color:#ff0000;\">horsicq@gmail.com</span></a></p>")
