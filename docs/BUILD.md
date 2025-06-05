@@ -99,6 +99,6 @@ cd XELFViewer
 
 cmake .
 
-make
+make -j$(nproc)
 
 sudo make install

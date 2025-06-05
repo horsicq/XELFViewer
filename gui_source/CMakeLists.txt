@@ -74,6 +74,7 @@ target_link_libraries(${PROJECT_NAME} lzma)
 target_link_libraries(${PROJECT_NAME} zlib)
 target_link_libraries(${PROJECT_NAME} capstone)
 target_link_libraries(${PROJECT_NAME} cppfilt)
+target_link_libraries(${PROJECT_NAME} yara)
 
 target_link_libraries(${PROJECT_NAME} Qt5::Widgets)
 target_link_libraries(${PROJECT_NAME} Qt5::Concurrent)
@@ -84,6 +85,7 @@ target_link_libraries(${PROJECT_NAME} Qt5::Sql)
 target_link_libraries(${PROJECT_NAME} Qt5::Network)
 target_link_libraries(${PROJECT_NAME} Qt5::Script)
 target_link_libraries(${PROJECT_NAME} Qt5::ScriptTools)
+
 
 if(WIN32)
     target_link_libraries(${PROJECT_NAME} Wintrust)
