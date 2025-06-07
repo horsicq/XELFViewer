@@ -6,14 +6,14 @@ cd XELFViewer
 
 docker build .
 
-How to build on Linux(Debian package, tested on Ubuntu 14.04-20.04)
+How to build on Linux(Debian package, tested on Ubuntu 14.04-22.04)
 =======
 
 Install packages:
 
 - sudo apt-get install --quiet --assume-yes git
 - sudo apt-get install --quiet --assume-yes build-essential
-- sudo apt-get install --quiet --assume-yes qt5-default qtbase5-dev qttools5-dev-tools qtscript5-dev
+- sudo apt-get install --quiet --assume-yes qt5-default qtbase5-dev qttools5-dev-tools qtscript5-dev libqt5svg5-dev
 
 git clone --recursive https://github.com/horsicq/XELFViewer.git
 
