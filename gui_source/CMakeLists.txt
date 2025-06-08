@@ -91,5 +91,3 @@ if(WIN32)
     target_link_libraries(${PROJECT_NAME} Wintrust)
     target_link_libraries(${PROJECT_NAME} Crypt32)
 endif()
-
-target_link_libraries(${PROJECT_NAME} yara)
