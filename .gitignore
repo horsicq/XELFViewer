@@ -1,0 +1,7 @@
+tmp_build/
+src/gui/debug/
+src/gui/release/
+translations/*.qm
+
+# Generated build output is never published.
+/build/

@@ -1,0 +1,214 @@
+name: Build XELFViewer
+
+on:
+  workflow_dispatch:
+  release:
+    types: [created]
+  schedule:
+    - cron: '0 0 * * MON'
+
+permissions:
+  contents: read
+
+env:
+  SRC_PATH: ${{ github.workspace }}/src
+
+jobs:
+  build-ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: recursive
+        path: ${{ env.SRC_PATH }}
+
+    - name: Install Qt (Ubuntu)
+      run: |
+        sudo apt-get update
+        sudo apt-get install cmake qtbase5-dev qtscript5-dev qttools5-dev qttools5-dev-tools libqt5svg5-dev libqt5opengl5-dev qtchooser qt5-qmake build-essential -y
+
+    - name: Build
+      working-directory: ${{ env.SRC_PATH }}
+      run: |
+        set -euo pipefail
+        rm -rf tmp_build
+        mkdir tmp_build
+        cd tmp_build
+        cmake -DCMAKE_BUILD_TYPE=MinSizeRel -DCMAKE_PREFIX_PATH="/usr/lib/x86_64-linux-gnu/cmake/Qt5" ..
+        cmake --build . --config MinSizeRel
+        cpack -G DEB
+        test -n "$(find packages -maxdepth 1 -name '*.deb' -print -quit)"
+
+    - name: Upload Build Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: xelfviewer-ubuntu
+        path: |
+          ${{ env.SRC_PATH }}/tmp_build/packages/*.deb
+        if-no-files-found: error
+
+  build-windows-32:
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: 'recursive'
+          path: ${{ env.SRC_PATH }}
+
+      - name: Setup MSVC
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x86
+
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: '5.15.2'
+          host: 'windows'
+          target: 'desktop'
+          arch: 'win32_msvc2019'
+          dir: ${{ github.workspace }}
+          modules: qtscript
+
+      - name: Build
+        shell: cmd
+        working-directory: ${{ env.SRC_PATH }}
+        run: |
+          if exist tmp_build rmdir /s /q tmp_build
+          cmake -S . -B tmp_build -G "Visual Studio 17 2022" -A Win32 -DCMAKE_PREFIX_PATH="${{ github.workspace }}\Qt\5.15.2\msvc2019"
+          if errorlevel 1 exit /b 1
+          cmake --build tmp_build --config MinSizeRel
+          if errorlevel 1 exit /b 1
+          cd tmp_build
+          cpack -G ZIP -C MinSizeRel
+          if errorlevel 1 exit /b 1
+          dir packages\*.zip >nul 2>nul
+          if errorlevel 1 (
+            echo ZIP package was not produced
+            exit /b 1
+          )
+
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: xelfviewer-windows-x86
+          path: |
+            ${{ env.SRC_PATH }}/tmp_build/packages/*.zip
+          if-no-files-found: error
+
+  build-windows-64:
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: 'recursive'
+          path: ${{ env.SRC_PATH }}
+
+      - name: Setup MSVC
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: '5.15.2'
+          host: 'windows'
+          target: 'desktop'
+          arch: 'win64_msvc2019_64'
+          dir: ${{ github.workspace }}
+          modules: qtscript
+
+      - name: Build
+        shell: cmd
+        working-directory: ${{ env.SRC_PATH }}
+        run: |
+          if exist tmp_build rmdir /s /q tmp_build
+          cmake -S . -B tmp_build -G "Visual Studio 17 2022" -A x64 -DCMAKE_PREFIX_PATH="${{ github.workspace }}\Qt\5.15.2\msvc2019_64"
+          if errorlevel 1 exit /b 1
+          cmake --build tmp_build --config MinSizeRel
+          if errorlevel 1 exit /b 1
+          cd tmp_build
+          cpack -G ZIP -C MinSizeRel
+          if errorlevel 1 exit /b 1
+          dir packages\*.zip >nul 2>nul
+          if errorlevel 1 (
+            echo ZIP package was not produced
+            exit /b 1
+          )
+
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: xelfviewer-windows-x64
+          path: |
+            ${{ env.SRC_PATH }}/tmp_build/packages/*.zip
+          if-no-files-found: error
+
+  publish-release:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: release-publish-${{ github.event_name == 'release' && github.event.release.tag_name || 'Beta' }}
+      cancel-in-progress: false
+    needs:
+      - build-ubuntu
+      - build-windows-32
+      - build-windows-64
+    permissions:
+      contents: write
+    steps:
+      - name: Download Build Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: release-assets
+          merge-multiple: true
+
+      - name: Remove conflicting release assets
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.RELEASE_TOKEN || github.token }}
+          RELEASE_TAG: ${{ github.event_name == 'release' && github.event.release.tag_name || 'Beta' }}
+        run: |
+          set -euo pipefail
+
+          release_id="$(
+            gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${RELEASE_TAG}" \
+              --jq '.id' 2>/dev/null || true
+          )"
+
+          if [[ -z "${release_id}" ]]; then
+            echo "Release ${RELEASE_TAG} does not exist yet; nothing to remove."
+            exit 0
+          fi
+
+          mapfile -t release_assets < <(
+            gh api --paginate \
+              "repos/${GITHUB_REPOSITORY}/releases/${release_id}/assets?per_page=100" \
+              --jq '.[] | [.id, .name] | @tsv'
+          )
+
+          for file in release-assets/*; do
+            [[ -f "${file}" ]] || continue
+            file_name="$(basename "${file}")"
+
+            for release_asset in "${release_assets[@]}"; do
+              IFS=$'\t' read -r asset_id asset_name <<< "${release_asset}"
+              if [[ "${asset_name,,}" == "${file_name,,}" ]]; then
+                gh api --method DELETE \
+                  "repos/${GITHUB_REPOSITORY}/releases/assets/${asset_id}"
+                echo "Removed existing asset: ${asset_name}"
+              fi
+            done
+          done
+
+      - name: Upload Release as Download
+        uses: softprops/action-gh-release@v2
+        with:
+          token: ${{ secrets.RELEASE_TOKEN || github.token }}
+          tag_name: ${{ github.event_name == 'release' && github.event.release.tag_name || 'Beta' }}
+          target_commitish: ${{ github.sha }}
+          draft: false
+          prerelease: ${{ github.event_name != 'release' || github.event.release.prerelease }}
+          fail_on_unmatched_files: true
+          files: |
+            release-assets/*

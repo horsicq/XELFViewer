@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=XELFViewer
+Comment=ELF file viewer and editor
+TryExec=xelfviewer
+Exec=xelfviewer %f
+Icon=xelfviewer
+Terminal=false
+Categories=Development;Utility;
